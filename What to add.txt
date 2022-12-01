@@ -1,0 +1,38 @@
+Classes:
+- Mouse Class
+- Studies (Pending, Active, Previous)
+- Users (each ones collection of mice)
+
+Forms (Have titles for all):
+ - User Page:
+	 - Notes
+	 - home for all other pages
+ - Study page:
+	- Types of studies
+	- Search study:
+		- ListBox
+		- RadioButtons and text search on top
+		- SortBy
+ - Mice interaction 
+	- Create Mouse
+	- List Mice (Listbox)
+	- when mouse is selected allow the dose button to enable 
+	- Group study comboBox
+ - Dose page(study)
+	- all stats are held in stasis until the user presses ok 	button.
+	- Combobox to select dose type
+	- number scroll/slide thing that I forgot the name of 	for the dose amount
+	- Add note
+ - Login to select user
+	- list box of all users 
+	- enter button to select
+ - Create a new user 
+	- Enter info: Name, age, Degree, Dosing dates, hobby
+	- Enter Button once complete
+ - Dancing Mouse
+	- Label indicating The mouses name
+	- Gif of a mouse dancing
+	- ok button to exit
+
+Methods():
+- 

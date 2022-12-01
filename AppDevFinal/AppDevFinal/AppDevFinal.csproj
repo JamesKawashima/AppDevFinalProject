@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActiveStudies.cs" />
     <Compile Include="PreviousStudies.cs" />
     <Compile Include="PendingStudies.cs" />
     <Compile Include="Mouse.cs" />
