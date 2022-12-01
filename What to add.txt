@@ -33,6 +33,8 @@ Forms (Have titles for all):
 	- Label indicating The mouses name
 	- Gif of a mouse dancing
 	- ok button to exit
-
+ - Settings Page
+ 	- change user
+	- change language
 Methods():
 - 
