@@ -22,7 +22,7 @@ namespace AppDevFinal
             string experimentName, string doseName, int doseML)
         {
 
-            this.id = id++;
+            this.id = idNum++;
             this.height = height;
             this.width = width;
             this.weight = weight;
@@ -34,7 +34,7 @@ namespace AppDevFinal
 
         public Mouse(int height, int width, int weight)
         {
-            this.id = id++;
+            this.id = idNum++;
             this.height = height;
             this.height = height;
             this.width = width;
