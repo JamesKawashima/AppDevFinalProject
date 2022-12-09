@@ -50,9 +50,9 @@ Forms (Have titles for all):
 
 Database tables:
 	- Users (userId, securityLevel, name, birthday, age, salary)
-	- Mouse (mouseId, userId, groupId{can be null}, age, name)
+	- Mouse (mouseId, userId, groupId{can be null}, age, name, weight(10-20 g), length(6.3-10.2 cm), height(3-5cm), TumorVol(ml))
 	- Studies:
-		- Pending (StudyId, UserId, mouseId, doseType, doseAmt, comment)
+		- Pending (StudyId, UserId, mouseId, doseType, doseAmt(0.1 mL per g. 30 g add funky math to calc), comment)
 		- Previous (StudyId, UserId, mouseId, doseType, doseAmt, comment, final results)
 		- Ongoing (StudyId, UserId, mouseId, doseType, doseAmt, comment)
 	- Study group (groupId, userId)
