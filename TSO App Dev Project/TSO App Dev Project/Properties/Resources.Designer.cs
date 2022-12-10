@@ -63,6 +63,16 @@ namespace TSO_App_Dev_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dancing_mouse_that_amanda_despises {
+            get {
+                object obj = ResourceManager.GetObject("dancing mouse that amanda despises", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gradiantBar1 {
             get {
                 object obj = ResourceManager.GetObject("gradiantBar1", resourceCulture);
