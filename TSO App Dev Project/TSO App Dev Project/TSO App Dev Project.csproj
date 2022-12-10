@@ -50,6 +50,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -97,6 +98,11 @@
     </Compile>
     <Compile Include="StudiesForm.Designer.cs">
       <DependentUpon>StudiesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TSODBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TSODBDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
     <Compile Include="UserLoginForm.cs">
@@ -147,6 +153,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TSODBDataSet.xsc">
+      <DependentUpon>TSODBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TSODBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TSODBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TSODBDataSet.xss">
+      <DependentUpon>TSODBDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -165,10 +182,10 @@
     <None Include="Resources\mouseIcon2.ico" />
     <None Include="Resources\mouseIcon3.ico" />
     <Content Include="TSODB.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="TSODB_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>TSODB.mdf</DependentUpon>
     </Content>
   </ItemGroup>
