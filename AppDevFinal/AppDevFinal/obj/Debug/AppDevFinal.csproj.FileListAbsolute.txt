@@ -1,0 +1,2 @@
+C:\Users\James Kawashima\Documents\GitHub\AppDevFinalProject\AppDevFinal\AppDevFinal\obj\Debug\AppDevFinal.csproj.AssemblyReference.cache
+C:\Users\James Kawashima\Documents\GitHub\AppDevFinalProject\AppDevFinal\AppDevFinal\obj\Debug\AppDevFinal.csproj.SuggestedBindingRedirects.cache
