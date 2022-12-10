@@ -144,6 +144,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -159,6 +160,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\gradiantBar1.png" />
+    <None Include="Resources\gradiantBar2.png" />
+    <None Include="Resources\gradiantBlock1.png" />
+    <None Include="Resources\gradiantBlock2.png" />
+    <None Include="Resources\mouseImage1.png" />
+    <None Include="Resources\mouseImage2.png" />
+    <None Include="Resources\mouseImage3.png" />
+    <None Include="Resources\searchBar.png" />
+    <None Include="Resources\dancingMouse.gif" />
+    <None Include="Resources\mouseIcon1.ico" />
+    <None Include="Resources\mouseIcon2.ico" />
+    <None Include="Resources\mouseIcon3.ico" />
     <Content Include="TSODB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
