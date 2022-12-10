@@ -91,6 +91,7 @@
     <Compile Include="MiceForm.Designer.cs">
       <DependentUpon>MiceForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mouse.cs" />
     <Compile Include="SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
