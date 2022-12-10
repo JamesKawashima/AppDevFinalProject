@@ -47,12 +47,19 @@ namespace TSO_App_Dev_Project
 
                     if (usernameInput == usernameInputFromTextbox && passwordInput == passwordInputFromTextbox)
                     {
-                        MessageBox.Show("Correct Password!");
+                        MainScreenForm mainScreenForm= new MainScreenForm();
+                        mainScreenForm.Show();
+                        this.Hide();
                     }
                     else 
                     {
                         MessageBox.Show($"InCorrect Password! {usernameInput} = {usernameInputFromTextbox} : {passwordInput} = {passwordInputFromTextbox}");
                     }
+                }
+                else
+                {
+                    MessageBox.Show($"InCorrect Username! {usernameInputFromTextbox}");
+
                 }
             }
             catch (Exception ex)
