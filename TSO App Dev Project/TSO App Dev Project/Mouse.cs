@@ -79,17 +79,127 @@ namespace TSO_App_Dev_Project
             Comments = comments;
         }
 
-        public int Id { get; set; }
-        public char GroupId { get; set; }
-        public decimal Height { get; set; }
-        public decimal Length { get; set; }
-        public decimal Width { get; set; }
-        public decimal Weight { get; set; }
-        public decimal Dose1Volume { get; set; }
-        public bool Dose1Completed { get; set; }
-        public decimal Dose2Volume { get; set; }
-        public bool Dose2Completed { get; set; }
-        public string Comments { get; set; }
+        public int Id 
+        {
+            get 
+            {
+                return id;
+            }
+            set 
+            { 
+                this.id = value;
+            }
+        }
+        public char GroupId
+        {
+            get
+            {
+                return groupId;
+            }
+            set
+            {
+                this.groupId = value;
+            }
+        }
+        public decimal Height
+        {
+            get
+            {
+                return height;
+            }
+            set
+            {
+                this.height = value;
+            }
+        }
+        public decimal Length
+        {
+            get
+            {
+                return length;
+            }
+            set
+            {
+                this.length = value;
+            }
+        }
+        public decimal Width
+        {
+            get
+            {
+                return width;
+            }
+            set
+            {
+                this.width = value;
+            }
+        }
+        public decimal Weight
+        {
+            get
+            {
+                return weight;
+            }
+            set
+            {
+                this.weight = value;
+            }
+        }
+        public decimal Dose1Volume
+        {
+            get
+            {
+                return dose1Volume;
+            }
+            set
+            {
+                this.dose1Volume = value;
+            }
+        }
+        public bool Dose1Completed
+        {
+            get
+            {
+                return dose1Completed;
+            }
+            set
+            {
+                this.dose1Completed = value;
+            }
+        }
+        public decimal Dose2Volume
+        {
+            get
+            {
+                return dose2Volume;
+            }
+            set
+            {
+                this.dose2Volume = value;
+            }
+        }
+        public bool Dose2Completed
+        {
+            get
+            {
+                return dose2Completed;
+            }
+            set
+            {
+                this.dose2Completed = value;
+            }
+        }
+        public string Comments
+        {
+            get
+            {
+                return comments;
+            }
+            set
+            {
+                this.comments = value;
+            }
+        }
 
     }
 }

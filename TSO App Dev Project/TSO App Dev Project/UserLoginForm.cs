@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.Linq;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,23 +22,53 @@ namespace TSO_App_Dev_Project
 
         private void userLoginButton_Click(object sender, EventArgs e)
         {
-            
-            try 
+            SqlConnection conn = null;
+            try
             {
-                //tSODBDataSet.Users.
+                var database = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "TSODB.mdf");
+                var connString = $"Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename={database};Integrated Security = True; Connect Timeout = 30";
+                conn = new SqlConnection(connString);
 
-                SqlCommand command = new SqlCommand("SELECT * FROM Users WHERE firstName = 'Amanda'");
-                using (SqlDataReader reader = command.ExecuteReader())
+                conn.Open();
+
+                string usernameInputFromTextbox = usernameTextBox.Text;
+                
+                SqlCommand command1 = new SqlCommand($"SELECT * FROM Users WHERE username = '{usernameInputFromTextbox}'", conn);
+
+                SqlDataReader reader1;
+
+                reader1 = command1.ExecuteReader();
+
+                if (reader1.Read())
                 {
-                    while (reader.Read()) 
+                    String usernameInput = reader1["username"].ToString();
+                    String passwordInputFromTextbox = passwordTextBox.Text;
+                    String passwordInput = reader1["password"].ToString();
+
+                    if (usernameInput == usernameInputFromTextbox && passwordInput == passwordInputFromTextbox)
                     {
-                        usernameTextBox.Text = reader["firstName"].ToString();
+                        MessageBox.Show("Correct Password!");
+                    }
+                    else 
+                    {
+                        MessageBox.Show($"InCorrect Password! {usernameInput} = {usernameInputFromTextbox} : {passwordInput} = {passwordInputFromTextbox}");
                     }
                 }
-
-            } catch (Exception ex)
-            { 
-                usernameTextBox.Text = ex.Message;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                try
+                {
+                    conn.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
     }
