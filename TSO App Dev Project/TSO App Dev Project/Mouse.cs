@@ -22,62 +22,74 @@ namespace TSO_App_Dev_Project
 
         public Mouse(int id, char groupId, decimal height, decimal length, decimal width, decimal weight, decimal dose1Volume, string dose1Completed, decimal dose2Volume, string dose2Completed, string comments)
         {
-            this.id = id;
-            this.groupId = groupId;
-            this.height = height;
-            this.length = length;
-            this.width = width;
-            this.weight = weight;
-            this.dose1Volume = dose1Volume;
-            this.dose2Volume = dose2Volume;
-            this.comments = comments;
+            Id = id;
+            GroupId = groupId;
+            Height = height;
+            Length = length;
+            Width = width;
+            Weight = weight;
+            Dose1Volume = dose1Volume;
+            Dose2Volume = dose2Volume;
+            Comments = comments;
 
             // dose1Completed & dose2Completed have string inputs because when grabbing from database
             switch (dose1Completed)
             {
                 case "Yes":
                 case "yes":
-                    this.dose1Completed = true;
+                    Dose1Completed = true;
                     break;
                 case "No":
                 case "no":
-                    this.dose1Completed = false;
+                    Dose1Completed = false;
                     break;
                 default:
-                    this.dose1Completed = false;
+                    Dose1Completed = false;
                     break;
             }
             switch (dose2Completed)
             {
                 case "Yes":
                 case "yes":
-                    this.dose2Completed = true;
+                    Dose2Completed = true;
                     break;
                 case "No":
                 case "no":
-                    this.dose2Completed = false;
+                    Dose2Completed = false;
                     break;
                 default:
-                    this.dose2Completed = false;
+                    Dose2Completed = false;
                     break;
             }
         }
 
         public Mouse(int id, char groupId, decimal height, decimal length, decimal width, decimal weight, decimal dose1Volume, bool dose1Completed, decimal dose2Volume, bool dose2Completed, string comments)
         {
-            this.id = id;
-            this.groupId = groupId;
-            this.height = height;
-            this.length = length;
-            this.width = width;
-            this.weight = weight;
-            this.dose1Volume = dose1Volume;
-            this.dose2Volume = dose2Volume;
+            Id = id;
+            GroupId = groupId;
+            Height = height;
+            Length = length;
+            Width = width;
+            Weight = weight;
+            Dose1Volume = dose1Volume;
+            Dose2Volume = dose2Volume;
             // dose1Completed & dose2Completed have boolean inputs here
-            this.dose1Completed = dose1Completed;
-            this.dose2Completed = dose2Completed;
-            this.comments = comments;
+            Dose1Completed = dose1Completed;
+            Dose2Completed = dose2Completed;
+            Comments = comments;
         }
+
+        private int Id { get; set; }
+        private char GroupId { get; set; }
+        private decimal Height { get; set; }
+        private decimal Length { get; set; }
+        private decimal Width { get; set; }
+        private decimal Weight { get; set; }
+        private decimal Dose1Volume { get; set; }
+        private bool Dose1Completed { get; set; }
+        private decimal Dose2Volume { get; set; }
+        private bool Dose2Completed { get; set; }
+        private string Comments { get; set; }
 
     }
 }

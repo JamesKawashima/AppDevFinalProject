@@ -16,5 +16,13 @@ namespace TSO_App_Dev_Project
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            MainScreenForm msf = new MainScreenForm();
+            msf.Show();
+            this.Hide();
+        }
     }
 }
