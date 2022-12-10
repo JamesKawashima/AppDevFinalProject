@@ -79,17 +79,17 @@ namespace TSO_App_Dev_Project
             Comments = comments;
         }
 
-        private int Id { get; set; }
-        private char GroupId { get; set; }
-        private decimal Height { get; set; }
-        private decimal Length { get; set; }
-        private decimal Width { get; set; }
-        private decimal Weight { get; set; }
-        private decimal Dose1Volume { get; set; }
-        private bool Dose1Completed { get; set; }
-        private decimal Dose2Volume { get; set; }
-        private bool Dose2Completed { get; set; }
-        private string Comments { get; set; }
+        public int Id { get; set; }
+        public char GroupId { get; set; }
+        public decimal Height { get; set; }
+        public decimal Length { get; set; }
+        public decimal Width { get; set; }
+        public decimal Weight { get; set; }
+        public decimal Dose1Volume { get; set; }
+        public bool Dose1Completed { get; set; }
+        public decimal Dose2Volume { get; set; }
+        public bool Dose2Completed { get; set; }
+        public string Comments { get; set; }
 
     }
 }

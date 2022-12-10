@@ -67,12 +67,6 @@
     <Compile Include="AccountForm.Designer.cs">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CalculatorForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CalculatorForm.Designer.cs">
-      <DependentUpon>CalculatorForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="LogsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +98,7 @@
     <Compile Include="StudiesForm.Designer.cs">
       <DependentUpon>StudiesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <Compile Include="UserLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,9 +109,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CalculatorForm.resx">
-      <DependentUpon>CalculatorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogsForm.resx">
       <DependentUpon>LogsForm.cs</DependentUpon>
