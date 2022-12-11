@@ -117,44 +117,347 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;accountFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>982, 603</value>
+  </data>
+  <data name="accountLastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 38</value>
+  </data>
+  <data name="&gt;&gt;accountNotesTextBox.Name" xml:space="preserve">
+    <value>accountNotesTextBox</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="accountPasswordLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;accountFirstNameTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="settingsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="&gt;&gt;accountLastNameTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;homeFormLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="accountLastNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="homeFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="accountNotesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 36</value>
+  </data>
+  <data name="accountLastNameLabel.Text" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="&gt;&gt;accountLastNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accountFirstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 38</value>
+  </data>
   <data name="studiesFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>642, 22</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;accountFormLabel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;editButton.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="logsFormLabel.Text" xml:space="preserve">
-    <value>Logs</value>
+  <data name="accountFirstNameLabel.Text" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1267, 173</value>
+  </data>
+  <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 36</value>
+  </data>
+  <data name="&gt;&gt;miceFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="saveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 456</value>
+  </data>
+  <data name="accountPasswordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 366</value>
+  </data>
+  <data name="accountNotesLabel.Text" xml:space="preserve">
+    <value>Private Notes :</value>
+  </data>
+  <data name="&gt;&gt;miceFormLabel.Name" xml:space="preserve">
+    <value>miceFormLabel</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="studiesFormLabel.Text" xml:space="preserve">
+    <value>Studies</value>
+  </data>
+  <data name="accountUsernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 38</value>
+  </data>
+  <data name="&gt;&gt;accountUsernameTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;settingsFormLabel.Name" xml:space="preserve">
     <value>settingsFormLabel</value>
   </data>
-  <data name="&gt;&gt;homeFormLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="accountFirstNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
   </data>
-  <data name="&gt;&gt;studiesFormLabel.Name" xml:space="preserve">
-    <value>studiesFormLabel</value>
+  <data name="accountLastNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 249</value>
   </data>
-  <data name="settingsFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;accountUsernameTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="accountUsernameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 309</value>
+  </data>
+  <data name="&gt;&gt;accountNotesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="accountUsernameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accountUsernameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;accountFirstNameLabel.Name" xml:space="preserve">
+    <value>accountFirstNameLabel</value>
+  </data>
+  <data name="&gt;&gt;homeFormLabel.Name" xml:space="preserve">
+    <value>homeFormLabel</value>
+  </data>
+  <data name="&gt;&gt;accountUsernameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miceFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="accountNotesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="accountNotesTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="accountFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="accountLastNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="accountFirstNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 36</value>
+  </data>
+  <data name="logsFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="accountFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="&gt;&gt;accountFirstNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;accountNotesTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;studiesFormLabel.Name" xml:space="preserve">
+    <value>studiesFormLabel</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
+  </data>
+  <data name="accountPasswordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 36</value>
+  </data>
+  <data name="accountUsernameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="accountFormLabel.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="&gt;&gt;accountUsernameTextBox.Name" xml:space="preserve">
+    <value>accountUsernameTextBox</value>
+  </data>
+  <data name="editButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 90</value>
+  </data>
+  <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 36</value>
+  </data>
+  <data name="saveButton.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AccountForm</value>
+  </data>
+  <data name="accountFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="accountNotesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 134</value>
+  </data>
+  <data name="accountLastNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 36</value>
+  </data>
+  <data name="&gt;&gt;accountFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="accountFirstNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;accountFirstNameLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="miceFormLabel.Text" xml:space="preserve">
+    <value>Mice</value>
+  </data>
+  <data name="&gt;&gt;accountNotesLabel.Name" xml:space="preserve">
+    <value>accountNotesLabel</value>
+  </data>
+  <data name="&gt;&gt;studiesFormLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;logsFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="editButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;saveButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="accountPasswordLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="accountPasswordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 365</value>
+  </data>
+  <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 36</value>
+  </data>
+  <data name="accountFirstNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="accountNotesTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="&gt;&gt;homeFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accountFirstNameTextBox.Name" xml:space="preserve">
+    <value>accountFirstNameTextBox</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;accountPasswordTextBox.Name" xml:space="preserve">
+    <value>accountPasswordTextBox</value>
+  </data>
+  <data name="&gt;&gt;accountPasswordLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="miceFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="accountFirstNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 187</value>
+  </data>
+  <data name="accountPasswordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="accountPasswordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 38</value>
+  </data>
+  <data name="&gt;&gt;settingsFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="accountUsernameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 36</value>
+  </data>
+  <data name="&gt;&gt;accountLastNameTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;accountUsernameLabel.Name" xml:space="preserve">
+    <value>accountUsernameLabel</value>
+  </data>
+  <data name="logsFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;accountLastNameLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="logsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="accountNotesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="saveButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="accountFirstNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="accountLastNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="accountPasswordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;accountNotesTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;accountFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TSO - User Account</value>
+  </data>
+  <data name="&gt;&gt;accountPasswordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accountUsernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 308</value>
+  </data>
+  <data name="accountFirstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 186</value>
+  </data>
+  <data name="accountNotesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="accountPasswordLabel.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="accountUsernameLabel.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="accountPasswordTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="saveButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2644,197 +2947,239 @@
         ///////////////////////8///////////////////////////////8
 </value>
   </data>
-  <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 22</value>
+  <data name="&gt;&gt;editButton.Name" xml:space="preserve">
+    <value>editButton</value>
   </data>
-  <data name="studiesFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;accountFormLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="accountLastNameLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="&gt;&gt;studiesFormLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="miceFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>TSO - User Account</value>
-  </data>
-  <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 40</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;miceFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;homeFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="homeFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1105, 754</value>
-  </data>
-  <data name="&gt;&gt;logsFormLabel.Name" xml:space="preserve">
-    <value>logsFormLabel</value>
-  </data>
-  <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 40</value>
-  </data>
-  <data name="settingsFormLabel.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;accountFormLabel.Name" xml:space="preserve">
-    <value>accountFormLabel</value>
-  </data>
-  <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>798, 22</value>
-  </data>
-  <data name="&gt;&gt;accountFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;logsFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;accountPasswordLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;settingsFormLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>12</value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-160, -88</value>
-  </data>
-  <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>539, 22</value>
-  </data>
-  <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 40</value>
-  </data>
-  <data name="accountFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 40</value>
-  </data>
-  <data name="&gt;&gt;studiesFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="logsFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;settingsFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 22</value>
-  </data>
-  <data name="logsFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>169, 22</value>
+  <data name="logsFormLabel.Text" xml:space="preserve">
+    <value>Logs</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1425, 216</value>
+  <data name="editButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 456</value>
   </data>
-  <data name="&gt;&gt;homeFormLabel.Name" xml:space="preserve">
-    <value>homeFormLabel</value>
-  </data>
-  <data name="accountFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="homeFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="miceFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>AccountForm</value>
-  </data>
-  <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 40</value>
-  </data>
-  <data name="settingsFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="miceFormLabel.Text" xml:space="preserve">
-    <value>Mice</value>
-  </data>
-  <data name="&gt;&gt;settingsFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="homeFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;homeFormLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;studiesFormLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;miceFormLabel.Name" xml:space="preserve">
-    <value>miceFormLabel</value>
+  <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 36</value>
   </data>
-  <data name="miceFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+  <data name="&gt;&gt;accountNotesTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accountNotesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="miceFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <data name="&gt;&gt;miceFormLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;homeFormLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;settingsFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accountNotesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 217</value>
+  </data>
+  <data name="&gt;&gt;accountUsernameLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="accountLastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 248</value>
+  </data>
+  <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 18</value>
+  </data>
+  <data name="accountUsernameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="editButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="accountFirstNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 90</value>
+  </data>
+  <data name="accountFirstNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 18</value>
+  </data>
+  <data name="&gt;&gt;accountUsernameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 36</value>
+  </data>
+  <data name="&gt;&gt;accountFormLabel.Name" xml:space="preserve">
+    <value>accountFormLabel</value>
+  </data>
+  <data name="&gt;&gt;logsFormLabel.Name" xml:space="preserve">
+    <value>logsFormLabel</value>
+  </data>
+  <data name="&gt;&gt;saveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accountFirstNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accountPasswordTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="accountPasswordLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="&gt;&gt;saveButton.Name" xml:space="preserve">
+    <value>saveButton</value>
+  </data>
+  <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 36</value>
+  </data>
+  <data name="settingsFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;accountPasswordLabel.Name" xml:space="preserve">
+    <value>accountPasswordLabel</value>
+  </data>
+  <data name="studiesFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="&gt;&gt;accountPasswordTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="settingsFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;accountLastNameTextBox.Name" xml:space="preserve">
+    <value>accountLastNameTextBox</value>
+  </data>
+  <data name="saveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="accountLastNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="settingsFormLabel.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-142, -70</value>
+  </data>
+  <data name="&gt;&gt;accountLastNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="accountLastNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="accountUsernameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;accountPasswordTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;accountLastNameLabel.Name" xml:space="preserve">
+    <value>accountLastNameLabel</value>
+  </data>
+  <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 18</value>
+  </data>
+  <data name="&gt;&gt;accountUsernameLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="accountNotesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 186</value>
+  </data>
+  <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 18</value>
+  </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>18</value>
+  </data>
+  <data name="accountNotesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="accountUsernameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 18</value>
+  </data>
+  <data name="editButton.Text" xml:space="preserve">
+    <value>Edit Account</value>
+  </data>
+  <data name="&gt;&gt;accountFirstNameTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
   </data>
   <data name="&gt;&gt;miceFormLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 18</value>
+  </data>
+  <data name="homeFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="&gt;&gt;accountNotesLabel.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="settingsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+  <data name="&gt;&gt;accountLastNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="studiesFormLabel.Text" xml:space="preserve">
-    <value>Studies</value>
-  </data>
-  <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 40</value>
-  </data>
-  <data name="accountFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;logsFormLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
-  </data>
-  <data name="logsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
+  <data name="editButton.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
   </data>
   <data name="&gt;&gt;logsFormLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="accountFormLabel.Text" xml:space="preserve">
-    <value>Account</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="accountNotesTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
   </data>
   <data name="studiesFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
+  </data>
+  <data name="&gt;&gt;accountFirstNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logsFormLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;studiesFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
