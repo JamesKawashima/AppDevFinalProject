@@ -12,7 +12,8 @@ namespace TSO_App_Dev_Project
 {
     public partial class SettingsForm : Form
     {
-        public SettingsForm()
+        private User liu;
+        public SettingsForm(User liu)
         {
             InitializeComponent();
         }

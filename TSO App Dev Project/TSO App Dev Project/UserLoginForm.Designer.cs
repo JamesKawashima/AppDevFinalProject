@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserLoginForm));
             this.usernameLabel = new System.Windows.Forms.Label();
             this.usernameTextBox = new System.Windows.Forms.TextBox();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
@@ -57,6 +58,7 @@
             this.usernameTextBox.Name = "usernameTextBox";
             this.usernameTextBox.Size = new System.Drawing.Size(173, 30);
             this.usernameTextBox.TabIndex = 1;
+            this.usernameTextBox.Text = "GoldyBlocks";
             // 
             // passwordTextBox
             // 
@@ -65,6 +67,7 @@
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(173, 30);
             this.passwordTextBox.TabIndex = 3;
+            this.passwordTextBox.Text = "ThisIsPassword";
             this.passwordTextBox.UseSystemPasswordChar = true;
             // 
             // passwordLabel
@@ -83,7 +86,7 @@
             this.userLoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userLoginButton.Location = new System.Drawing.Point(555, 254);
             this.userLoginButton.Name = "userLoginButton";
-            this.userLoginButton.Size = new System.Drawing.Size(115, 32);
+            this.userLoginButton.Size = new System.Drawing.Size(115, 40);
             this.userLoginButton.TabIndex = 4;
             this.userLoginButton.Text = "Login";
             this.userLoginButton.UseVisualStyleBackColor = true;
@@ -114,7 +117,9 @@
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UserLoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TSO - User Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).EndInit();

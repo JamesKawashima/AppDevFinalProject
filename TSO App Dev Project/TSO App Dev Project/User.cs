@@ -11,26 +11,73 @@ namespace TSO_App_Dev_Project
     {
         private int id;
         private string username;
-        private string password;
         private string firstName;
         private string lastName;
         private string privateNotes;
 
-        public User(int id, string username, string password, string firstName, string lastName, string privateNotes) 
+        public User(int id, string username, string firstName, string lastName, string privateNotes) 
         {
             Id = id;
             Username = username;
-            Password = password;
             FirstName = firstName;
             LastName = lastName;
             PrivateNotes = privateNotes;
         }
 
-        public int Id { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string PrivateNotes { get; set; }
+        public int Id 
+        {
+            get
+            {
+                return this.id;
+            } 
+            set 
+            { 
+                this.id = value;
+            } 
+        }
+        public string Username
+        {
+            get
+            {
+                return this.username;
+            }
+            set
+            {
+                this.username = value;
+            }
+        }
+        public string FirstName
+        {
+            get
+            {
+                return this.firstName;
+            }
+            set
+            {
+                this.firstName = value;
+            }
+        }
+        public string LastName
+        {
+            get
+            {
+                return this.lastName;
+            }
+            set
+            {
+                this.lastName = value;
+            }
+        }
+        public string PrivateNotes
+        {
+            get
+            {
+                return this.privateNotes;
+            }
+            set
+            {
+                this.privateNotes = value;
+            }
+        }
     }
 }

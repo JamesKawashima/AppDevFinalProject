@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace TSO_App_Dev_Project
 {
@@ -47,9 +48,16 @@ namespace TSO_App_Dev_Project
 
                     if (usernameInput == usernameInputFromTextbox && passwordInput == passwordInputFromTextbox)
                     {
-                        MainScreenForm mainScreenForm= new MainScreenForm();
-                        mainScreenForm.Show();
-                        this.Hide();
+                        int id = int.Parse(reader1["id"].ToString());
+                        string username = reader1["username"].ToString();
+                        string firstName = reader1["firstName"].ToString();
+                        string lastName = reader1["lastName"].ToString();
+                        string privateNotes = reader1["privateNotes"].ToString();
+                        User user = new User(id, username, firstName, lastName, privateNotes);
+                        Program.LoggedInUser = user;
+                        Program.closeLogInScreen();
+                        MainScreenForm msf = new MainScreenForm(user);
+                        msf.Show();
                     }
                     else 
                     {
