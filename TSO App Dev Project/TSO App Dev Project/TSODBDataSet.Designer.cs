@@ -627,7 +627,7 @@ namespace TSO_App_Dev_Project {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public MiceRow AddMiceRow(MiceGroupsRow parentMiceGroupsRowByFK_Mice_ToMiceGroups, decimal height_cm, decimal length_cm, decimal width_cm, decimal weight_g, decimal dose1Volume_mL, string dose1Completed, decimal dose2Volume_mL, string dose2Completed, string comments) {
+            public MiceRow AddMiceRow(MiceGroupsRow parentMiceGroupsRowByFK_Mice_ToMiceGroups, decimal height_cm, decimal length_cm, decimal width_cm, decimal weight_g, decimal dose1Volume_mL, bool dose1Completed, decimal dose2Volume_mL, bool dose2Completed, string comments) {
                 MiceRow rowMiceRow = ((MiceRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -703,11 +703,11 @@ namespace TSO_App_Dev_Project {
                 base.Columns.Add(this.columnweight_g);
                 this.columndose1Volume_mL = new global::System.Data.DataColumn("dose1Volume_mL", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columndose1Volume_mL);
-                this.columndose1Completed = new global::System.Data.DataColumn("dose1Completed", typeof(string), null, global::System.Data.MappingType.Element);
+                this.columndose1Completed = new global::System.Data.DataColumn("dose1Completed", typeof(bool), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columndose1Completed);
                 this.columndose2Volume_mL = new global::System.Data.DataColumn("dose2Volume_mL", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columndose2Volume_mL);
-                this.columndose2Completed = new global::System.Data.DataColumn("dose2Completed", typeof(string), null, global::System.Data.MappingType.Element);
+                this.columndose2Completed = new global::System.Data.DataColumn("dose2Completed", typeof(bool), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columndose2Completed);
                 this.columncomments = new global::System.Data.DataColumn("comments", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columncomments);
@@ -727,10 +727,8 @@ namespace TSO_App_Dev_Project {
                 this.columnweight_g.AllowDBNull = false;
                 this.columndose1Volume_mL.AllowDBNull = false;
                 this.columndose1Completed.AllowDBNull = false;
-                this.columndose1Completed.MaxLength = 3;
                 this.columndose2Volume_mL.AllowDBNull = false;
                 this.columndose2Completed.AllowDBNull = false;
-                this.columndose2Completed.MaxLength = 3;
                 this.columncomments.MaxLength = 2147483647;
             }
             
@@ -2358,9 +2356,9 @@ namespace TSO_App_Dev_Project {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string dose1Completed {
+            public bool dose1Completed {
                 get {
-                    return ((string)(this[this.tableMice.dose1CompletedColumn]));
+                    return ((bool)(this[this.tableMice.dose1CompletedColumn]));
                 }
                 set {
                     this[this.tableMice.dose1CompletedColumn] = value;
@@ -2380,9 +2378,9 @@ namespace TSO_App_Dev_Project {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string dose2Completed {
+            public bool dose2Completed {
                 get {
-                    return ((string)(this[this.tableMice.dose2CompletedColumn]));
+                    return ((bool)(this[this.tableMice.dose2CompletedColumn]));
                 }
                 set {
                     this[this.tableMice.dose2CompletedColumn] = value;
@@ -3266,9 +3264,9 @@ namespace TSO_App_Dev_Project.TSODBDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_width_cm", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "width_cm", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_weight_g", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "weight_g", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose1Volume_mL", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "dose1Volume_mL", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose1Completed", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose1Completed", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose1Completed", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose1Completed", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose2Volume_mL", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "dose2Volume_mL", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose2Completed", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose2Completed", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose2Completed", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose2Completed", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[Mice] ([groupId], [height_cm], [length_cm], [width_cm], [weight_g], [dose1Volume_mL], [dose1Completed], [dose2Volume_mL], [dose2Completed], [comments]) VALUES (@groupId, @height_cm, @length_cm, @width_cm, @weight_g, @dose1Volume_mL, @dose1Completed, @dose2Volume_mL, @dose2Completed, @comments);
@@ -3280,9 +3278,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@width_cm", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "width_cm", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@weight_g", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "weight_g", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose1Volume_mL", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "dose1Volume_mL", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose1Completed", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose1Completed", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose1Completed", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose1Completed", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose2Volume_mL", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "dose2Volume_mL", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose2Completed", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose2Completed", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose2Completed", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose2Completed", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@comments", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "comments", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
@@ -3295,9 +3293,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@width_cm", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "width_cm", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@weight_g", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "weight_g", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose1Volume_mL", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "dose1Volume_mL", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose1Completed", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose1Completed", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose1Completed", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose1Completed", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose2Volume_mL", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "dose2Volume_mL", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose2Completed", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose2Completed", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dose2Completed", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose2Completed", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@comments", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "comments", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_mouseId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "mouseId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_groupId", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "groupId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
@@ -3306,9 +3304,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_width_cm", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "width_cm", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_weight_g", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "weight_g", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose1Volume_mL", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "dose1Volume_mL", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose1Completed", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose1Completed", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose1Completed", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose1Completed", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose2Volume_mL", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 4, 2, "dose2Volume_mL", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose2Completed", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose2Completed", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_dose2Completed", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "dose2Completed", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@mouseId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "mouseId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -3387,7 +3385,7 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_mouseId, string Original_groupId, decimal Original_height_cm, decimal Original_length_cm, decimal Original_width_cm, decimal Original_weight_g, decimal Original_dose1Volume_mL, string Original_dose1Completed, decimal Original_dose2Volume_mL, string Original_dose2Completed) {
+        public virtual int Delete(int Original_mouseId, string Original_groupId, decimal Original_height_cm, decimal Original_length_cm, decimal Original_width_cm, decimal Original_weight_g, decimal Original_dose1Volume_mL, bool Original_dose1Completed, decimal Original_dose2Volume_mL, bool Original_dose2Completed) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_mouseId));
             if ((Original_groupId == null)) {
                 throw new global::System.ArgumentNullException("Original_groupId");
@@ -3400,19 +3398,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
             this.Adapter.DeleteCommand.Parameters[4].Value = ((decimal)(Original_width_cm));
             this.Adapter.DeleteCommand.Parameters[5].Value = ((decimal)(Original_weight_g));
             this.Adapter.DeleteCommand.Parameters[6].Value = ((decimal)(Original_dose1Volume_mL));
-            if ((Original_dose1Completed == null)) {
-                throw new global::System.ArgumentNullException("Original_dose1Completed");
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[7].Value = ((string)(Original_dose1Completed));
-            }
+            this.Adapter.DeleteCommand.Parameters[7].Value = ((bool)(Original_dose1Completed));
             this.Adapter.DeleteCommand.Parameters[8].Value = ((decimal)(Original_dose2Volume_mL));
-            if ((Original_dose2Completed == null)) {
-                throw new global::System.ArgumentNullException("Original_dose2Completed");
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[9].Value = ((string)(Original_dose2Completed));
-            }
+            this.Adapter.DeleteCommand.Parameters[9].Value = ((bool)(Original_dose2Completed));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -3433,7 +3421,7 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string groupId, decimal height_cm, decimal length_cm, decimal width_cm, decimal weight_g, decimal dose1Volume_mL, string dose1Completed, decimal dose2Volume_mL, string dose2Completed, string comments) {
+        public virtual int Insert(string groupId, decimal height_cm, decimal length_cm, decimal width_cm, decimal weight_g, decimal dose1Volume_mL, bool dose1Completed, decimal dose2Volume_mL, bool dose2Completed, string comments) {
             if ((groupId == null)) {
                 throw new global::System.ArgumentNullException("groupId");
             }
@@ -3445,19 +3433,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
             this.Adapter.InsertCommand.Parameters[3].Value = ((decimal)(width_cm));
             this.Adapter.InsertCommand.Parameters[4].Value = ((decimal)(weight_g));
             this.Adapter.InsertCommand.Parameters[5].Value = ((decimal)(dose1Volume_mL));
-            if ((dose1Completed == null)) {
-                throw new global::System.ArgumentNullException("dose1Completed");
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[6].Value = ((string)(dose1Completed));
-            }
+            this.Adapter.InsertCommand.Parameters[6].Value = ((bool)(dose1Completed));
             this.Adapter.InsertCommand.Parameters[7].Value = ((decimal)(dose2Volume_mL));
-            if ((dose2Completed == null)) {
-                throw new global::System.ArgumentNullException("dose2Completed");
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[8].Value = ((string)(dose2Completed));
-            }
+            this.Adapter.InsertCommand.Parameters[8].Value = ((bool)(dose2Completed));
             if ((comments == null)) {
                 this.Adapter.InsertCommand.Parameters[9].Value = global::System.DBNull.Value;
             }
@@ -3491,9 +3469,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
                     decimal width_cm, 
                     decimal weight_g, 
                     decimal dose1Volume_mL, 
-                    string dose1Completed, 
+                    bool dose1Completed, 
                     decimal dose2Volume_mL, 
-                    string dose2Completed, 
+                    bool dose2Completed, 
                     string comments, 
                     int Original_mouseId, 
                     string Original_groupId, 
@@ -3502,9 +3480,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
                     decimal Original_width_cm, 
                     decimal Original_weight_g, 
                     decimal Original_dose1Volume_mL, 
-                    string Original_dose1Completed, 
+                    bool Original_dose1Completed, 
                     decimal Original_dose2Volume_mL, 
-                    string Original_dose2Completed, 
+                    bool Original_dose2Completed, 
                     int mouseId) {
             if ((groupId == null)) {
                 throw new global::System.ArgumentNullException("groupId");
@@ -3517,19 +3495,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
             this.Adapter.UpdateCommand.Parameters[3].Value = ((decimal)(width_cm));
             this.Adapter.UpdateCommand.Parameters[4].Value = ((decimal)(weight_g));
             this.Adapter.UpdateCommand.Parameters[5].Value = ((decimal)(dose1Volume_mL));
-            if ((dose1Completed == null)) {
-                throw new global::System.ArgumentNullException("dose1Completed");
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(dose1Completed));
-            }
+            this.Adapter.UpdateCommand.Parameters[6].Value = ((bool)(dose1Completed));
             this.Adapter.UpdateCommand.Parameters[7].Value = ((decimal)(dose2Volume_mL));
-            if ((dose2Completed == null)) {
-                throw new global::System.ArgumentNullException("dose2Completed");
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[8].Value = ((string)(dose2Completed));
-            }
+            this.Adapter.UpdateCommand.Parameters[8].Value = ((bool)(dose2Completed));
             if ((comments == null)) {
                 this.Adapter.UpdateCommand.Parameters[9].Value = global::System.DBNull.Value;
             }
@@ -3548,19 +3516,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
             this.Adapter.UpdateCommand.Parameters[14].Value = ((decimal)(Original_width_cm));
             this.Adapter.UpdateCommand.Parameters[15].Value = ((decimal)(Original_weight_g));
             this.Adapter.UpdateCommand.Parameters[16].Value = ((decimal)(Original_dose1Volume_mL));
-            if ((Original_dose1Completed == null)) {
-                throw new global::System.ArgumentNullException("Original_dose1Completed");
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((string)(Original_dose1Completed));
-            }
+            this.Adapter.UpdateCommand.Parameters[17].Value = ((bool)(Original_dose1Completed));
             this.Adapter.UpdateCommand.Parameters[18].Value = ((decimal)(Original_dose2Volume_mL));
-            if ((Original_dose2Completed == null)) {
-                throw new global::System.ArgumentNullException("Original_dose2Completed");
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[19].Value = ((string)(Original_dose2Completed));
-            }
+            this.Adapter.UpdateCommand.Parameters[19].Value = ((bool)(Original_dose2Completed));
             this.Adapter.UpdateCommand.Parameters[20].Value = ((int)(mouseId));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -3589,9 +3547,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
                     decimal width_cm, 
                     decimal weight_g, 
                     decimal dose1Volume_mL, 
-                    string dose1Completed, 
+                    bool dose1Completed, 
                     decimal dose2Volume_mL, 
-                    string dose2Completed, 
+                    bool dose2Completed, 
                     string comments, 
                     int Original_mouseId, 
                     string Original_groupId, 
@@ -3600,9 +3558,9 @@ SELECT mouseId, groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_m
                     decimal Original_width_cm, 
                     decimal Original_weight_g, 
                     decimal Original_dose1Volume_mL, 
-                    string Original_dose1Completed, 
+                    bool Original_dose1Completed, 
                     decimal Original_dose2Volume_mL, 
-                    string Original_dose2Completed) {
+                    bool Original_dose2Completed) {
             return this.Update(groupId, height_cm, length_cm, width_cm, weight_g, dose1Volume_mL, dose1Completed, dose2Volume_mL, dose2Completed, comments, Original_mouseId, Original_groupId, Original_height_cm, Original_length_cm, Original_width_cm, Original_weight_g, Original_dose1Volume_mL, Original_dose1Completed, Original_dose2Volume_mL, Original_dose2Completed, Original_mouseId);
         }
     }

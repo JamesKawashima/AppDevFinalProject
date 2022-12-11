@@ -53,5 +53,19 @@ namespace TSO_App_Dev_Project
             chgPage = 'c';
             Close();
         }
+
+        private void miceBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.miceBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.tSODBDataSet);
+        }
+
+        private void MiceForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'tSODBDataSet.Mice' table. You can move, or remove it, as needed.
+            this.miceTableAdapter.Fill(this.tSODBDataSet.Mice);
+            this.miceDataGridView.Sort(this.miceDataGridView.Columns[0], ListSortDirection.Ascending);
+        }
     }
 }
