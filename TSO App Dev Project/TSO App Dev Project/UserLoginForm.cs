@@ -16,6 +16,7 @@ namespace TSO_App_Dev_Project
 {
     public partial class UserLoginForm : Form
     {
+        public bool UserAuth { get; set; }
         public UserLoginForm()
         {
             InitializeComponent();
@@ -55,9 +56,8 @@ namespace TSO_App_Dev_Project
                         string privateNotes = reader1["privateNotes"].ToString();
                         User user = new User(id, username, firstName, lastName, privateNotes);
                         Program.LoggedInUser = user;
-                        Program.closeLogInScreen();
-                        MainScreenForm msf = new MainScreenForm(user);
-                        msf.Show();
+                        UserAuth = true;
+                        Close();
                     }
                     else 
                     {

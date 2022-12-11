@@ -12,6 +12,7 @@ namespace TSO_App_Dev_Project
 {
     public partial class MainScreenForm : Form
     {
+        public char chgPage { get; set; }
         private User liu;
 
         public MainScreenForm(User liu)
@@ -27,27 +28,52 @@ namespace TSO_App_Dev_Project
 
         private void studiesFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the studiesFormLabel, bring to the studiesFormLabel
+            chgPage = 's';
+            Close();
         }
 
         private void miceFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the miceFormLabel, bring to the miceFormLabel
+            chgPage = 'r';
+            Close();
         }
 
         private void logsFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the logsFormLabel, bring to the logsFormLabel
+            chgPage = 'l';
+            Close();
         }
 
         private void accountFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the accountFormLabel, bring to the accountFormLabel
+            chgPage = 't';
+            Close();
         }
 
         private void settingsFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the settingsFormLabel, bring to the settingsFormLabel
+            chgPage = 'c';
+            Close();
+        }
+
+        private void studiesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.studiesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.tSODBDataSet);
+
+        }
+
+        private void MainScreenForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'tSODBDataSet.Studies' table. You can move, or remove it, as needed.
+            this.studiesTableAdapter.Fill(this.tSODBDataSet.Studies);
+
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
         }
     }
 }

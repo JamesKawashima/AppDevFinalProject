@@ -13,6 +13,7 @@ namespace TSO_App_Dev_Project
     public partial class SettingsForm : Form
     {
         private User liu;
+        public char chgPage { get; set; }
         public SettingsForm(User liu)
         {
             InitializeComponent();

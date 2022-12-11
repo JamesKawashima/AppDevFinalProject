@@ -12,6 +12,7 @@ namespace TSO_App_Dev_Project
 {
     public partial class AccountForm : Form
     {
+        public char chgPage { get; set; }
         private User liu;
 
         public AccountForm(User liu)
@@ -21,32 +22,37 @@ namespace TSO_App_Dev_Project
 
         private void homeFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the mainscreenform, bring to the home
+            chgPage = 'm';
+            Close();
         }
 
         private void studiesFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the studiesFormLabel, bring to the studiesFormLabel
+            chgPage = 's';
+            Close();
         }
 
         private void miceFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the miceFormLabel, bring to the miceFormLabel
+            chgPage = 'r';
+            Close();
         }
 
         private void logsFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the logsFormLabel, bring to the logsFormLabel
+            chgPage = 'l';
+            Close();
         }
 
         private void accountFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the accountFormLabel, bring to the accountFormLabel
+
         }
 
         private void settingsFormLabel_Click(object sender, EventArgs e)
         {
-            //if not already on the settingsFormLabel, bring to the settingsFormLabel
+            chgPage = 'c';
+            Close();
         }
     }
 }
