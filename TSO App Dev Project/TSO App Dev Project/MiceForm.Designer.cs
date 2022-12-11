@@ -61,84 +61,51 @@
             // 
             // settingsFormLabel
             // 
-            this.settingsFormLabel.AutoSize = true;
+            resources.ApplyResources(this.settingsFormLabel, "settingsFormLabel");
             this.settingsFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.settingsFormLabel.Font = new System.Drawing.Font("Leelawadee", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settingsFormLabel.Location = new System.Drawing.Point(709, 17);
             this.settingsFormLabel.Name = "settingsFormLabel";
-            this.settingsFormLabel.Size = new System.Drawing.Size(123, 36);
-            this.settingsFormLabel.TabIndex = 13;
-            this.settingsFormLabel.Text = "Settings";
             this.settingsFormLabel.Click += new System.EventHandler(this.settingsFormLabel_Click);
             // 
             // accountFormLabel
             // 
-            this.accountFormLabel.AutoSize = true;
+            resources.ApplyResources(this.accountFormLabel, "accountFormLabel");
             this.accountFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.accountFormLabel.Font = new System.Drawing.Font("Leelawadee", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accountFormLabel.Location = new System.Drawing.Point(571, 17);
             this.accountFormLabel.Name = "accountFormLabel";
-            this.accountFormLabel.Size = new System.Drawing.Size(124, 36);
-            this.accountFormLabel.TabIndex = 12;
-            this.accountFormLabel.Text = "Account";
             this.accountFormLabel.Click += new System.EventHandler(this.accountFormLabel_Click);
             // 
             // logsFormLabel
             // 
-            this.logsFormLabel.AutoSize = true;
+            resources.ApplyResources(this.logsFormLabel, "logsFormLabel");
             this.logsFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.logsFormLabel.Font = new System.Drawing.Font("Leelawadee", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logsFormLabel.Location = new System.Drawing.Point(479, 17);
             this.logsFormLabel.Name = "logsFormLabel";
-            this.logsFormLabel.Size = new System.Drawing.Size(78, 36);
-            this.logsFormLabel.TabIndex = 11;
-            this.logsFormLabel.Text = "Logs";
             this.logsFormLabel.Click += new System.EventHandler(this.logsFormLabel_Click);
             // 
             // miceFormLabel
             // 
-            this.miceFormLabel.AutoSize = true;
+            resources.ApplyResources(this.miceFormLabel, "miceFormLabel");
             this.miceFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.miceFormLabel.Font = new System.Drawing.Font("Leelawadee", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.miceFormLabel.Location = new System.Drawing.Point(387, 17);
             this.miceFormLabel.Name = "miceFormLabel";
-            this.miceFormLabel.Size = new System.Drawing.Size(78, 36);
-            this.miceFormLabel.TabIndex = 10;
-            this.miceFormLabel.Text = "Mice";
             this.miceFormLabel.Click += new System.EventHandler(this.miceFormLabel_Click);
             // 
             // studiesFormLabel
             // 
-            this.studiesFormLabel.AutoSize = true;
+            resources.ApplyResources(this.studiesFormLabel, "studiesFormLabel");
             this.studiesFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.studiesFormLabel.Font = new System.Drawing.Font("Leelawadee", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studiesFormLabel.Location = new System.Drawing.Point(260, 17);
             this.studiesFormLabel.Name = "studiesFormLabel";
-            this.studiesFormLabel.Size = new System.Drawing.Size(113, 36);
-            this.studiesFormLabel.TabIndex = 9;
-            this.studiesFormLabel.Text = "Studies";
             this.studiesFormLabel.Click += new System.EventHandler(this.studiesFormLabel_Click);
             // 
             // homeFormLabel
             // 
-            this.homeFormLabel.AutoSize = true;
+            resources.ApplyResources(this.homeFormLabel, "homeFormLabel");
             this.homeFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.homeFormLabel.Font = new System.Drawing.Font("Leelawadee", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.homeFormLabel.Location = new System.Drawing.Point(150, 17);
             this.homeFormLabel.Name = "homeFormLabel";
-            this.homeFormLabel.Size = new System.Drawing.Size(96, 36);
-            this.homeFormLabel.TabIndex = 8;
-            this.homeFormLabel.Text = "Home";
             this.homeFormLabel.Click += new System.EventHandler(this.homeFormLabel_Click);
             // 
             // pictureBox1
             // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
-            this.pictureBox1.Location = new System.Drawing.Point(-142, -71);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1267, 173);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
             // tSODBDataSet
@@ -167,6 +134,7 @@
             // 
             // miceDataGridView
             // 
+            resources.ApplyResources(this.miceDataGridView, "miceDataGridView");
             this.miceDataGridView.AutoGenerateColumns = false;
             this.miceDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.miceDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -182,108 +150,81 @@
             this.dose2CompletedDataGridViewCheckBoxColumn,
             this.commentsDataGridViewTextBoxColumn});
             this.miceDataGridView.DataSource = this.miceBindingSource;
-            this.miceDataGridView.Location = new System.Drawing.Point(33, 119);
             this.miceDataGridView.Name = "miceDataGridView";
-            this.miceDataGridView.RowHeadersWidth = 51;
             this.miceDataGridView.RowTemplate.Height = 24;
-            this.miceDataGridView.Size = new System.Drawing.Size(951, 429);
-            this.miceDataGridView.TabIndex = 14;
             // 
             // groupIDdataGridViewTextBoxColumn
             // 
             this.groupIDdataGridViewTextBoxColumn.DataPropertyName = "groupId";
-            this.groupIDdataGridViewTextBoxColumn.HeaderText = "Group ID";
-            this.groupIDdataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.groupIDdataGridViewTextBoxColumn, "groupIDdataGridViewTextBoxColumn");
             this.groupIDdataGridViewTextBoxColumn.Name = "groupIDdataGridViewTextBoxColumn";
             this.groupIDdataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
-            this.groupIDdataGridViewTextBoxColumn.Width = 65;
             // 
             // mouseIDdataGridViewTextBoxColumn
             // 
             this.mouseIDdataGridViewTextBoxColumn.DataPropertyName = "mouseId";
-            this.mouseIDdataGridViewTextBoxColumn.HeaderText = "Mouse ID";
-            this.mouseIDdataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.mouseIDdataGridViewTextBoxColumn, "mouseIDdataGridViewTextBoxColumn");
             this.mouseIDdataGridViewTextBoxColumn.Name = "mouseIDdataGridViewTextBoxColumn";
             this.mouseIDdataGridViewTextBoxColumn.ReadOnly = true;
-            this.mouseIDdataGridViewTextBoxColumn.Width = 65;
             // 
             // heightDataGridViewTextBoxColumn
             // 
             this.heightDataGridViewTextBoxColumn.DataPropertyName = "height_cm";
-            this.heightDataGridViewTextBoxColumn.HeaderText = "Height (cm)";
-            this.heightDataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.heightDataGridViewTextBoxColumn, "heightDataGridViewTextBoxColumn");
             this.heightDataGridViewTextBoxColumn.Name = "heightDataGridViewTextBoxColumn";
-            this.heightDataGridViewTextBoxColumn.Width = 80;
             // 
             // lengthDataGridViewTextBoxColumn
             // 
             this.lengthDataGridViewTextBoxColumn.DataPropertyName = "length_cm";
-            this.lengthDataGridViewTextBoxColumn.HeaderText = "Length (cm)";
-            this.lengthDataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.lengthDataGridViewTextBoxColumn, "lengthDataGridViewTextBoxColumn");
             this.lengthDataGridViewTextBoxColumn.Name = "lengthDataGridViewTextBoxColumn";
-            this.lengthDataGridViewTextBoxColumn.Width = 80;
             // 
             // widthDataGridViewTextBoxColumn
             // 
             this.widthDataGridViewTextBoxColumn.DataPropertyName = "width_cm";
-            this.widthDataGridViewTextBoxColumn.HeaderText = "Width (cm)";
-            this.widthDataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.widthDataGridViewTextBoxColumn, "widthDataGridViewTextBoxColumn");
             this.widthDataGridViewTextBoxColumn.Name = "widthDataGridViewTextBoxColumn";
-            this.widthDataGridViewTextBoxColumn.Width = 80;
             // 
             // weightDataGridViewTextBoxColumn
             // 
             this.weightDataGridViewTextBoxColumn.DataPropertyName = "weight_g";
-            this.weightDataGridViewTextBoxColumn.HeaderText = "Weight (g)";
-            this.weightDataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.weightDataGridViewTextBoxColumn, "weightDataGridViewTextBoxColumn");
             this.weightDataGridViewTextBoxColumn.Name = "weightDataGridViewTextBoxColumn";
-            this.weightDataGridViewTextBoxColumn.Width = 80;
             // 
             // dose1VolDataGridViewTextBoxColumn
             // 
             this.dose1VolDataGridViewTextBoxColumn.DataPropertyName = "dose1Volume_mL";
-            this.dose1VolDataGridViewTextBoxColumn.HeaderText = "Dose 1 (mL)";
-            this.dose1VolDataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.dose1VolDataGridViewTextBoxColumn, "dose1VolDataGridViewTextBoxColumn");
             this.dose1VolDataGridViewTextBoxColumn.Name = "dose1VolDataGridViewTextBoxColumn";
-            this.dose1VolDataGridViewTextBoxColumn.Width = 80;
             // 
             // dose1CompletedDataGridViewCheckBoxColumn
             // 
             this.dose1CompletedDataGridViewCheckBoxColumn.DataPropertyName = "dose1Completed";
-            this.dose1CompletedDataGridViewCheckBoxColumn.HeaderText = "Completed";
-            this.dose1CompletedDataGridViewCheckBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.dose1CompletedDataGridViewCheckBoxColumn, "dose1CompletedDataGridViewCheckBoxColumn");
             this.dose1CompletedDataGridViewCheckBoxColumn.Name = "dose1CompletedDataGridViewCheckBoxColumn";
-            this.dose1CompletedDataGridViewCheckBoxColumn.Width = 80;
             // 
             // dose2VolDataGridViewTextBoxColumn
             // 
             this.dose2VolDataGridViewTextBoxColumn.DataPropertyName = "dose2Volume_mL";
-            this.dose2VolDataGridViewTextBoxColumn.HeaderText = "Dose 2 (mL)";
-            this.dose2VolDataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.dose2VolDataGridViewTextBoxColumn, "dose2VolDataGridViewTextBoxColumn");
             this.dose2VolDataGridViewTextBoxColumn.Name = "dose2VolDataGridViewTextBoxColumn";
-            this.dose2VolDataGridViewTextBoxColumn.Width = 80;
             // 
             // dose2CompletedDataGridViewCheckBoxColumn
             // 
             this.dose2CompletedDataGridViewCheckBoxColumn.DataPropertyName = "dose2Completed";
-            this.dose2CompletedDataGridViewCheckBoxColumn.HeaderText = "Completed";
-            this.dose2CompletedDataGridViewCheckBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.dose2CompletedDataGridViewCheckBoxColumn, "dose2CompletedDataGridViewCheckBoxColumn");
             this.dose2CompletedDataGridViewCheckBoxColumn.Name = "dose2CompletedDataGridViewCheckBoxColumn";
-            this.dose2CompletedDataGridViewCheckBoxColumn.Width = 80;
             // 
             // commentsDataGridViewTextBoxColumn
             // 
             this.commentsDataGridViewTextBoxColumn.DataPropertyName = "comments";
-            this.commentsDataGridViewTextBoxColumn.HeaderText = "Comments";
-            this.commentsDataGridViewTextBoxColumn.MinimumWidth = 6;
+            resources.ApplyResources(this.commentsDataGridViewTextBoxColumn, "commentsDataGridViewTextBoxColumn");
             this.commentsDataGridViewTextBoxColumn.Name = "commentsDataGridViewTextBoxColumn";
-            this.commentsDataGridViewTextBoxColumn.Width = 125;
             // 
             // MiceForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 603);
             this.Controls.Add(this.miceDataGridView);
             this.Controls.Add(this.settingsFormLabel);
             this.Controls.Add(this.accountFormLabel);
@@ -292,10 +233,7 @@
             this.Controls.Add(this.studiesFormLabel);
             this.Controls.Add(this.homeFormLabel);
             this.Controls.Add(this.pictureBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MiceForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TSO - Mice";
             this.Load += new System.EventHandler(this.MiceForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).EndInit();

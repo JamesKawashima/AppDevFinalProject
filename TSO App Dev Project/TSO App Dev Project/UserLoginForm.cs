@@ -17,6 +17,7 @@ namespace TSO_App_Dev_Project
     public partial class UserLoginForm : Form
     {
         public bool UserAuth { get; set; }
+        public string UserLang { get; set; }
         public UserLoginForm()
         {
             InitializeComponent();
@@ -85,6 +86,13 @@ namespace TSO_App_Dev_Project
                     MessageBox.Show(ex.Message);
                 }
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var changeLanguage = new ChangeLanguage();
+            changeLanguage.updateConfig("language", comboBox1.Text);
+            Application.Restart();
         }
     }
 }

@@ -36,3 +36,28 @@ C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Projec
 C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.csproj.CoreCompileInputs.cache
 C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.exe
 C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.pdb
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\es-ES\TSO App Dev Project.resources.dll
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\fr-CA\TSO App Dev Project.resources.dll
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.UserLoginForm.es-ES.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.UserLoginForm.fr-CA.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\es-ES\TSO App Dev Project.resources.dll
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\fr-CA\TSO App Dev Project.resources.dll
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\es-PR\TSO App Dev Project.resources.dll
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.UserLoginForm.es-PR.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\es-PR\TSO App Dev Project.resources.dll
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MainScreenForm.es-ES.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MainScreenForm.fr-CA.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.StudiesForm.es-ES.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.StudiesForm.fr-CA.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.es-ES.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.fr-CA.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.LogsForm.es-ES.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.LogsForm.fr-CA.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MiceForm.es-ES.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MiceForm.fr-CA.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\dje-NE\TSO App Dev Project.resources.dll
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MouseDance.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.dje-NE.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.SettingsForm.es-ES.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.SettingsForm.fr-CA.resources
+C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\dje-NE\TSO App Dev Project.resources.dll

@@ -51,6 +51,7 @@
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
@@ -70,6 +71,7 @@
     <Compile Include="AccountForm.Designer.cs">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeLanguage.cs" />
     <Compile Include="LogsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +91,12 @@
       <DependentUpon>MiceForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Mouse.cs" />
+    <Compile Include="MouseDance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MouseDance.Designer.cs">
+      <DependentUpon>MouseDance.cs</DependentUpon>
+    </Compile>
     <Compile Include="SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,23 +123,74 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountForm.dje-NE.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountForm.es-ES.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountForm.fr-CA.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogsForm.es-ES.resx">
+      <DependentUpon>LogsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogsForm.fr-CA.resx">
+      <DependentUpon>LogsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogsForm.resx">
       <DependentUpon>LogsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainScreenForm.es-ES.resx">
+      <DependentUpon>MainScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainScreenForm.fr-CA.resx">
+      <DependentUpon>MainScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainScreenForm.resx">
       <DependentUpon>MainScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiceForm.es-ES.resx">
+      <DependentUpon>MiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiceForm.fr-CA.resx">
+      <DependentUpon>MiceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MiceForm.resx">
       <DependentUpon>MiceForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MouseDance.resx">
+      <DependentUpon>MouseDance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.es-ES.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.fr-CA.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StudiesForm.es-ES.resx">
+      <DependentUpon>StudiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudiesForm.fr-CA.resx">
+      <DependentUpon>StudiesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudiesForm.resx">
       <DependentUpon>StudiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLoginForm.es-ES.resx">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLoginForm.es-PR.resx">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLoginForm.fr-CA.resx">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLoginForm.resx">
       <DependentUpon>UserLoginForm.cs</DependentUpon>
@@ -183,6 +242,7 @@
     <None Include="Resources\mouseIcon1.ico" />
     <None Include="Resources\mouseIcon2.ico" />
     <None Include="Resources\mouseIcon3.ico" />
+    <None Include="Resources\dancingMouse1.gif" />
     <Content Include="TSODB.mdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

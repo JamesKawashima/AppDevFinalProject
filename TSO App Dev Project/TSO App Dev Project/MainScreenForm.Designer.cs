@@ -52,94 +52,64 @@
             ((System.ComponentModel.ISupportInitialize)(this.studiesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
+            // studyIdLabel
+            // 
+            resources.ApplyResources(studyIdLabel, "studyIdLabel");
+            studyIdLabel.Name = "studyIdLabel";
+            // 
             // pictureBox1
             // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
-            this.pictureBox1.Location = new System.Drawing.Point(-247, -86);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1425, 216);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // homeFormLabel
             // 
-            this.homeFormLabel.AutoSize = true;
+            resources.ApplyResources(this.homeFormLabel, "homeFormLabel");
             this.homeFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.homeFormLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.homeFormLabel.Location = new System.Drawing.Point(82, 24);
             this.homeFormLabel.Name = "homeFormLabel";
-            this.homeFormLabel.Size = new System.Drawing.Size(113, 40);
-            this.homeFormLabel.TabIndex = 1;
-            this.homeFormLabel.Text = "Home";
             this.homeFormLabel.Click += new System.EventHandler(this.homeFormLabel_Click);
             // 
             // studiesFormLabel
             // 
-            this.studiesFormLabel.AutoSize = true;
+            resources.ApplyResources(this.studiesFormLabel, "studiesFormLabel");
             this.studiesFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.studiesFormLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studiesFormLabel.Location = new System.Drawing.Point(205, 24);
             this.studiesFormLabel.Name = "studiesFormLabel";
-            this.studiesFormLabel.Size = new System.Drawing.Size(137, 40);
-            this.studiesFormLabel.TabIndex = 2;
-            this.studiesFormLabel.Text = "Studies";
             this.studiesFormLabel.Click += new System.EventHandler(this.studiesFormLabel_Click);
             // 
             // miceFormLabel
             // 
-            this.miceFormLabel.AutoSize = true;
+            resources.ApplyResources(this.miceFormLabel, "miceFormLabel");
             this.miceFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.miceFormLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.miceFormLabel.Location = new System.Drawing.Point(348, 24);
             this.miceFormLabel.Name = "miceFormLabel";
-            this.miceFormLabel.Size = new System.Drawing.Size(93, 40);
-            this.miceFormLabel.TabIndex = 3;
-            this.miceFormLabel.Text = "Mice";
             this.miceFormLabel.Click += new System.EventHandler(this.miceFormLabel_Click);
             // 
             // logsFormLabel
             // 
-            this.logsFormLabel.AutoSize = true;
+            resources.ApplyResources(this.logsFormLabel, "logsFormLabel");
             this.logsFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.logsFormLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logsFormLabel.Location = new System.Drawing.Point(452, 24);
             this.logsFormLabel.Name = "logsFormLabel";
-            this.logsFormLabel.Size = new System.Drawing.Size(95, 40);
-            this.logsFormLabel.TabIndex = 4;
-            this.logsFormLabel.Text = "Logs";
             this.logsFormLabel.Click += new System.EventHandler(this.logsFormLabel_Click);
             // 
             // accountFormLabel
             // 
-            this.accountFormLabel.AutoSize = true;
+            resources.ApplyResources(this.accountFormLabel, "accountFormLabel");
             this.accountFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.accountFormLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accountFormLabel.Location = new System.Drawing.Point(555, 24);
             this.accountFormLabel.Name = "accountFormLabel";
-            this.accountFormLabel.Size = new System.Drawing.Size(147, 40);
-            this.accountFormLabel.TabIndex = 5;
-            this.accountFormLabel.Text = "Account";
             this.accountFormLabel.Click += new System.EventHandler(this.accountFormLabel_Click);
             // 
             // settingsFormLabel
             // 
-            this.settingsFormLabel.AutoSize = true;
+            resources.ApplyResources(this.settingsFormLabel, "settingsFormLabel");
             this.settingsFormLabel.BackColor = System.Drawing.Color.Transparent;
-            this.settingsFormLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settingsFormLabel.Location = new System.Drawing.Point(711, 24);
             this.settingsFormLabel.Name = "settingsFormLabel";
-            this.settingsFormLabel.Size = new System.Drawing.Size(147, 40);
-            this.settingsFormLabel.TabIndex = 6;
-            this.settingsFormLabel.Text = "Settings";
             this.settingsFormLabel.Click += new System.EventHandler(this.settingsFormLabel_Click);
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(19, 192);
+            resources.ApplyResources(this.monthCalendar1, "monthCalendar1");
             this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 7;
             this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
             // 
             // tSODBDataSet
@@ -168,44 +138,25 @@
             // 
             // welcomeLabel
             // 
-            this.welcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeLabel.Location = new System.Drawing.Point(12, 134);
+            resources.ApplyResources(this.welcomeLabel, "welcomeLabel");
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(453, 49);
-            this.welcomeLabel.TabIndex = 8;
-            this.welcomeLabel.Text = "Welcome to the TSO";
-            // 
-            // studyIdLabel
-            // 
-            studyIdLabel.Location = new System.Drawing.Point(360, 163);
-            studyIdLabel.Name = "studyIdLabel";
-            studyIdLabel.Size = new System.Drawing.Size(137, 20);
-            studyIdLabel.TabIndex = 9;
-            studyIdLabel.Text = "Current Studies";
             // 
             // studyIdListBox
             // 
+            resources.ApplyResources(this.studyIdListBox, "studyIdListBox");
             this.studyIdListBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.studiesBindingSource, "studyId", true));
             this.studyIdListBox.FormattingEnabled = true;
-            this.studyIdListBox.ItemHeight = 20;
-            this.studyIdListBox.Location = new System.Drawing.Point(364, 201);
             this.studyIdListBox.Name = "studyIdListBox";
-            this.studyIdListBox.Size = new System.Drawing.Size(361, 244);
-            this.studyIdListBox.TabIndex = 10;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(457, 134);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 20);
-            this.label2.TabIndex = 11;
             // 
             // MainScreenForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 631);
             this.Controls.Add(this.label2);
             this.Controls.Add(studyIdLabel);
             this.Controls.Add(this.studyIdListBox);
@@ -218,11 +169,7 @@
             this.Controls.Add(this.studiesFormLabel);
             this.Controls.Add(this.homeFormLabel);
             this.Controls.Add(this.pictureBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainScreenForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TSO - Home";
             this.Load += new System.EventHandler(this.MainScreenForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).EndInit();

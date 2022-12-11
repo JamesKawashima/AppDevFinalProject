@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
+using System.Configuration;
 
 namespace TSO_App_Dev_Project
 {
@@ -19,12 +21,21 @@ namespace TSO_App_Dev_Project
         [STAThread]
         static void Main()
         {
+            // Internationalization
+
+            var language = ConfigurationManager.AppSettings["language"];
+
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(language);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(language);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             usf = new UserLoginForm();
-            //Application.Run(usf);
-            Application.Run(new MiceForm(null));
+            Application.Run(usf);
+            //Application.Run(new MiceForm(null));
             //Application.Run(new MainScreenForm(null));
+
+
+
             if (usf.UserAuth)
             {
                 MainScreenForm m = new MainScreenForm(loggedInUser);
@@ -35,8 +46,7 @@ namespace TSO_App_Dev_Project
                 SettingsForm c = new SettingsForm(loggedInUser);
 
                 Application.Run(m);
-                while (haha)
-                {
+
                     switch (m.chgPage)
                     {
                         case 's':
@@ -166,7 +176,7 @@ namespace TSO_App_Dev_Project
                 }
 
 
-            }
+            
         }
 
         public static User LoggedInUser
