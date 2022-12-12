@@ -51,37 +51,42 @@
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.editStudyGroupBox = new System.Windows.Forms.GroupBox();
+            this.editStudyStatusComboBox = new System.Windows.Forms.ComboBox();
+            this.editStudyStatusLabel = new System.Windows.Forms.Label();
+            this.editStudyDoseVolTextBox = new System.Windows.Forms.TextBox();
             this.editStudyCommentsTextBox = new System.Windows.Forms.TextBox();
+            this.editStudyDoseVolLabel = new System.Windows.Forms.Label();
             this.editStudyStudyIDTextBox = new System.Windows.Forms.TextBox();
-            this.editStudyStudyIdLabel = new System.Windows.Forms.Label();
+            this.editStudyDoseNameTextBox = new System.Windows.Forms.TextBox();
             this.editStudyButton = new System.Windows.Forms.Button();
+            this.editStudyStudyIdLabel = new System.Windows.Forms.Label();
+            this.editStudyDoseNameLabel = new System.Windows.Forms.Label();
+            this.editStudyUserIdTextBox = new System.Windows.Forms.TextBox();
             this.editStudyCommentsLabel = new System.Windows.Forms.Label();
+            this.editStudyGroupIdTextBox = new System.Windows.Forms.TextBox();
+            this.editStudyUserIdLabel = new System.Windows.Forms.Label();
+            this.editStudyGroupIdLabel = new System.Windows.Forms.Label();
             this.createStudyGroupBox = new System.Windows.Forms.GroupBox();
+            this.createStudyDoseVolumeTextBox = new System.Windows.Forms.TextBox();
+            this.doseVolLabel = new System.Windows.Forms.Label();
+            this.createStudyDoseNameTextBox = new System.Windows.Forms.TextBox();
+            this.doseNameLabel = new System.Windows.Forms.Label();
             this.createStudyUserIDTextBox = new System.Windows.Forms.TextBox();
             this.createStudyGroupIDTextBox = new System.Windows.Forms.TextBox();
             this.leadUserIDLabel = new System.Windows.Forms.Label();
             this.groupIdLabel = new System.Windows.Forms.Label();
             this.addStudyButton = new System.Windows.Forms.Button();
-            this.createStudyDoseNameTextBox = new System.Windows.Forms.TextBox();
-            this.doseNameLabel = new System.Windows.Forms.Label();
-            this.createStudyDoseVolumeTextBox = new System.Windows.Forms.TextBox();
-            this.doseVolLabel = new System.Windows.Forms.Label();
-            this.editStudyDoseVolTextBox = new System.Windows.Forms.TextBox();
-            this.editStudyDoseVolLabel = new System.Windows.Forms.Label();
-            this.editStudyDoseNameTextBox = new System.Windows.Forms.TextBox();
-            this.editStudyDoseNameLabel = new System.Windows.Forms.Label();
-            this.editStudyUserIdTextBox = new System.Windows.Forms.TextBox();
-            this.editStudyGroupIdTextBox = new System.Windows.Forms.TextBox();
-            this.editStudyUserIdLabel = new System.Windows.Forms.Label();
-            this.editStudyGroupIdLabel = new System.Windows.Forms.Label();
-            this.editStudyStatusLabel = new System.Windows.Forms.Label();
-            this.editStudyStatusComboBox = new System.Windows.Forms.ComboBox();
+            this.assignMyselfToStudyGroupBox = new System.Windows.Forms.GroupBox();
+            this.assignMyselfToStudyStudyIDTextBox = new System.Windows.Forms.TextBox();
+            this.assignMyselfToStudyStudyIDLabel = new System.Windows.Forms.Label();
+            this.assignMyselfToStudyButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studiesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studiesDataGridView)).BeginInit();
             this.editStudyGroupBox.SuspendLayout();
             this.createStudyGroupBox.SuspendLayout();
+            this.assignMyselfToStudyGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // settingsFormLabel
@@ -245,20 +250,45 @@
             this.editStudyGroupBox.Name = "editStudyGroupBox";
             this.editStudyGroupBox.TabStop = false;
             // 
+            // editStudyStatusComboBox
+            // 
+            this.editStudyStatusComboBox.FormattingEnabled = true;
+            this.editStudyStatusComboBox.Items.AddRange(new object[] {
+            resources.GetString("editStudyStatusComboBox.Items"),
+            resources.GetString("editStudyStatusComboBox.Items1"),
+            resources.GetString("editStudyStatusComboBox.Items2")});
+            resources.ApplyResources(this.editStudyStatusComboBox, "editStudyStatusComboBox");
+            this.editStudyStatusComboBox.Name = "editStudyStatusComboBox";
+            // 
+            // editStudyStatusLabel
+            // 
+            resources.ApplyResources(this.editStudyStatusLabel, "editStudyStatusLabel");
+            this.editStudyStatusLabel.Name = "editStudyStatusLabel";
+            // 
+            // editStudyDoseVolTextBox
+            // 
+            resources.ApplyResources(this.editStudyDoseVolTextBox, "editStudyDoseVolTextBox");
+            this.editStudyDoseVolTextBox.Name = "editStudyDoseVolTextBox";
+            // 
             // editStudyCommentsTextBox
             // 
             resources.ApplyResources(this.editStudyCommentsTextBox, "editStudyCommentsTextBox");
             this.editStudyCommentsTextBox.Name = "editStudyCommentsTextBox";
+            // 
+            // editStudyDoseVolLabel
+            // 
+            resources.ApplyResources(this.editStudyDoseVolLabel, "editStudyDoseVolLabel");
+            this.editStudyDoseVolLabel.Name = "editStudyDoseVolLabel";
             // 
             // editStudyStudyIDTextBox
             // 
             resources.ApplyResources(this.editStudyStudyIDTextBox, "editStudyStudyIDTextBox");
             this.editStudyStudyIDTextBox.Name = "editStudyStudyIDTextBox";
             // 
-            // editStudyStudyIdLabel
+            // editStudyDoseNameTextBox
             // 
-            resources.ApplyResources(this.editStudyStudyIdLabel, "editStudyStudyIdLabel");
-            this.editStudyStudyIdLabel.Name = "editStudyStudyIdLabel";
+            resources.ApplyResources(this.editStudyDoseNameTextBox, "editStudyDoseNameTextBox");
+            this.editStudyDoseNameTextBox.Name = "editStudyDoseNameTextBox";
             // 
             // editStudyButton
             // 
@@ -266,10 +296,40 @@
             this.editStudyButton.Name = "editStudyButton";
             this.editStudyButton.UseVisualStyleBackColor = true;
             // 
+            // editStudyStudyIdLabel
+            // 
+            resources.ApplyResources(this.editStudyStudyIdLabel, "editStudyStudyIdLabel");
+            this.editStudyStudyIdLabel.Name = "editStudyStudyIdLabel";
+            // 
+            // editStudyDoseNameLabel
+            // 
+            resources.ApplyResources(this.editStudyDoseNameLabel, "editStudyDoseNameLabel");
+            this.editStudyDoseNameLabel.Name = "editStudyDoseNameLabel";
+            // 
+            // editStudyUserIdTextBox
+            // 
+            resources.ApplyResources(this.editStudyUserIdTextBox, "editStudyUserIdTextBox");
+            this.editStudyUserIdTextBox.Name = "editStudyUserIdTextBox";
+            // 
             // editStudyCommentsLabel
             // 
             resources.ApplyResources(this.editStudyCommentsLabel, "editStudyCommentsLabel");
             this.editStudyCommentsLabel.Name = "editStudyCommentsLabel";
+            // 
+            // editStudyGroupIdTextBox
+            // 
+            resources.ApplyResources(this.editStudyGroupIdTextBox, "editStudyGroupIdTextBox");
+            this.editStudyGroupIdTextBox.Name = "editStudyGroupIdTextBox";
+            // 
+            // editStudyUserIdLabel
+            // 
+            resources.ApplyResources(this.editStudyUserIdLabel, "editStudyUserIdLabel");
+            this.editStudyUserIdLabel.Name = "editStudyUserIdLabel";
+            // 
+            // editStudyGroupIdLabel
+            // 
+            resources.ApplyResources(this.editStudyGroupIdLabel, "editStudyGroupIdLabel");
+            this.editStudyGroupIdLabel.Name = "editStudyGroupIdLabel";
             // 
             // createStudyGroupBox
             // 
@@ -285,6 +345,26 @@
             resources.ApplyResources(this.createStudyGroupBox, "createStudyGroupBox");
             this.createStudyGroupBox.Name = "createStudyGroupBox";
             this.createStudyGroupBox.TabStop = false;
+            // 
+            // createStudyDoseVolumeTextBox
+            // 
+            resources.ApplyResources(this.createStudyDoseVolumeTextBox, "createStudyDoseVolumeTextBox");
+            this.createStudyDoseVolumeTextBox.Name = "createStudyDoseVolumeTextBox";
+            // 
+            // doseVolLabel
+            // 
+            resources.ApplyResources(this.doseVolLabel, "doseVolLabel");
+            this.doseVolLabel.Name = "doseVolLabel";
+            // 
+            // createStudyDoseNameTextBox
+            // 
+            resources.ApplyResources(this.createStudyDoseNameTextBox, "createStudyDoseNameTextBox");
+            this.createStudyDoseNameTextBox.Name = "createStudyDoseNameTextBox";
+            // 
+            // doseNameLabel
+            // 
+            resources.ApplyResources(this.doseNameLabel, "doseNameLabel");
+            this.doseNameLabel.Name = "doseNameLabel";
             // 
             // createStudyUserIDTextBox
             // 
@@ -312,85 +392,36 @@
             this.addStudyButton.Name = "addStudyButton";
             this.addStudyButton.UseVisualStyleBackColor = true;
             // 
-            // createStudyDoseNameTextBox
+            // assignMyselfToStudyGroupBox
             // 
-            resources.ApplyResources(this.createStudyDoseNameTextBox, "createStudyDoseNameTextBox");
-            this.createStudyDoseNameTextBox.Name = "createStudyDoseNameTextBox";
+            this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyStudyIDTextBox);
+            this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyStudyIDLabel);
+            this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyButton);
+            resources.ApplyResources(this.assignMyselfToStudyGroupBox, "assignMyselfToStudyGroupBox");
+            this.assignMyselfToStudyGroupBox.Name = "assignMyselfToStudyGroupBox";
+            this.assignMyselfToStudyGroupBox.TabStop = false;
             // 
-            // doseNameLabel
+            // assignMyselfToStudyStudyIDTextBox
             // 
-            resources.ApplyResources(this.doseNameLabel, "doseNameLabel");
-            this.doseNameLabel.Name = "doseNameLabel";
+            resources.ApplyResources(this.assignMyselfToStudyStudyIDTextBox, "assignMyselfToStudyStudyIDTextBox");
+            this.assignMyselfToStudyStudyIDTextBox.Name = "assignMyselfToStudyStudyIDTextBox";
             // 
-            // createStudyDoseVolumeTextBox
+            // assignMyselfToStudyStudyIDLabel
             // 
-            resources.ApplyResources(this.createStudyDoseVolumeTextBox, "createStudyDoseVolumeTextBox");
-            this.createStudyDoseVolumeTextBox.Name = "createStudyDoseVolumeTextBox";
+            resources.ApplyResources(this.assignMyselfToStudyStudyIDLabel, "assignMyselfToStudyStudyIDLabel");
+            this.assignMyselfToStudyStudyIDLabel.Name = "assignMyselfToStudyStudyIDLabel";
             // 
-            // doseVolLabel
+            // assignMyselfToStudyButton
             // 
-            resources.ApplyResources(this.doseVolLabel, "doseVolLabel");
-            this.doseVolLabel.Name = "doseVolLabel";
-            // 
-            // editStudyDoseVolTextBox
-            // 
-            resources.ApplyResources(this.editStudyDoseVolTextBox, "editStudyDoseVolTextBox");
-            this.editStudyDoseVolTextBox.Name = "editStudyDoseVolTextBox";
-            // 
-            // editStudyDoseVolLabel
-            // 
-            resources.ApplyResources(this.editStudyDoseVolLabel, "editStudyDoseVolLabel");
-            this.editStudyDoseVolLabel.Name = "editStudyDoseVolLabel";
-            // 
-            // editStudyDoseNameTextBox
-            // 
-            resources.ApplyResources(this.editStudyDoseNameTextBox, "editStudyDoseNameTextBox");
-            this.editStudyDoseNameTextBox.Name = "editStudyDoseNameTextBox";
-            // 
-            // editStudyDoseNameLabel
-            // 
-            resources.ApplyResources(this.editStudyDoseNameLabel, "editStudyDoseNameLabel");
-            this.editStudyDoseNameLabel.Name = "editStudyDoseNameLabel";
-            // 
-            // editStudyUserIdTextBox
-            // 
-            resources.ApplyResources(this.editStudyUserIdTextBox, "editStudyUserIdTextBox");
-            this.editStudyUserIdTextBox.Name = "editStudyUserIdTextBox";
-            // 
-            // editStudyGroupIdTextBox
-            // 
-            resources.ApplyResources(this.editStudyGroupIdTextBox, "editStudyGroupIdTextBox");
-            this.editStudyGroupIdTextBox.Name = "editStudyGroupIdTextBox";
-            // 
-            // editStudyUserIdLabel
-            // 
-            resources.ApplyResources(this.editStudyUserIdLabel, "editStudyUserIdLabel");
-            this.editStudyUserIdLabel.Name = "editStudyUserIdLabel";
-            // 
-            // editStudyGroupIdLabel
-            // 
-            resources.ApplyResources(this.editStudyGroupIdLabel, "editStudyGroupIdLabel");
-            this.editStudyGroupIdLabel.Name = "editStudyGroupIdLabel";
-            // 
-            // editStudyStatusLabel
-            // 
-            resources.ApplyResources(this.editStudyStatusLabel, "editStudyStatusLabel");
-            this.editStudyStatusLabel.Name = "editStudyStatusLabel";
-            // 
-            // editStudyStatusComboBox
-            // 
-            this.editStudyStatusComboBox.FormattingEnabled = true;
-            this.editStudyStatusComboBox.Items.AddRange(new object[] {
-            resources.GetString("editStudyStatusComboBox.Items"),
-            resources.GetString("editStudyStatusComboBox.Items1"),
-            resources.GetString("editStudyStatusComboBox.Items2")});
-            resources.ApplyResources(this.editStudyStatusComboBox, "editStudyStatusComboBox");
-            this.editStudyStatusComboBox.Name = "editStudyStatusComboBox";
+            resources.ApplyResources(this.assignMyselfToStudyButton, "assignMyselfToStudyButton");
+            this.assignMyselfToStudyButton.Name = "assignMyselfToStudyButton";
+            this.assignMyselfToStudyButton.UseVisualStyleBackColor = true;
             // 
             // StudiesForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.assignMyselfToStudyGroupBox);
             this.Controls.Add(this.editStudyGroupBox);
             this.Controls.Add(this.createStudyGroupBox);
             this.Controls.Add(this.studiesDataGridView);
@@ -411,6 +442,8 @@
             this.editStudyGroupBox.PerformLayout();
             this.createStudyGroupBox.ResumeLayout(false);
             this.createStudyGroupBox.PerformLayout();
+            this.assignMyselfToStudyGroupBox.ResumeLayout(false);
+            this.assignMyselfToStudyGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -464,5 +497,9 @@
         private System.Windows.Forms.Label editStudyUserIdLabel;
         private System.Windows.Forms.Label editStudyGroupIdLabel;
         private System.Windows.Forms.ComboBox editStudyStatusComboBox;
+        private System.Windows.Forms.GroupBox assignMyselfToStudyGroupBox;
+        private System.Windows.Forms.TextBox assignMyselfToStudyStudyIDTextBox;
+        private System.Windows.Forms.Label assignMyselfToStudyStudyIDLabel;
+        private System.Windows.Forms.Button assignMyselfToStudyButton;
     }
 }

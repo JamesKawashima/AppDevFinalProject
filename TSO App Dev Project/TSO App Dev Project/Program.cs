@@ -30,8 +30,9 @@ namespace TSO_App_Dev_Project
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             usf = new UserLoginForm();
-            Application.Run(usf);
+            //Application.Run(usf);
             //Application.Run(new MiceForm(null));
+            Application.Run(new StudiesForm(null));
             //Application.Run(new MainScreenForm(null));
 
 

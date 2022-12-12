@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;settingsFormLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="accountFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -177,7 +177,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;accountFormLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="logsFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -207,7 +207,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;logsFormLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="miceFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -237,7 +237,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;miceFormLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="studiesFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -267,7 +267,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;studiesFormLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="homeFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -297,7 +297,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;homeFormLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>-142, -69</value>
@@ -322,7 +322,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <metadata name="tSODBDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -336,30 +336,6 @@
   <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>571, 17</value>
   </metadata>
-  <data name="studiesDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 87</value>
-  </data>
-  <data name="studiesDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="studiesDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>941, 300</value>
-  </data>
-  <data name="studiesDataGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;studiesDataGridView.Name" xml:space="preserve">
-    <value>studiesDataGridView</value>
-  </data>
-  <data name="&gt;&gt;studiesDataGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;studiesDataGridView.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;studiesDataGridView.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
     <value>Study ID</value>
   </data>
@@ -411,11 +387,17 @@
   <data name="dataGridViewTextBoxColumn6.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
   <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="dataGridViewTextBoxColumn7.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
+    <value>125</value>
   </data>
   <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
     <value>Comments</value>
@@ -425,6 +407,30 @@
   </data>
   <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
     <value>125</value>
+  </data>
+  <data name="studiesDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 87</value>
+  </data>
+  <data name="studiesDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="studiesDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>941, 309</value>
+  </data>
+  <data name="studiesDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;studiesDataGridView.Name" xml:space="preserve">
+    <value>studiesDataGridView</value>
+  </data>
+  <data name="&gt;&gt;studiesDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;studiesDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;studiesDataGridView.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="editStudyStatusComboBox.Items" xml:space="preserve">
     <value>Pending</value>
@@ -826,7 +832,7 @@
     <value>14</value>
   </data>
   <data name="editStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 410</value>
+    <value>250, 405</value>
   </data>
   <data name="editStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>390, 181</value>
@@ -847,7 +853,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;editStudyGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
+  </data>
+  <data name="createStudyDoseVolumeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 105</value>
+  </data>
+  <data name="createStudyDoseVolumeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="createStudyDoseVolumeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
   </data>
   <data name="&gt;&gt;createStudyDoseVolumeTextBox.Name" xml:space="preserve">
     <value>createStudyDoseVolumeTextBox</value>
@@ -861,6 +876,24 @@
   <data name="&gt;&gt;createStudyDoseVolumeTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="doseVolLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="doseVolLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="doseVolLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 108</value>
+  </data>
+  <data name="doseVolLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="doseVolLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="doseVolLabel.Text" xml:space="preserve">
+    <value>Dose Volume:</value>
+  </data>
   <data name="&gt;&gt;doseVolLabel.Name" xml:space="preserve">
     <value>doseVolLabel</value>
   </data>
@@ -872,6 +905,15 @@
   </data>
   <data name="&gt;&gt;doseVolLabel.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="createStudyDoseNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 77</value>
+  </data>
+  <data name="createStudyDoseNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="createStudyDoseNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
   </data>
   <data name="&gt;&gt;createStudyDoseNameTextBox.Name" xml:space="preserve">
     <value>createStudyDoseNameTextBox</value>
@@ -885,6 +927,24 @@
   <data name="&gt;&gt;createStudyDoseNameTextBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="doseNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="doseNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="doseNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 80</value>
+  </data>
+  <data name="doseNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="doseNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="doseNameLabel.Text" xml:space="preserve">
+    <value>Dose Name:</value>
+  </data>
   <data name="&gt;&gt;doseNameLabel.Name" xml:space="preserve">
     <value>doseNameLabel</value>
   </data>
@@ -896,90 +956,6 @@
   </data>
   <data name="&gt;&gt;doseNameLabel.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;createStudyUserIDTextBox.Name" xml:space="preserve">
-    <value>createStudyUserIDTextBox</value>
-  </data>
-  <data name="&gt;&gt;createStudyUserIDTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;createStudyUserIDTextBox.Parent" xml:space="preserve">
-    <value>createStudyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;createStudyUserIDTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;createStudyGroupIDTextBox.Name" xml:space="preserve">
-    <value>createStudyGroupIDTextBox</value>
-  </data>
-  <data name="&gt;&gt;createStudyGroupIDTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;createStudyGroupIDTextBox.Parent" xml:space="preserve">
-    <value>createStudyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;createStudyGroupIDTextBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;leadUserIDLabel.Name" xml:space="preserve">
-    <value>leadUserIDLabel</value>
-  </data>
-  <data name="&gt;&gt;leadUserIDLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;leadUserIDLabel.Parent" xml:space="preserve">
-    <value>createStudyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;leadUserIDLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;groupIdLabel.Name" xml:space="preserve">
-    <value>groupIdLabel</value>
-  </data>
-  <data name="&gt;&gt;groupIdLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupIdLabel.Parent" xml:space="preserve">
-    <value>createStudyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;groupIdLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;addStudyButton.Name" xml:space="preserve">
-    <value>addStudyButton</value>
-  </data>
-  <data name="&gt;&gt;addStudyButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addStudyButton.Parent" xml:space="preserve">
-    <value>createStudyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;addStudyButton.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="createStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 407</value>
-  </data>
-  <data name="createStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 181</value>
-  </data>
-  <data name="createStudyGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="createStudyGroupBox.Text" xml:space="preserve">
-    <value>Create Study</value>
-  </data>
-  <data name="&gt;&gt;createStudyGroupBox.Name" xml:space="preserve">
-    <value>createStudyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;createStudyGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;createStudyGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;createStudyGroupBox.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="createStudyUserIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 20</value>
@@ -1113,107 +1089,134 @@
   <data name="&gt;&gt;addStudyButton.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="createStudyDoseNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 77</value>
+  <data name="createStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 402</value>
   </data>
-  <data name="createStudyDoseNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+  <data name="createStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 181</value>
   </data>
-  <data name="createStudyDoseNameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+  <data name="createStudyGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
-  <data name="&gt;&gt;createStudyDoseNameTextBox.Name" xml:space="preserve">
-    <value>createStudyDoseNameTextBox</value>
+  <data name="createStudyGroupBox.Text" xml:space="preserve">
+    <value>Create Study</value>
   </data>
-  <data name="&gt;&gt;createStudyDoseNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;createStudyDoseNameTextBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createStudyGroupBox.Name" xml:space="preserve">
     <value>createStudyGroupBox</value>
   </data>
-  <data name="&gt;&gt;createStudyDoseNameTextBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createStudyGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createStudyGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;createStudyGroupBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="doseNameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="assignMyselfToStudyStudyIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 52</value>
   </data>
-  <data name="doseNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="assignMyselfToStudyStudyIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
   </data>
-  <data name="doseNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 80</value>
+  <data name="assignMyselfToStudyStudyIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
   </data>
-  <data name="doseNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 16</value>
+  <data name="&gt;&gt;assignMyselfToStudyStudyIDTextBox.Name" xml:space="preserve">
+    <value>assignMyselfToStudyStudyIDTextBox</value>
   </data>
-  <data name="doseNameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="doseNameLabel.Text" xml:space="preserve">
-    <value>Dose Name:</value>
-  </data>
-  <data name="&gt;&gt;doseNameLabel.Name" xml:space="preserve">
-    <value>doseNameLabel</value>
-  </data>
-  <data name="&gt;&gt;doseNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doseNameLabel.Parent" xml:space="preserve">
-    <value>createStudyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;doseNameLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="createStudyDoseVolumeTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 105</value>
-  </data>
-  <data name="createStudyDoseVolumeTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
-  </data>
-  <data name="createStudyDoseVolumeTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;createStudyDoseVolumeTextBox.Name" xml:space="preserve">
-    <value>createStudyDoseVolumeTextBox</value>
-  </data>
-  <data name="&gt;&gt;createStudyDoseVolumeTextBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;assignMyselfToStudyStudyIDTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;createStudyDoseVolumeTextBox.Parent" xml:space="preserve">
-    <value>createStudyGroupBox</value>
+  <data name="&gt;&gt;assignMyselfToStudyStudyIDTextBox.Parent" xml:space="preserve">
+    <value>assignMyselfToStudyGroupBox</value>
   </data>
-  <data name="&gt;&gt;createStudyDoseVolumeTextBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;assignMyselfToStudyStudyIDTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="doseVolLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="assignMyselfToStudyStudyIDLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="doseVolLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="assignMyselfToStudyStudyIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="doseVolLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 108</value>
+  <data name="assignMyselfToStudyStudyIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 55</value>
   </data>
-  <data name="doseVolLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 16</value>
+  <data name="assignMyselfToStudyStudyIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
   </data>
-  <data name="doseVolLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="assignMyselfToStudyStudyIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
-  <data name="doseVolLabel.Text" xml:space="preserve">
-    <value>Dose Volume:</value>
+  <data name="assignMyselfToStudyStudyIDLabel.Text" xml:space="preserve">
+    <value>Study ID:</value>
   </data>
-  <data name="&gt;&gt;doseVolLabel.Name" xml:space="preserve">
-    <value>doseVolLabel</value>
+  <data name="&gt;&gt;assignMyselfToStudyStudyIDLabel.Name" xml:space="preserve">
+    <value>assignMyselfToStudyStudyIDLabel</value>
   </data>
-  <data name="&gt;&gt;doseVolLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;assignMyselfToStudyStudyIDLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;doseVolLabel.Parent" xml:space="preserve">
-    <value>createStudyGroupBox</value>
+  <data name="&gt;&gt;assignMyselfToStudyStudyIDLabel.Parent" xml:space="preserve">
+    <value>assignMyselfToStudyGroupBox</value>
   </data>
-  <data name="&gt;&gt;doseVolLabel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;assignMyselfToStudyStudyIDLabel.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="assignMyselfToStudyButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="assignMyselfToStudyButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="assignMyselfToStudyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 89</value>
+  </data>
+  <data name="assignMyselfToStudyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 39</value>
+  </data>
+  <data name="assignMyselfToStudyButton.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="assignMyselfToStudyButton.Text" xml:space="preserve">
+    <value>Assign Me</value>
+  </data>
+  <data name="&gt;&gt;assignMyselfToStudyButton.Name" xml:space="preserve">
+    <value>assignMyselfToStudyButton</value>
+  </data>
+  <data name="&gt;&gt;assignMyselfToStudyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;assignMyselfToStudyButton.Parent" xml:space="preserve">
+    <value>assignMyselfToStudyGroupBox</value>
+  </data>
+  <data name="&gt;&gt;assignMyselfToStudyButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="assignMyselfToStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 413</value>
+  </data>
+  <data name="assignMyselfToStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 173</value>
+  </data>
+  <data name="assignMyselfToStudyGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="assignMyselfToStudyGroupBox.Text" xml:space="preserve">
+    <value>Assign Myself to Study</value>
+  </data>
+  <data name="&gt;&gt;assignMyselfToStudyGroupBox.Name" xml:space="preserve">
+    <value>assignMyselfToStudyGroupBox</value>
+  </data>
+  <data name="&gt;&gt;assignMyselfToStudyGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;assignMyselfToStudyGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;assignMyselfToStudyGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
