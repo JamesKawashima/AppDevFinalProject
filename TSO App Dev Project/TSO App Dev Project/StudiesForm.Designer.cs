@@ -135,8 +135,8 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -166,7 +166,6 @@
             // 
             // studiesDataGridView
             // 
-            resources.ApplyResources(this.studiesDataGridView, "studiesDataGridView");
             this.studiesDataGridView.AutoGenerateColumns = false;
             this.studiesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.studiesDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -179,6 +178,7 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8});
             this.studiesDataGridView.DataSource = this.studiesBindingSource;
+            resources.ApplyResources(this.studiesDataGridView, "studiesDataGridView");
             this.studiesDataGridView.Name = "studiesDataGridView";
             this.studiesDataGridView.RowTemplate.Height = 24;
             // 
@@ -233,7 +233,6 @@
             // 
             // editStudyGroupBox
             // 
-            resources.ApplyResources(this.editStudyGroupBox, "editStudyGroupBox");
             this.editStudyGroupBox.Controls.Add(this.editStudyStatusComboBox);
             this.editStudyGroupBox.Controls.Add(this.editStudyStatusLabel);
             this.editStudyGroupBox.Controls.Add(this.editStudyDoseVolTextBox);
@@ -249,17 +248,18 @@
             this.editStudyGroupBox.Controls.Add(this.editStudyGroupIdTextBox);
             this.editStudyGroupBox.Controls.Add(this.editStudyUserIdLabel);
             this.editStudyGroupBox.Controls.Add(this.editStudyGroupIdLabel);
+            resources.ApplyResources(this.editStudyGroupBox, "editStudyGroupBox");
             this.editStudyGroupBox.Name = "editStudyGroupBox";
             this.editStudyGroupBox.TabStop = false;
             // 
             // editStudyStatusComboBox
             // 
-            resources.ApplyResources(this.editStudyStatusComboBox, "editStudyStatusComboBox");
             this.editStudyStatusComboBox.FormattingEnabled = true;
             this.editStudyStatusComboBox.Items.AddRange(new object[] {
             resources.GetString("editStudyStatusComboBox.Items"),
             resources.GetString("editStudyStatusComboBox.Items1"),
             resources.GetString("editStudyStatusComboBox.Items2")});
+            resources.ApplyResources(this.editStudyStatusComboBox, "editStudyStatusComboBox");
             this.editStudyStatusComboBox.Name = "editStudyStatusComboBox";
             // 
             // editStudyStatusLabel
@@ -294,9 +294,10 @@
             // 
             // editStudyButton
             // 
+            this.editStudyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
             resources.ApplyResources(this.editStudyButton, "editStudyButton");
             this.editStudyButton.Name = "editStudyButton";
-            this.editStudyButton.UseVisualStyleBackColor = true;
+            this.editStudyButton.UseVisualStyleBackColor = false;
             this.editStudyButton.Click += new System.EventHandler(this.editStudyButton_Click);
             // 
             // editStudyStudyIdLabel
@@ -336,7 +337,6 @@
             // 
             // createStudyGroupBox
             // 
-            resources.ApplyResources(this.createStudyGroupBox, "createStudyGroupBox");
             this.createStudyGroupBox.Controls.Add(this.createStudyDoseVolumeTextBox);
             this.createStudyGroupBox.Controls.Add(this.doseVolLabel);
             this.createStudyGroupBox.Controls.Add(this.createStudyDoseNameTextBox);
@@ -346,6 +346,7 @@
             this.createStudyGroupBox.Controls.Add(this.leadUserIDLabel);
             this.createStudyGroupBox.Controls.Add(this.groupIdLabel);
             this.createStudyGroupBox.Controls.Add(this.addStudyButton);
+            resources.ApplyResources(this.createStudyGroupBox, "createStudyGroupBox");
             this.createStudyGroupBox.Name = "createStudyGroupBox";
             this.createStudyGroupBox.TabStop = false;
             // 
@@ -391,17 +392,18 @@
             // 
             // addStudyButton
             // 
+            this.addStudyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
             resources.ApplyResources(this.addStudyButton, "addStudyButton");
             this.addStudyButton.Name = "addStudyButton";
-            this.addStudyButton.UseVisualStyleBackColor = true;
+            this.addStudyButton.UseVisualStyleBackColor = false;
             this.addStudyButton.Click += new System.EventHandler(this.addStudyButton_Click);
             // 
             // assignMyselfToStudyGroupBox
             // 
-            resources.ApplyResources(this.assignMyselfToStudyGroupBox, "assignMyselfToStudyGroupBox");
             this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyStudyIDTextBox);
             this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyStudyIDLabel);
             this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyButton);
+            resources.ApplyResources(this.assignMyselfToStudyGroupBox, "assignMyselfToStudyGroupBox");
             this.assignMyselfToStudyGroupBox.Name = "assignMyselfToStudyGroupBox";
             this.assignMyselfToStudyGroupBox.TabStop = false;
             // 
@@ -417,15 +419,16 @@
             // 
             // assignMyselfToStudyButton
             // 
+            this.assignMyselfToStudyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
             resources.ApplyResources(this.assignMyselfToStudyButton, "assignMyselfToStudyButton");
             this.assignMyselfToStudyButton.Name = "assignMyselfToStudyButton";
-            this.assignMyselfToStudyButton.UseVisualStyleBackColor = true;
+            this.assignMyselfToStudyButton.UseVisualStyleBackColor = false;
             this.assignMyselfToStudyButton.Click += new System.EventHandler(this.assignMyselfToStudyButton_Click);
             // 
             // pictureBox2
             // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar1;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 

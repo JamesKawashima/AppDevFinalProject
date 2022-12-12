@@ -29,40 +29,42 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MouseDance));
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.dancingMouseGifPictureBox = new System.Windows.Forms.PictureBox();
+            this.closeButton = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dancingMouseGifPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox2
+            // dancingMouseGifPictureBox
             // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Image = global::TSO_App_Dev_Project.Properties.Resources.dancingMouse;
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
+            resources.ApplyResources(this.dancingMouseGifPictureBox, "dancingMouseGifPictureBox");
+            this.dancingMouseGifPictureBox.Image = global::TSO_App_Dev_Project.Properties.Resources.dancingMouse;
+            this.dancingMouseGifPictureBox.Name = "dancingMouseGifPictureBox";
+            this.dancingMouseGifPictureBox.TabStop = false;
             // 
-            // button1
+            // closeButton
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.closeButton, "closeButton");
+            this.closeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
+            this.closeButton.ForeColor = System.Drawing.Color.White;
+            this.closeButton.Name = "closeButton";
+            this.closeButton.UseVisualStyleBackColor = false;
+            this.closeButton.Click += new System.EventHandler(this.okButton_Click);
             // 
             // MouseDance
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.closeButton);
+            this.Controls.Add(this.dancingMouseGifPictureBox);
             this.Name = "MouseDance";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dancingMouseGifPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox dancingMouseGifPictureBox;
+        private System.Windows.Forms.Button closeButton;
     }
 }

@@ -19,8 +19,8 @@ namespace TSO_App_Dev_Project
 
         public MainScreenForm(User liu)
         {
-            this.liu = liu;
             InitializeComponent();
+            this.liu = liu;
         }
 
         private void homeFormLabel_Click(object sender, EventArgs e)
@@ -58,28 +58,17 @@ namespace TSO_App_Dev_Project
             s.Show();
         }
 
-        private void studiesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.studiesBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.tSODBDataSet);
-
-        }
-
         private void MainScreenForm_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'tSODBDataSet.Studies' table. You can move, or remove it, as needed.
-            this.studiesTableAdapter.Fill(this.tSODBDataSet.Studies);
             SqlConnection conn = null;
             try
             {
+                // Filling in first list box for current studies info
                 var database = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "TSODB.mdf");
                 var connString = $"Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename={database};Integrated Security = True; Connect Timeout = 30";
                 conn = new SqlConnection(connString);
 
                 conn.Open();
-
-                String loggedInUserId = liu.Id.ToString();
 
                 SqlCommand command1 = new SqlCommand($"SELECT * FROM Studies WHERE status = 'Ongoing'", conn);
 
@@ -89,12 +78,40 @@ namespace TSO_App_Dev_Project
 
                 while (reader1.Read())
                 {
-                    listBox1.Items.Add($"{reader1["leadUser"].ToString()}: Study {reader1["studyId"].ToString()} with Group {reader1["groupId"].ToString()} at {reader1["date"].ToString()}");
+                    currentStudiesListBox.Items.Add($"{reader1["leadUser"].ToString()}: Study {reader1["studyId"].ToString()} with Group {reader1["groupId"].ToString()} at {reader1["date"].ToString()}");
+                }
+
+                try
+                {
+                    conn.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                // Filling in second list box for User info
+                database = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "TSODB.mdf");
+                connString = $"Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename={database};Integrated Security = True; Connect Timeout = 30";
+                conn = new SqlConnection(connString);
+
+                conn.Open();
+
+                SqlCommand command2 = new SqlCommand($"SELECT * FROM Users", conn);
+
+                SqlDataReader reader2;
+
+                reader2 = command2.ExecuteReader();
+
+                while (reader2.Read())
+                {
+                    string userInfo = $"{reader2["id"]} : {reader2["firstName"]} {reader2["lastName"]}";
+                    allUsersListBox.Items.Add(userInfo);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -104,54 +121,9 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
-        }
-
-        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
-        {
-
-        }
-
-        private void fillBy1ToolStripButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.studiesTableAdapter.FillBy1(this.tSODBDataSet.Studies);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
-        }
-
-        private void fillToolStripButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.studiesTableAdapter.Fill(this.tSODBDataSet.Studies);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
-        }
-
-        private void fillBy2ToolStripButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.studiesTableAdapter.FillBy2(this.tSODBDataSet.Studies);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
         }
     }
 }

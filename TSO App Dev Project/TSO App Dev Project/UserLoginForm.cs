@@ -62,18 +62,17 @@ namespace TSO_App_Dev_Project
                     }
                     else 
                     {
-                        MessageBox.Show($"InCorrect Password! {usernameInput} = {usernameInputFromTextbox} : {passwordInput} = {passwordInputFromTextbox}");
+                        MessageBox.Show($"Incorrect Password for {usernameInputFromTextbox}!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else
                 {
-                    MessageBox.Show($"InCorrect Username! {usernameInputFromTextbox}");
-
+                    MessageBox.Show($"Invalid Username, does not exist in DB. Inputted Username : {usernameInputFromTextbox}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -83,15 +82,15 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void languageComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             var changeLanguage = new ChangeLanguage();
-            changeLanguage.updateConfig("language", comboBox1.Text);
+            changeLanguage.updateConfig("language", languageComboBox.Text);
             Application.Restart();
         }
     }

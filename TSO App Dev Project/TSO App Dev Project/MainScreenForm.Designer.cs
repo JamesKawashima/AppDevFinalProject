@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label studyIdLabel;
+            System.Windows.Forms.Label currentStudiesLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreenForm));
+            System.Windows.Forms.Label allUsersLabel;
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.homeFormLabel = new System.Windows.Forms.Label();
             this.studiesFormLabel = new System.Windows.Forms.Label();
@@ -38,7 +39,7 @@
             this.logsFormLabel = new System.Windows.Forms.Label();
             this.accountFormLabel = new System.Windows.Forms.Label();
             this.settingsFormLabel = new System.Windows.Forms.Label();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.monthCalendar = new System.Windows.Forms.MonthCalendar();
             this.tSODBDataSet = new TSO_App_Dev_Project.TSODBDataSet();
             this.studiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.studiesTableAdapter = new TSO_App_Dev_Project.TSODBDataSetTableAdapters.StudiesTableAdapter();
@@ -46,23 +47,32 @@
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tsodbDataSet1 = new TSO_App_Dev_Project.TSODBDataSet();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            studyIdLabel = new System.Windows.Forms.Label();
+            this.currentStudiesListBox = new System.Windows.Forms.ListBox();
+            this.allUsersListBox = new System.Windows.Forms.ListBox();
+            currentStudiesLabel = new System.Windows.Forms.Label();
+            allUsersLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studiesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsodbDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
-            // studyIdLabel
+            // currentStudiesLabel
             // 
-            resources.ApplyResources(studyIdLabel, "studyIdLabel");
-            studyIdLabel.Name = "studyIdLabel";
+            resources.ApplyResources(currentStudiesLabel, "currentStudiesLabel");
+            currentStudiesLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(50)))), ((int)(((byte)(65)))));
+            currentStudiesLabel.Name = "currentStudiesLabel";
+            // 
+            // allUsersLabel
+            // 
+            resources.ApplyResources(allUsersLabel, "allUsersLabel");
+            allUsersLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(50)))), ((int)(((byte)(65)))));
+            allUsersLabel.Name = "allUsersLabel";
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -108,11 +118,10 @@
             this.settingsFormLabel.Name = "settingsFormLabel";
             this.settingsFormLabel.Click += new System.EventHandler(this.settingsFormLabel_Click);
             // 
-            // monthCalendar1
+            // monthCalendar
             // 
-            resources.ApplyResources(this.monthCalendar1, "monthCalendar1");
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
+            resources.ApplyResources(this.monthCalendar, "monthCalendar");
+            this.monthCalendar.Name = "monthCalendar";
             // 
             // tSODBDataSet
             // 
@@ -154,21 +163,29 @@
             this.tsodbDataSet1.DataSetName = "TSODBDataSet";
             this.tsodbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // listBox1
+            // currentStudiesListBox
             // 
-            resources.ApplyResources(this.listBox1, "listBox1");
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Name = "listBox1";
+            resources.ApplyResources(this.currentStudiesListBox, "currentStudiesListBox");
+            this.currentStudiesListBox.FormattingEnabled = true;
+            this.currentStudiesListBox.Name = "currentStudiesListBox";
+            // 
+            // allUsersListBox
+            // 
+            resources.ApplyResources(this.allUsersListBox, "allUsersListBox");
+            this.allUsersListBox.FormattingEnabled = true;
+            this.allUsersListBox.Name = "allUsersListBox";
             // 
             // MainScreenForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.allUsersListBox);
+            this.Controls.Add(allUsersLabel);
+            this.Controls.Add(this.currentStudiesListBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(studyIdLabel);
+            this.Controls.Add(currentStudiesLabel);
             this.Controls.Add(this.welcomeLabel);
-            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(this.monthCalendar);
             this.Controls.Add(this.settingsFormLabel);
             this.Controls.Add(this.accountFormLabel);
             this.Controls.Add(this.logsFormLabel);
@@ -196,7 +213,7 @@
         private System.Windows.Forms.Label logsFormLabel;
         private System.Windows.Forms.Label accountFormLabel;
         private System.Windows.Forms.Label settingsFormLabel;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.MonthCalendar monthCalendar;
         private TSODBDataSet tSODBDataSet;
         private System.Windows.Forms.BindingSource studiesBindingSource;
         private TSODBDataSetTableAdapters.StudiesTableAdapter studiesTableAdapter;
@@ -204,6 +221,7 @@
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Label label2;
         private TSODBDataSet tsodbDataSet1;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox currentStudiesListBox;
+        private System.Windows.Forms.ListBox allUsersListBox;
     }
 }

@@ -88,7 +88,7 @@ namespace TSO_App_Dev_Project
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -98,7 +98,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -137,11 +137,11 @@ namespace TSO_App_Dev_Project
 
                 SqlDataReader reader1 = command1.ExecuteReader();
 
-                MessageBox.Show("Save Successful! :D");
+                MessageBox.Show("Save Successful!", "Saving Account Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -151,7 +151,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             saveButton.Enabled = false;

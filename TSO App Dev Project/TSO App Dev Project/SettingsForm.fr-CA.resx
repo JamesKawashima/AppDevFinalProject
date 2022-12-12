@@ -117,19 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Changer Compte</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Cree nouveau compte</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Sur nous</value>
-  </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>Souris qui danse</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="logoutButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="logoutButton.Text" xml:space="preserve">
+    <value>Se Déconnecter</value>
+  </data>
+  <data name="createUserButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="createUserButton.Text" xml:space="preserve">
+    <value>Créer un Utilisateur</value>
+  </data>
+  <data name="aboutUsButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="aboutUsButton.Text" xml:space="preserve">
+    <value>Sur Nous</value>
+  </data>
+  <data name="mouseDanceButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="mouseDanceButton.Text" xml:space="preserve">
+    <value>Danse de Souris</value>
+  </data>
+  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 272</value>
+  </data>
+  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 34</value>
+  </data>
+  <data name="languageLabel.Text" xml:space="preserve">
+    <value>Langue :</value>
+  </data>
+  <data name="languageComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 272</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAvr4AAAEAIAAIRgIAFgAAACgAAAC+AAAAfAEAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2619,6 +2643,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>TSO - Parametres</value>
+    <value>TSO - Paramètres</value>
   </data>
 </root>

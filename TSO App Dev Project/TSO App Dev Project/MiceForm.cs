@@ -19,6 +19,7 @@ namespace TSO_App_Dev_Project
         public MiceForm(User liu)
         {
             InitializeComponent();
+            this.liu = liu;
         }
 
         private void homeFormLabel_Click(object sender, EventArgs e)
@@ -95,13 +96,13 @@ namespace TSO_App_Dev_Project
 
                 SqlDataReader reader1 = command1.ExecuteReader();
 
-                MessageBox.Show("insert Successful! :D");
+                MessageBox.Show("Mouse Creation Successful!", "Creating New Mouse", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.miceTableAdapter.Fill(this.tSODBDataSet.Mice);
                 this.miceDataGridView.Sort(this.miceDataGridView.Columns[0], ListSortDirection.Ascending);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -111,7 +112,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -135,13 +136,13 @@ namespace TSO_App_Dev_Project
 
                 SqlDataReader reader1 = command1.ExecuteReader();
 
-                MessageBox.Show("insert Successful! :D");
+                MessageBox.Show("Group Creation Successful!", "Creating New Group", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.miceTableAdapter.Fill(this.tSODBDataSet.Mice);
                 this.miceDataGridView.Sort(this.miceDataGridView.Columns[0], ListSortDirection.Ascending);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -151,7 +152,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -198,13 +199,13 @@ namespace TSO_App_Dev_Project
 
                 SqlDataReader reader1 = command1.ExecuteReader();
 
-                MessageBox.Show("insert Successful! :D");
+                MessageBox.Show("Mouse Edit Successful!", "Editing Mouse Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.miceTableAdapter.Fill(this.tSODBDataSet.Mice);
                 this.miceDataGridView.Sort(this.miceDataGridView.Columns[0], ListSortDirection.Ascending);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -214,7 +215,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

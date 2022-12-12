@@ -119,58 +119,160 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>868, 20</value>
+    <value>745, 17</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 40</value>
+    <value>165, 36</value>
   </data>
   <data name="settingsFormLabel.Text" xml:space="preserve">
-    <value>Parametres</value>
+    <value>Paramètres</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>719, 20</value>
+    <value>609, 17</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 40</value>
+    <value>117, 36</value>
   </data>
   <data name="accountFormLabel.Text" xml:space="preserve">
     <value>Compte</value>
   </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>548, 20</value>
+    <value>451, 17</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 40</value>
+    <value>139, 36</value>
   </data>
   <data name="logsFormLabel.Text" xml:space="preserve">
     <value>Journaux</value>
   </data>
   <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>423, 20</value>
+    <value>331, 17</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 40</value>
+    <value>101, 36</value>
   </data>
   <data name="miceFormLabel.Text" xml:space="preserve">
     <value>Souris</value>
   </data>
+  <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 17</value>
+  </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 40</value>
+    <value>108, 36</value>
   </data>
   <data name="studiesFormLabel.Text" xml:space="preserve">
-    <value>etudes</value>
+    <value>Études</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 20</value>
+    <value>72, 17</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 40</value>
+    <value>113, 36</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
     <value>Acceuil</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>-156, -85</value>
+  </data>
+  <data name="createLogCommentsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="createLogCommentsLabel.Text" xml:space="preserve">
+    <value>Remarques:</value>
+  </data>
+  <data name="createLogButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 114</value>
+  </data>
+  <data name="createLogButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 45</value>
+  </data>
+  <data name="createLogButton.Text" xml:space="preserve">
+    <value>Créer un journal</value>
+  </data>
+  <data name="createLogEuthanizedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 24</value>
+  </data>
+  <data name="createLogEuthanizedCheckBox.Text" xml:space="preserve">
+    <value>Souris Euthanasiée?</value>
+  </data>
+  <data name="createLogWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 111</value>
+  </data>
+  <data name="createLogWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 114</value>
+  </data>
+  <data name="createLogWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 20</value>
+  </data>
+  <data name="createLogWidthLabel.Text" xml:space="preserve">
+    <value>Largeur de la tumeur:</value>
+  </data>
+  <data name="createLogLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 83</value>
+  </data>
+  <data name="createLogLengthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 86</value>
+  </data>
+  <data name="createLogLengthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="createLogLengthLabel.Text" xml:space="preserve">
+    <value>Longueur de la tumeur:</value>
+  </data>
+  <data name="createLogMouseIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 27</value>
+  </data>
+  <data name="createLogHeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 55</value>
+  </data>
+  <data name="createLogMouseIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="createLogMouseIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <data name="createLogMouseIDLabel.Text" xml:space="preserve">
+    <value>Identifiant de la souris:</value>
+  </data>
+  <data name="createLogHeightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="createLogHeightLabel.Text" xml:space="preserve">
+    <value>Hauteur de la tumeur:</value>
+  </data>
+  <data name="createLogGroupBox.Text" xml:space="preserve">
+    <value>Créer un journal</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>ID de journal</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Date du journal</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Heure du journal</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Identifiant de la souris</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Hauteur de la tumeur (cm)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Longueur de la tumeur (cm)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Largeur de la tumeur (cm)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>Volume tumoral (cm^3)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>Souris Euthanasiée</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>Remarques</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2659,5 +2761,8 @@
         ///////8///////////////////////////////8///////////////////////////////8////////
         ///////////////////////8///////////////////////////////8
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TSO - Journaux</value>
   </data>
 </root>

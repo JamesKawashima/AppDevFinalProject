@@ -19,6 +19,7 @@ namespace TSO_App_Dev_Project
         public LogsForm(User liu)
         {
             InitializeComponent();
+            this.liu = liu;
         }
 
         private void homeFormLabel_Click(object sender, EventArgs e)
@@ -107,13 +108,13 @@ namespace TSO_App_Dev_Project
 
                 SqlDataReader reader1 = command1.ExecuteReader();
 
-                MessageBox.Show("insert Successful! :D");
+                MessageBox.Show("Log Creation Successful!", "Creating New Log", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.tumorLogsTableAdapter.Fill(this.tSODBDataSet.TumorLogs);
                 this.tumorLogsDataGridView.Sort(this.tumorLogsDataGridView.Columns[0], ListSortDirection.Descending);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -123,7 +124,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

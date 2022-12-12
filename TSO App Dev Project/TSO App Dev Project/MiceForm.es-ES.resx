@@ -119,16 +119,16 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 17</value>
+    <value>714, 17</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 36</value>
+    <value>232, 36</value>
   </data>
   <data name="settingsFormLabel.Text" xml:space="preserve">
-    <value>ajustes</value>
+    <value>Configuraciones</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 17</value>
+    <value>593, 17</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 36</value>
@@ -137,61 +137,104 @@
     <value>Cuenta</value>
   </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 17</value>
+    <value>440, 17</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 36</value>
+    <value>142, 36</value>
   </data>
   <data name="logsFormLabel.Text" xml:space="preserve">
-    <value>diario</value>
+    <value>Registros</value>
   </data>
   <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>363, 17</value>
+    <value>286, 17</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 36</value>
+    <value>143, 36</value>
   </data>
   <data name="miceFormLabel.Text" xml:space="preserve">
-    <value>Ratones</value>
+    <value>Rantones</value>
   </data>
   <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 17</value>
+    <value>144, 17</value>
   </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 36</value>
+    <value>131, 36</value>
   </data>
   <data name="studiesFormLabel.Text" xml:space="preserve">
-    <value>registros</value>
+    <value>Estudios</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 17</value>
+    <value>37, 17</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 36</value>
+    <value>96, 36</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
-    <value>hogar</value>
+    <value>Hogar</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-157, -71</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1267, 173</value>
+    <value>-145, -71</value>
   </data>
   <data name="miceDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 119</value>
+    <value>16, 77</value>
   </data>
   <data name="miceDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>951, 429</value>
+    <value>951, 315</value>
   </data>
-  <data name="createMouseWeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+  <data name="groupIDdataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Identificación del grupo</value>
   </data>
-  <data name="createMouseWidthTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupIDdataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>95</value>
   </data>
-  <data name="createMouseLengthTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+  <data name="mouseIDdataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Identificación del ratón</value>
+  </data>
+  <data name="mouseIDdataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="heightDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Altura (cm)</value>
+  </data>
+  <data name="lengthDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Longitud (cm)</value>
+  </data>
+  <data name="widthDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Ancho (cm)</value>
+  </data>
+  <data name="weightDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Peso (g)</value>
+  </data>
+  <data name="dose1VolDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Dosis 1 (mL)</value>
+  </data>
+  <data name="dose1CompletedDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>Terminado</value>
+  </data>
+  <data name="dose2VolDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Dosis 2 (mL)</value>
+  </data>
+  <data name="dose2CompletedDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>Terminado</value>
+  </data>
+  <data name="commentsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="addMouseButton.Text" xml:space="preserve">
+    <value>Añadir ratón</value>
+  </data>
+  <data name="addMouseGroupBox.Text" xml:space="preserve">
+    <value>Crear ratón</value>
+  </data>
+  <data name="createMouseWeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 85</value>
+  </data>
+  <data name="createMouseWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 57</value>
+  </data>
+  <data name="createMouseLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 29</value>
   </data>
   <data name="createMouseHeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 22</value>
@@ -202,98 +245,263 @@
   <data name="createMouseDose1TextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 22</value>
   </data>
+  <data name="createMouseGroupIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 28</value>
+  </data>
   <data name="createMouseGroupIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>45, 22</value>
+  </data>
+  <data name="weightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 88</value>
   </data>
   <data name="weightLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 16</value>
+    <value>40, 20</value>
+  </data>
+  <data name="weightLabel.Text" xml:space="preserve">
+    <value>Peso:</value>
+  </data>
+  <data name="widthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 60</value>
   </data>
   <data name="widthLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 16</value>
+    <value>47, 20</value>
+  </data>
+  <data name="widthLabel.Text" xml:space="preserve">
+    <value>Ancho:</value>
   </data>
   <data name="lengthLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 16</value>
+    <value>60, 20</value>
+  </data>
+  <data name="lengthLabel.Text" xml:space="preserve">
+    <value>Longitud:</value>
+  </data>
+  <data name="heightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 115</value>
   </data>
   <data name="heightLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 16</value>
+    <value>43, 20</value>
+  </data>
+  <data name="heightLabel.Text" xml:space="preserve">
+    <value>Altura:</value>
   </data>
   <data name="dose2Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 16</value>
+    <value>73, 20</value>
+  </data>
+  <data name="dose2Label.Text" xml:space="preserve">
+    <value>Dosis 2 Vol:</value>
   </data>
   <data name="dose1Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 16</value>
+    <value>73, 20</value>
+  </data>
+  <data name="dose1Label.Text" xml:space="preserve">
+    <value>Dosis 1 Vol:</value>
+  </data>
+  <data name="groupIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 31</value>
   </data>
   <data name="groupIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 16</value>
+    <value>141, 20</value>
+  </data>
+  <data name="groupIdLabel.Text" xml:space="preserve">
+    <value>Identificación del grupo:</value>
+  </data>
+  <data name="editMouseGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 415</value>
+  </data>
+  <data name="editMouseGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 181</value>
+  </data>
+  <data name="editMouseGroupBox.Text" xml:space="preserve">
+    <value>Editar ratón</value>
+  </data>
+  <data name="editMouseDose2CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 154</value>
   </data>
   <data name="editMouseDose2CheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 20</value>
+    <value>101, 24</value>
+  </data>
+  <data name="editMouseDose2CheckBox.Text" xml:space="preserve">
+    <value>Dosis 2 Listo</value>
+  </data>
+  <data name="editMouseDose1CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 132</value>
   </data>
   <data name="editMouseDose1CheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 20</value>
+    <value>101, 24</value>
+  </data>
+  <data name="editMouseDose1CheckBox.Text" xml:space="preserve">
+    <value>Dosis 1 Listo</value>
+  </data>
+  <data name="editMouseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 132</value>
+  </data>
+  <data name="editMouseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 39</value>
+  </data>
+  <data name="editMouseButton.Text" xml:space="preserve">
+    <value>Editar ratón</value>
+  </data>
+  <data name="editMouseWeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 97</value>
   </data>
   <data name="editMouseWeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>82, 22</value>
+  </data>
+  <data name="editMouseCommentsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 70</value>
+  </data>
+  <data name="editMouseCommentsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 49</value>
+  </data>
+  <data name="editMouseWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 70</value>
   </data>
   <data name="editMouseWidthTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>82, 22</value>
+  </data>
+  <data name="editMouseMouseIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 19</value>
   </data>
   <data name="editMouseMouseIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 22</value>
   </data>
+  <data name="editMouseLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 43</value>
+  </data>
   <data name="editMouseLengthTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>82, 22</value>
+  </data>
+  <data name="editMouseHeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 16</value>
   </data>
   <data name="editMouseHeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>82, 22</value>
+  </data>
+  <data name="mouseIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 22</value>
   </data>
   <data name="mouseIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
+    <value>137, 20</value>
+  </data>
+  <data name="mouseIdLabel.Text" xml:space="preserve">
+    <value>Identificación del ratón:</value>
+  </data>
+  <data name="editMouseDose2TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 151</value>
   </data>
   <data name="editMouseDose2TextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>82, 22</value>
+  </data>
+  <data name="editMouseDose1TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 124</value>
   </data>
   <data name="editMouseDose1TextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>82, 22</value>
+  </data>
+  <data name="commentsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 71</value>
   </data>
   <data name="commentsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 16</value>
+    <value>44, 20</value>
+  </data>
+  <data name="commentsLabel.Text" xml:space="preserve">
+    <value>Notas:</value>
+  </data>
+  <data name="editMouseGroupIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 45</value>
   </data>
   <data name="editMouseGroupIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 22</value>
   </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 48</value>
+  </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 16</value>
+    <value>141, 20</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Identificación del grupo:</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 100</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 16</value>
+    <value>40, 20</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Peso:</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 127</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 16</value>
+    <value>73, 20</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Dosis 1 Vol:</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 73</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 16</value>
+    <value>47, 20</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Ancho:</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 154</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 16</value>
+    <value>73, 20</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Dosis 2 Vol:</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 18</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 16</value>
+    <value>43, 20</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Altura:</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 46</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 16</value>
+    <value>60, 20</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Longitud:</value>
+  </data>
+  <data name="addGroupButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 65</value>
+  </data>
+  <data name="addGroupButton.Text" xml:space="preserve">
+    <value>Añadir grupo</value>
+  </data>
+  <data name="addGroupGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 116</value>
+  </data>
+  <data name="addGroupGroupBox.Text" xml:space="preserve">
+    <value>Añadir grupo</value>
+  </data>
+  <data name="addGroupIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 41</value>
   </data>
   <data name="addGroupIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 22</value>
   </data>
+  <data name="addGroupIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
+  </data>
   <data name="addGroupIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 16</value>
+    <value>141, 20</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1145, 603</value>
+  <data name="addGroupIdLabel.Text" xml:space="preserve">
+    <value>Identificación del grupo:</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2784,6 +2992,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>TSO - RAtones</value>
+    <value>TSO - Rantones</value>
   </data>
 </root>

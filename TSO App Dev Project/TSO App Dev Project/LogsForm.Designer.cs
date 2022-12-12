@@ -38,6 +38,8 @@
             this.homeFormLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.createLogGroupBox = new System.Windows.Forms.GroupBox();
+            this.createLogCommentsTextBox = new System.Windows.Forms.TextBox();
+            this.createLogCommentsLabel = new System.Windows.Forms.Label();
             this.createLogButton = new System.Windows.Forms.Button();
             this.createLogEuthanizedCheckBox = new System.Windows.Forms.CheckBox();
             this.createLogWidthTextBox = new System.Windows.Forms.TextBox();
@@ -63,13 +65,13 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.createLogCommentsTextBox = new System.Windows.Forms.TextBox();
-            this.createLogCommentsLabel = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.createLogGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tumorLogsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tumorLogsDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // settingsFormLabel
@@ -139,11 +141,22 @@
             this.createLogGroupBox.Name = "createLogGroupBox";
             this.createLogGroupBox.TabStop = false;
             // 
+            // createLogCommentsTextBox
+            // 
+            resources.ApplyResources(this.createLogCommentsTextBox, "createLogCommentsTextBox");
+            this.createLogCommentsTextBox.Name = "createLogCommentsTextBox";
+            // 
+            // createLogCommentsLabel
+            // 
+            resources.ApplyResources(this.createLogCommentsLabel, "createLogCommentsLabel");
+            this.createLogCommentsLabel.Name = "createLogCommentsLabel";
+            // 
             // createLogButton
             // 
+            this.createLogButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
             resources.ApplyResources(this.createLogButton, "createLogButton");
             this.createLogButton.Name = "createLogButton";
-            this.createLogButton.UseVisualStyleBackColor = true;
+            this.createLogButton.UseVisualStyleBackColor = false;
             this.createLogButton.Click += new System.EventHandler(this.createLogButton_Click);
             // 
             // createLogEuthanizedCheckBox
@@ -297,15 +310,12 @@
             resources.ApplyResources(this.dataGridViewTextBoxColumn11, "dataGridViewTextBoxColumn11");
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             // 
-            // createLogCommentsTextBox
+            // pictureBox2
             // 
-            resources.ApplyResources(this.createLogCommentsTextBox, "createLogCommentsTextBox");
-            this.createLogCommentsTextBox.Name = "createLogCommentsTextBox";
-            // 
-            // createLogCommentsLabel
-            // 
-            resources.ApplyResources(this.createLogCommentsLabel, "createLogCommentsLabel");
-            this.createLogCommentsLabel.Name = "createLogCommentsLabel";
+            this.pictureBox2.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar1;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // LogsForm
             // 
@@ -320,6 +330,7 @@
             this.Controls.Add(this.studiesFormLabel);
             this.Controls.Add(this.homeFormLabel);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "LogsForm";
             this.Load += new System.EventHandler(this.LogsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -328,6 +339,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tumorLogsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tumorLogsDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -358,6 +370,8 @@
         private TSODBDataSetTableAdapters.TumorLogsTableAdapter tumorLogsTableAdapter;
         private TSODBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.DataGridView tumorLogsDataGridView;
+        private System.Windows.Forms.TextBox createLogCommentsTextBox;
+        private System.Windows.Forms.Label createLogCommentsLabel;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
@@ -368,7 +382,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.TextBox createLogCommentsTextBox;
-        private System.Windows.Forms.Label createLogCommentsLabel;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -118,38 +118,65 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 19</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 20</value>
+    <value>181, 23</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Nom d'utilisateur:</value>
   </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 63</value>
+  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 20</value>
+    <value>151, 23</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Mot de Passe: </value>
   </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 108</value>
+  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 20</value>
+    <value>92, 23</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Prenom</value>
+    <value>Prénom:</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 150</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>160, 23</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Nom</value>
+    <value>Nom de famille:</value>
   </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 21</value>
+  <data name="usernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 16</value>
   </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 75</value>
+  <data name="usernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>315, 272</value>
+  <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 60</value>
+  </data>
+  <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
+  </data>
+  <data name="firstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 104</value>
+  </data>
+  <data name="firstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
+  </data>
+  <data name="lastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 148</value>
+  </data>
+  <data name="lastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2640,6 +2667,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Cree Utilisateur</value>
+    <value>TSO - Créer un Utilisateur</value>
   </data>
 </root>

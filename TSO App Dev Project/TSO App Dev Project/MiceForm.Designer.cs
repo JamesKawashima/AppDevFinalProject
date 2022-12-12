@@ -95,6 +95,7 @@
             this.addGroupGroupBox = new System.Windows.Forms.GroupBox();
             this.addGroupIdTextBox = new System.Windows.Forms.TextBox();
             this.addGroupIdLabel = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miceBindingSource)).BeginInit();
@@ -102,6 +103,7 @@
             this.addMouseGroupBox.SuspendLayout();
             this.editMouseGroupBox.SuspendLayout();
             this.addGroupGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // settingsFormLabel
@@ -148,8 +150,8 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -179,7 +181,6 @@
             // 
             // miceDataGridView
             // 
-            resources.ApplyResources(this.miceDataGridView, "miceDataGridView");
             this.miceDataGridView.AllowUserToResizeColumns = false;
             this.miceDataGridView.AllowUserToResizeRows = false;
             this.miceDataGridView.AutoGenerateColumns = false;
@@ -197,6 +198,7 @@
             this.dose2CompletedDataGridViewCheckBoxColumn,
             this.commentsDataGridViewTextBoxColumn});
             this.miceDataGridView.DataSource = this.miceBindingSource;
+            resources.ApplyResources(this.miceDataGridView, "miceDataGridView");
             this.miceDataGridView.Name = "miceDataGridView";
             this.miceDataGridView.RowTemplate.Height = 24;
             // 
@@ -270,14 +272,14 @@
             // 
             // addMouseButton
             // 
+            this.addMouseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
             resources.ApplyResources(this.addMouseButton, "addMouseButton");
             this.addMouseButton.Name = "addMouseButton";
-            this.addMouseButton.UseVisualStyleBackColor = true;
+            this.addMouseButton.UseVisualStyleBackColor = false;
             this.addMouseButton.Click += new System.EventHandler(this.addMouseButton_Click);
             // 
             // addMouseGroupBox
             // 
-            resources.ApplyResources(this.addMouseGroupBox, "addMouseGroupBox");
             this.addMouseGroupBox.Controls.Add(this.createMouseWeightTextBox);
             this.addMouseGroupBox.Controls.Add(this.createMouseWidthTextBox);
             this.addMouseGroupBox.Controls.Add(this.createMouseLengthTextBox);
@@ -293,6 +295,7 @@
             this.addMouseGroupBox.Controls.Add(this.dose1Label);
             this.addMouseGroupBox.Controls.Add(this.groupIdLabel);
             this.addMouseGroupBox.Controls.Add(this.addMouseButton);
+            resources.ApplyResources(this.addMouseGroupBox, "addMouseGroupBox");
             this.addMouseGroupBox.Name = "addMouseGroupBox";
             this.addMouseGroupBox.TabStop = false;
             // 
@@ -368,7 +371,6 @@
             // 
             // editMouseGroupBox
             // 
-            resources.ApplyResources(this.editMouseGroupBox, "editMouseGroupBox");
             this.editMouseGroupBox.Controls.Add(this.editMouseDose2CheckBox);
             this.editMouseGroupBox.Controls.Add(this.editMouseDose1CheckBox);
             this.editMouseGroupBox.Controls.Add(this.editMouseButton);
@@ -390,6 +392,7 @@
             this.editMouseGroupBox.Controls.Add(this.label5);
             this.editMouseGroupBox.Controls.Add(this.label4);
             this.editMouseGroupBox.Controls.Add(this.label3);
+            resources.ApplyResources(this.editMouseGroupBox, "editMouseGroupBox");
             this.editMouseGroupBox.Name = "editMouseGroupBox";
             this.editMouseGroupBox.TabStop = false;
             // 
@@ -407,9 +410,10 @@
             // 
             // editMouseButton
             // 
+            this.editMouseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
             resources.ApplyResources(this.editMouseButton, "editMouseButton");
             this.editMouseButton.Name = "editMouseButton";
-            this.editMouseButton.UseVisualStyleBackColor = true;
+            this.editMouseButton.UseVisualStyleBackColor = false;
             this.editMouseButton.Click += new System.EventHandler(this.editMouseButton_Click);
             // 
             // editMouseWeightTextBox
@@ -504,17 +508,18 @@
             // 
             // addGroupButton
             // 
+            this.addGroupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
             resources.ApplyResources(this.addGroupButton, "addGroupButton");
             this.addGroupButton.Name = "addGroupButton";
-            this.addGroupButton.UseVisualStyleBackColor = true;
+            this.addGroupButton.UseVisualStyleBackColor = false;
             this.addGroupButton.Click += new System.EventHandler(this.addGroupButton_Click);
             // 
             // addGroupGroupBox
             // 
-            resources.ApplyResources(this.addGroupGroupBox, "addGroupGroupBox");
             this.addGroupGroupBox.Controls.Add(this.addGroupIdTextBox);
             this.addGroupGroupBox.Controls.Add(this.addGroupIdLabel);
             this.addGroupGroupBox.Controls.Add(this.addGroupButton);
+            resources.ApplyResources(this.addGroupGroupBox, "addGroupGroupBox");
             this.addGroupGroupBox.Name = "addGroupGroupBox";
             this.addGroupGroupBox.TabStop = false;
             // 
@@ -527,6 +532,13 @@
             // 
             resources.ApplyResources(this.addGroupIdLabel, "addGroupIdLabel");
             this.addGroupIdLabel.Name = "addGroupIdLabel";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar1;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // MiceForm
             // 
@@ -543,6 +555,7 @@
             this.Controls.Add(this.studiesFormLabel);
             this.Controls.Add(this.homeFormLabel);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "MiceForm";
             this.Load += new System.EventHandler(this.MiceForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -555,6 +568,7 @@
             this.editMouseGroupBox.PerformLayout();
             this.addGroupGroupBox.ResumeLayout(false);
             this.addGroupGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -575,17 +589,6 @@
         private TSODBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.DataGridView miceDataGridView;
         private System.Windows.Forms.Button addMouseButton;
-        private System.Windows.Forms.DataGridViewTextBoxColumn groupIDdataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mouseIDdataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn heightDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lengthDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn widthDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn weightDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dose1VolDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dose1CompletedDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dose2VolDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dose2CompletedDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn commentsDataGridViewTextBoxColumn;
         private System.Windows.Forms.GroupBox addMouseGroupBox;
         private System.Windows.Forms.TextBox createMouseWeightTextBox;
         private System.Windows.Forms.TextBox createMouseWidthTextBox;
@@ -627,5 +630,17 @@
         private System.Windows.Forms.CheckBox editMouseDose2CheckBox;
         private System.Windows.Forms.CheckBox editMouseDose1CheckBox;
         private System.Windows.Forms.Button editMouseButton;
+        private System.Windows.Forms.DataGridViewTextBoxColumn groupIDdataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mouseIDdataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn heightDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn lengthDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn widthDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn weightDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dose1VolDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dose1CompletedDataGridViewCheckBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dose2VolDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dose2CompletedDataGridViewCheckBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn commentsDataGridViewTextBoxColumn;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -94,13 +94,13 @@ namespace TSO_App_Dev_Project
 
                 SqlDataReader reader1 = command1.ExecuteReader();
 
-                MessageBox.Show("insert Successful! :D");
+                MessageBox.Show("Study Creation Successful!", "Creating New Study", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.studiesTableAdapter.Fill(this.tSODBDataSet.Studies);
                 this.studiesDataGridView.Sort(this.studiesDataGridView.Columns[0], ListSortDirection.Ascending);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -110,7 +110,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -147,13 +147,13 @@ namespace TSO_App_Dev_Project
 
                 SqlDataReader reader1 = command1.ExecuteReader();
 
-                MessageBox.Show("insert Successful! :D");
+                MessageBox.Show("Study Edit Successful!", "Editing Study Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.studiesTableAdapter.Fill(this.tSODBDataSet.Studies);
                 this.studiesDataGridView.Sort(this.studiesDataGridView.Columns[0], ListSortDirection.Ascending);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -163,7 +163,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -187,13 +187,13 @@ namespace TSO_App_Dev_Project
                 SqlCommand command1 = new SqlCommand(updateDBQuery, conn);
                 SqlDataReader reader1 = command1.ExecuteReader();
 
-                MessageBox.Show("insert Successful! :D");
+                MessageBox.Show("Self-Assignment Successful!", $"Assigning {liu.Id} : {liu.FirstName} {liu.LastName} to Study", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.studiesTableAdapter.Fill(this.tSODBDataSet.Studies);
                 this.studiesDataGridView.Sort(this.studiesDataGridView.Columns[0], ListSortDirection.Ascending);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -203,7 +203,7 @@ namespace TSO_App_Dev_Project
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

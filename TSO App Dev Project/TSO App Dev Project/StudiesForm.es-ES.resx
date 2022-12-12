@@ -161,10 +161,10 @@
     <value>322, 20</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 29</value>
+    <value>115, 29</value>
   </data>
   <data name="miceFormLabel.Text" xml:space="preserve">
-    <value>Registros</value>
+    <value>Rantones</value>
   </data>
   <data name="studiesFormLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt</value>
@@ -213,9 +213,6 @@
   </data>
   <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
     <value>Notas</value>
-  </data>
-  <data name="editStudyGroupBox.Text" xml:space="preserve">
-    <value>Editar Estudio</value>
   </data>
   <data name="editStudyStatusLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Narrow, 9pt</value>
@@ -331,8 +328,8 @@
   <data name="editStudyGroupIdLabel.Text" xml:space="preserve">
     <value>Identificación del grupo:</value>
   </data>
-  <data name="createStudyGroupBox.Text" xml:space="preserve">
-    <value>Crear Estudio</value>
+  <data name="editStudyGroupBox.Text" xml:space="preserve">
+    <value>Editar Estudio</value>
   </data>
   <data name="createStudyDoseVolumeTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 105</value>
@@ -415,8 +412,8 @@
   <data name="addStudyButton.Text" xml:space="preserve">
     <value>Agregar Estudio</value>
   </data>
-  <data name="assignMyselfToStudyGroupBox.Text" xml:space="preserve">
-    <value>Asignarme a mí mismo para Estudiar</value>
+  <data name="createStudyGroupBox.Text" xml:space="preserve">
+    <value>Crear Estudio</value>
   </data>
   <data name="assignMyselfToStudyStudyIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>196, 55</value>
@@ -435,6 +432,9 @@
   </data>
   <data name="assignMyselfToStudyButton.Text" xml:space="preserve">
     <value>Asignarme</value>
+  </data>
+  <data name="assignMyselfToStudyGroupBox.Text" xml:space="preserve">
+    <value>Asignarme a mí mismo para Estudiar</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -13,3 +13,31 @@ Dose - Dose - Dosis
 Date - Date - Fecha
 Status - Statut - Estado
 Comments - Remarques - Notas
+
+
+Group ID - ID de groupe - Identificación del grupo
+Mouse ID - Identifiant de la souris - Identificación del ratón
+Height - Hauteur - Altura
+Length - Longueur - Longitud
+Width - Largeur - Ancho
+Weight - Lester - Peso
+Dose 1 - Dosage 1 - Dosis 1
+Dose 2 - Dosage 2 - Dosis 2
+Completed - Complété - Terminado
+Comments - Remarques - Notas
+Add Mouse - Ajouter une souris - Añadir ratón
+Create Mouse - Créer une souris - Crear ratón
+Add Group - Ajouter un groupe - Añadir grupo
+Edit Mouse - Modifier la souris - Editar ratón
+Dose 1 Done - Dose 1 Terminé - Dosis 1 Listo
+Dose 2 Done - Dose 2 Terminé - Dosis 2 Listo
+Dose 1 Volume - Dosage 1 volume - Dosis 1 Volumen
+Dose 2 Volume - Dosage 2 volume - Dosis 2 Volumen
+
+
+
+
+
+ -  - 
+ -  - 
+ -  - 

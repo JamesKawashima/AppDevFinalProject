@@ -19,9 +19,9 @@ namespace TSO_App_Dev_Project
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void okButton_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "")
+            if (usernameTextBox.Text != "" && passwordTextBox.Text != "" && firstNameTextBox.Text != "" && lastNameTextBox.Text != "")
             {
                 SqlConnection conn = null;
                 try
@@ -32,10 +32,10 @@ namespace TSO_App_Dev_Project
 
                     conn.Open();
 
-                    String UserUsername = textBox2.Text;
-                    String UserPassword = textBox3.Text;
-                    String FirstName = textBox4.Text;
-                    String LastName = textBox5.Text;
+                    String UserUsername = usernameTextBox.Text;
+                    String UserPassword = passwordTextBox.Text;
+                    String FirstName = firstNameTextBox.Text;
+                    String LastName = lastNameTextBox.Text;
 
                     String updateDBQuery = $"INSERT INTO Users VALUES ('{UserUsername}', '{UserPassword}', '{FirstName}', '{LastName}', null)";
 
@@ -43,11 +43,11 @@ namespace TSO_App_Dev_Project
 
                     SqlDataReader reader1 = command1.ExecuteReader();
 
-                    MessageBox.Show("insert Successful! :D");
+                    MessageBox.Show("User Creation Successful!", "Creating New User", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {
@@ -57,17 +57,11 @@ namespace TSO_App_Dev_Project
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show(ex.Message);
+                        MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 Hide();
-
             }
-        }
-
-        private void CreateUser_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
