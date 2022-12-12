@@ -119,55 +119,256 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>860, 24</value>
+    <value>764, 19</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 40</value>
+    <value>109, 36</value>
   </data>
   <data name="settingsFormLabel.Text" xml:space="preserve">
     <value>ajustes</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>707, 24</value>
+    <value>628, 19</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 40</value>
+    <value>110, 36</value>
   </data>
   <data name="accountFormLabel.Text" xml:space="preserve">
     <value>Cuenta</value>
   </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>592, 24</value>
+    <value>526, 19</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 40</value>
+    <value>89, 36</value>
   </data>
   <data name="logsFormLabel.Text" xml:space="preserve">
     <value>diario</value>
   </data>
+  <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 13</value>
+  </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 40</value>
+    <value>126, 36</value>
   </data>
   <data name="miceFormLabel.Text" xml:space="preserve">
     <value>Ratones</value>
   </data>
   <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 24</value>
+    <value>244, 19</value>
   </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 40</value>
+    <value>130, 36</value>
   </data>
   <data name="studiesFormLabel.Text" xml:space="preserve">
     <value>registros</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 40</value>
+    <value>92, 36</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
     <value>hogar</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-142, -69</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1267, 173</value>
+  </data>
+  <data name="studiesDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 87</value>
+  </data>
+  <data name="studiesDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>941, 309</value>
+  </data>
+  <data name="editStudyStatusComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 150</value>
+  </data>
+  <data name="editStudyStatusComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 24</value>
+  </data>
+  <data name="editStudyStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 153</value>
+  </data>
+  <data name="editStudyStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="editStudyDoseVolTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 123</value>
+  </data>
+  <data name="editStudyDoseVolTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="editStudyCommentsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 101</value>
+  </data>
+  <data name="editStudyCommentsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 68</value>
+  </data>
+  <data name="editStudyDoseVolLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 126</value>
+  </data>
+  <data name="editStudyDoseVolLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="editStudyStudyIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="editStudyStudyIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="editStudyDoseNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 96</value>
+  </data>
+  <data name="editStudyDoseNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="editStudyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 28</value>
+  </data>
+  <data name="editStudyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 39</value>
+  </data>
+  <data name="editStudyStudyIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 19</value>
+  </data>
+  <data name="editStudyStudyIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="editStudyDoseNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 100</value>
+  </data>
+  <data name="editStudyDoseNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="editStudyUserIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 42</value>
+  </data>
+  <data name="editStudyUserIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="editStudyCommentsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 82</value>
+  </data>
+  <data name="editStudyCommentsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="editStudyGroupIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 69</value>
+  </data>
+  <data name="editStudyGroupIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="editStudyUserIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 45</value>
+  </data>
+  <data name="editStudyUserIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="editStudyGroupIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 72</value>
+  </data>
+  <data name="editStudyGroupIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="editStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 405</value>
+  </data>
+  <data name="editStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 181</value>
+  </data>
+  <data name="createStudyDoseVolumeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 105</value>
+  </data>
+  <data name="createStudyDoseVolumeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="doseVolLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 108</value>
+  </data>
+  <data name="doseVolLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="createStudyDoseNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 77</value>
+  </data>
+  <data name="createStudyDoseNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="doseNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 80</value>
+  </data>
+  <data name="doseNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="createStudyUserIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="createStudyUserIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="createStudyGroupIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 49</value>
+  </data>
+  <data name="createStudyGroupIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="leadUserIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 23</value>
+  </data>
+  <data name="leadUserIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="groupIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 52</value>
+  </data>
+  <data name="groupIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="addStudyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 133</value>
+  </data>
+  <data name="addStudyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 39</value>
+  </data>
+  <data name="createStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 402</value>
+  </data>
+  <data name="createStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 181</value>
+  </data>
+  <data name="assignMyselfToStudyStudyIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 52</value>
+  </data>
+  <data name="assignMyselfToStudyStudyIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
+  </data>
+  <data name="assignMyselfToStudyStudyIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 55</value>
+  </data>
+  <data name="assignMyselfToStudyStudyIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="assignMyselfToStudyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 89</value>
+  </data>
+  <data name="assignMyselfToStudyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 39</value>
+  </data>
+  <data name="assignMyselfToStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 413</value>
+  </data>
+  <data name="assignMyselfToStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 173</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>982, 603</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

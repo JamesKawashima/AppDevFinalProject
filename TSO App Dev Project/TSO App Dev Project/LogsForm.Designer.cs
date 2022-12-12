@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogsForm));
             this.settingsFormLabel = new System.Windows.Forms.Label();
             this.accountFormLabel = new System.Windows.Forms.Label();
@@ -36,7 +37,37 @@
             this.studiesFormLabel = new System.Windows.Forms.Label();
             this.homeFormLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.createLogGroupBox = new System.Windows.Forms.GroupBox();
+            this.addMouseButton = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.editMouseMouseIDTextBox = new System.Windows.Forms.TextBox();
+            this.editMouseHeightTextBox = new System.Windows.Forms.TextBox();
+            this.mouseIdLabel = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tSODBDataSet = new TSO_App_Dev_Project.TSODBDataSet();
+            this.tumorLogsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tumorLogsTableAdapter = new TSO_App_Dev_Project.TSODBDataSetTableAdapters.TumorLogsTableAdapter();
+            this.tableAdapterManager = new TSO_App_Dev_Project.TSODBDataSetTableAdapters.TableAdapterManager();
+            this.tumorLogsDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.createLogGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tumorLogsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tumorLogsDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // settingsFormLabel
@@ -83,15 +114,190 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // createLogGroupBox
+            // 
+            this.createLogGroupBox.Controls.Add(this.addMouseButton);
+            this.createLogGroupBox.Controls.Add(this.checkBox1);
+            this.createLogGroupBox.Controls.Add(this.textBox3);
+            this.createLogGroupBox.Controls.Add(this.label3);
+            this.createLogGroupBox.Controls.Add(this.textBox1);
+            this.createLogGroupBox.Controls.Add(this.label1);
+            this.createLogGroupBox.Controls.Add(this.editMouseMouseIDTextBox);
+            this.createLogGroupBox.Controls.Add(this.editMouseHeightTextBox);
+            this.createLogGroupBox.Controls.Add(this.mouseIdLabel);
+            this.createLogGroupBox.Controls.Add(this.label4);
+            resources.ApplyResources(this.createLogGroupBox, "createLogGroupBox");
+            this.createLogGroupBox.Name = "createLogGroupBox";
+            this.createLogGroupBox.TabStop = false;
+            // 
+            // addMouseButton
+            // 
+            resources.ApplyResources(this.addMouseButton, "addMouseButton");
+            this.addMouseButton.Name = "addMouseButton";
+            this.addMouseButton.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            resources.ApplyResources(this.checkBox1, "checkBox1");
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            resources.ApplyResources(this.textBox3, "textBox3");
+            this.textBox3.Name = "textBox3";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // editMouseMouseIDTextBox
+            // 
+            resources.ApplyResources(this.editMouseMouseIDTextBox, "editMouseMouseIDTextBox");
+            this.editMouseMouseIDTextBox.Name = "editMouseMouseIDTextBox";
+            // 
+            // editMouseHeightTextBox
+            // 
+            resources.ApplyResources(this.editMouseHeightTextBox, "editMouseHeightTextBox");
+            this.editMouseHeightTextBox.Name = "editMouseHeightTextBox";
+            // 
+            // mouseIdLabel
+            // 
+            resources.ApplyResources(this.mouseIdLabel, "mouseIdLabel");
+            this.mouseIdLabel.Name = "mouseIdLabel";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // tSODBDataSet
+            // 
+            this.tSODBDataSet.DataSetName = "TSODBDataSet";
+            this.tSODBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tumorLogsBindingSource
+            // 
+            this.tumorLogsBindingSource.DataMember = "TumorLogs";
+            this.tumorLogsBindingSource.DataSource = this.tSODBDataSet;
+            // 
+            // tumorLogsTableAdapter
+            // 
+            this.tumorLogsTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.MiceGroupsTableAdapter = null;
+            this.tableAdapterManager.MiceTableAdapter = null;
+            this.tableAdapterManager.StudiesTableAdapter = null;
+            this.tableAdapterManager.TumorLogsTableAdapter = this.tumorLogsTableAdapter;
+            this.tableAdapterManager.UpdateOrder = TSO_App_Dev_Project.TSODBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UsersTableAdapter = null;
+            // 
+            // tumorLogsDataGridView
+            // 
+            this.tumorLogsDataGridView.AutoGenerateColumns = false;
+            this.tumorLogsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tumorLogsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11});
+            this.tumorLogsDataGridView.DataSource = this.tumorLogsBindingSource;
+            resources.ApplyResources(this.tumorLogsDataGridView, "tumorLogsDataGridView");
+            this.tumorLogsDataGridView.Name = "tumorLogsDataGridView";
+            this.tumorLogsDataGridView.RowTemplate.Height = 24;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "logId";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn1, "dataGridViewTextBoxColumn1");
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "dateOfLog";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "timeOfLog";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn3, "dataGridViewTextBoxColumn3");
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "mouseId";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn4, "dataGridViewTextBoxColumn4");
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "tumorHeight_cm";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn5, "dataGridViewTextBoxColumn5");
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "tumorLength_cm";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn6, "dataGridViewTextBoxColumn6");
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "tumorWidth_cm";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn7, "dataGridViewTextBoxColumn7");
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "tumorVolume_cm3";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn8, "dataGridViewTextBoxColumn8");
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "mouseEuthanized";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn10, "dataGridViewTextBoxColumn10");
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "comments";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn11, "dataGridViewTextBoxColumn11");
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             // 
             // LogsForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.tumorLogsDataGridView);
+            this.Controls.Add(this.createLogGroupBox);
             this.Controls.Add(this.settingsFormLabel);
             this.Controls.Add(this.accountFormLabel);
             this.Controls.Add(this.logsFormLabel);
@@ -100,7 +306,13 @@
             this.Controls.Add(this.homeFormLabel);
             this.Controls.Add(this.pictureBox1);
             this.Name = "LogsForm";
+            this.Load += new System.EventHandler(this.LogsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.createLogGroupBox.ResumeLayout(false);
+            this.createLogGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tumorLogsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tumorLogsDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,5 +327,31 @@
         private System.Windows.Forms.Label studiesFormLabel;
         private System.Windows.Forms.Label homeFormLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.GroupBox createLogGroupBox;
+        private System.Windows.Forms.Button addMouseButton;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox editMouseMouseIDTextBox;
+        private System.Windows.Forms.TextBox editMouseHeightTextBox;
+        private System.Windows.Forms.Label mouseIdLabel;
+        private System.Windows.Forms.Label label4;
+        private TSODBDataSet tSODBDataSet;
+        private System.Windows.Forms.BindingSource tumorLogsBindingSource;
+        private TSODBDataSetTableAdapters.TumorLogsTableAdapter tumorLogsTableAdapter;
+        private TSODBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.DataGridView tumorLogsDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
     }
 }

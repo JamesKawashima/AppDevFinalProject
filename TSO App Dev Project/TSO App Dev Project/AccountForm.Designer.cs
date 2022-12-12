@@ -94,8 +94,8 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.studiesFormLabel_Click);

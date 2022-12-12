@@ -131,6 +131,9 @@
     <value>14, 21</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2661,9 +2664,6 @@
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 26</value>
   </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 185</value>
   </data>
@@ -2684,9 +2684,6 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 21</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 179</value>
@@ -2712,6 +2709,9 @@
   <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 26</value>
   </data>
+  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
@@ -2727,17 +2727,14 @@
   <data name="button1.Text" xml:space="preserve">
     <value>OK</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 75</value>
-  </data>
   <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
     <value>textBox2</value>
   </data>
   <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2756,6 +2753,9 @@
   </data>
   <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>276, 272</value>
@@ -2796,8 +2796,12 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CreateUser</value>
   </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 21</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -2811,8 +2815,8 @@
   <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 75</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 33</value>
@@ -2840,8 +2844,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es-ES</value>
   </metadata>
 </root>

@@ -119,31 +119,71 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="usernameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 172</value>
+    <value>216, 138</value>
   </data>
   <data name="usernameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>310, 40</value>
+    <value>256, 36</value>
   </data>
   <data name="usernameLabel.Text" xml:space="preserve">
     <value>Nom D'utilisateur :</value>
   </data>
+  <data name="usernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 143</value>
+  </data>
+  <data name="usernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 30</value>
+  </data>
+  <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 196</value>
+  </data>
+  <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 30</value>
+  </data>
   <data name="passwordLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 240</value>
+    <value>263, 192</value>
   </data>
   <data name="passwordLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 40</value>
+    <value>212, 36</value>
   </data>
   <data name="passwordLabel.Text" xml:space="preserve">
     <value>Mot de Passe :</value>
   </data>
   <data name="userLoginButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>590, 319</value>
+    <value>524, 255</value>
   </data>
   <data name="userLoginButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 50</value>
+    <value>145, 40</value>
   </data>
   <data name="userLoginButton.Text" xml:space="preserve">
     <value>Connecter</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 30</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 426</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 18</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 24</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 8</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 36</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>732, 441</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -92,3 +92,11 @@ C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-
 C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\es\TSO App Dev Project.resources.dll
 C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.es.resources
 C:\Users\James K\OneDrive\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\es\TSO App Dev Project.resources.dll
+C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\fr-CM\TSO App Dev Project.resources.dll
+C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.CreateUser.resources
+C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.CreateUser.es-ES.resources
+C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.CreateUser.fr-CA.resources
+C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.CreateUser.fr-CM.resources
+C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MouseDance.es-ES.resources
+C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MouseDance.fr-CA.resources
+C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\fr-CM\TSO App Dev Project.resources.dll

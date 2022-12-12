@@ -53,5 +53,20 @@ namespace TSO_App_Dev_Project
             SettingsForm s = new SettingsForm(liu);
             s.Show();
         }
+
+        private void tumorLogsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tumorLogsBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.tSODBDataSet);
+
+        }
+
+        private void LogsForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'tSODBDataSet.TumorLogs' table. You can move, or remove it, as needed.
+            this.tumorLogsTableAdapter.Fill(this.tSODBDataSet.TumorLogs);
+
+        }
     }
 }

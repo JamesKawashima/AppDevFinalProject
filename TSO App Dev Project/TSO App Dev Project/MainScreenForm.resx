@@ -125,10 +125,10 @@
     <value>Microsoft Sans Serif, 8pt, style=Bold</value>
   </data>
   <data name="studyIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 87</value>
+    <value>387, 93</value>
   </data>
   <data name="studyIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 20</value>
+    <value>122, 16</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="studyIdLabel.TabIndex" type="System.Int32, mscorlib">
@@ -150,15 +150,12 @@
     <value>2</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-278, -90</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>-247, -72</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1425, 216</value>
+    <value>1267, 173</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
   </data>
@@ -184,10 +181,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 15</value>
+    <value>47, 11</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 40</value>
+    <value>92, 36</value>
   </data>
   <data name="homeFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -214,10 +211,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 15</value>
+    <value>152, 11</value>
   </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 40</value>
+    <value>115, 36</value>
   </data>
   <data name="studiesFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -244,10 +241,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 15</value>
+    <value>280, 11</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 40</value>
+    <value>78, 36</value>
   </data>
   <data name="miceFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -274,10 +271,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 15</value>
+    <value>371, 11</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 40</value>
+    <value>81, 36</value>
   </data>
   <data name="logsFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -304,10 +301,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>523, 15</value>
+    <value>465, 11</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 40</value>
+    <value>125, 36</value>
   </data>
   <data name="accountFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -334,10 +331,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>680, 15</value>
+    <value>603, 11</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 40</value>
+    <value>123, 36</value>
   </data>
   <data name="settingsFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -358,7 +355,10 @@
     <value>5</value>
   </data>
   <data name="monthCalendar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 117</value>
+    <value>53, 111</value>
+  </data>
+  <data name="monthCalendar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 7, 8, 7</value>
   </data>
   <data name="monthCalendar1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -391,16 +391,16 @@
     <value>Microsoft Sans Serif, 16pt, style=Bold</value>
   </data>
   <data name="welcomeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 74</value>
+    <value>22, 69</value>
   </data>
   <data name="welcomeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 49</value>
+    <value>403, 39</value>
   </data>
   <data name="welcomeLabel.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="welcomeLabel.Text" xml:space="preserve">
-    <value>Welcome to the TSO</value>
+    <value>Welcome to the TSO!</value>
   </data>
   <data name="&gt;&gt;welcomeLabel.Name" xml:space="preserve">
     <value>welcomeLabel</value>
@@ -418,10 +418,10 @@
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>460, 59</value>
+    <value>409, 47</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 20</value>
+    <value>0, 16</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -442,16 +442,16 @@
     <value>1087, 17</value>
   </metadata>
   <data name="listBox1.ItemHeight" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>16</value>
   </data>
   <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>428, 106</value>
+    <value>390, 111</value>
   </data>
   <data name="listBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="listBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 264</value>
+    <value>323, 212</value>
   </data>
   <data name="listBox1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -475,10 +475,10 @@
     <value>75</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>834, 401</value>
+    <value>773, 351</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2967,9 +2967,6 @@
         ///////8///////////////////////////////8///////////////////////////////8////////
         ///////////////////////8///////////////////////////////8
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
