@@ -122,10 +122,10 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="studyIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 162</value>
+    <value>374, 130</value>
   </data>
   <data name="studyIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 20</value>
+    <value>122, 16</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="studyIdLabel.TabIndex" type="System.Int32, mscorlib">
@@ -144,18 +144,15 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;studyIdLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-239, -49</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>-247, -72</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1425, 216</value>
+    <value>1267, 173</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
   </data>
@@ -172,7 +169,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="homeFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -181,10 +178,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 61</value>
+    <value>45, 12</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 40</value>
+    <value>92, 36</value>
   </data>
   <data name="homeFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -202,7 +199,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;homeFormLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="studiesFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -211,10 +208,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>213, 61</value>
+    <value>154, 12</value>
   </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 40</value>
+    <value>115, 36</value>
   </data>
   <data name="studiesFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -232,7 +229,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;studiesFormLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="miceFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -241,10 +238,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>356, 61</value>
+    <value>281, 12</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 40</value>
+    <value>78, 36</value>
   </data>
   <data name="miceFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -262,7 +259,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;miceFormLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="logsFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -271,10 +268,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>460, 61</value>
+    <value>374, 12</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 40</value>
+    <value>81, 36</value>
   </data>
   <data name="logsFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -292,7 +289,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;logsFormLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="accountFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -301,10 +298,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>563, 61</value>
+    <value>465, 12</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 40</value>
+    <value>125, 36</value>
   </data>
   <data name="accountFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -322,7 +319,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;accountFormLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="settingsFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -331,10 +328,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>719, 61</value>
+    <value>604, 12</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 40</value>
+    <value>123, 36</value>
   </data>
   <data name="settingsFormLabel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -352,10 +349,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;settingsFormLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="monthCalendar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 192</value>
+    <value>17, 154</value>
+  </data>
+  <data name="monthCalendar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 7, 8, 7</value>
   </data>
   <data name="monthCalendar1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -370,7 +370,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;monthCalendar1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <metadata name="tSODBDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -388,10 +388,10 @@
     <value>Microsoft Sans Serif, 16pt, style=Bold</value>
   </data>
   <data name="welcomeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 149</value>
+    <value>4, 119</value>
   </data>
   <data name="welcomeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 49</value>
+    <value>403, 39</value>
   </data>
   <data name="welcomeLabel.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -409,16 +409,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;welcomeLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 134</value>
+    <value>406, 107</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 20</value>
+    <value>0, 16</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -433,52 +433,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="fillBy2ToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>903, 17</value>
-  </metadata>
-  <data name="fillBy2ToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 29</value>
-  </data>
-  <data name="fillBy2ToolStripButton.Text" xml:space="preserve">
-    <value>FillBy2</value>
-  </data>
-  <data name="fillBy2ToolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="fillBy2ToolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>869, 34</value>
-  </data>
-  <data name="fillBy2ToolStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="fillBy2ToolStrip.Text" xml:space="preserve">
-    <value>fillBy2ToolStrip</value>
-  </data>
-  <data name="&gt;&gt;fillBy2ToolStrip.Name" xml:space="preserve">
-    <value>fillBy2ToolStrip</value>
-  </data>
-  <data name="&gt;&gt;fillBy2ToolStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fillBy2ToolStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;fillBy2ToolStrip.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <metadata name="tsodbDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1087, 17</value>
   </metadata>
   <data name="listBox1.ItemHeight" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>16</value>
   </data>
   <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 181</value>
+    <value>378, 145</value>
+  </data>
+  <data name="listBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="listBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 264</value>
+    <value>323, 212</value>
   </data>
   <data name="listBox1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -502,10 +472,10 @@
     <value>75</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>869, 498</value>
+    <value>772, 398</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2995,9 +2965,6 @@
         ///////////////////////8///////////////////////////////8
 </value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
@@ -3024,12 +2991,6 @@
   </data>
   <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
     <value>TSO_App_Dev_Project.TSODBDataSetTableAdapters.TableAdapterManager, TSODBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;fillBy2ToolStripButton.Name" xml:space="preserve">
-    <value>fillBy2ToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;fillBy2ToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsodbDataSet1.Name" xml:space="preserve">
     <value>tsodbDataSet1</value>

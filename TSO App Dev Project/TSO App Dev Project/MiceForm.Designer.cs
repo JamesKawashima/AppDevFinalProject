@@ -54,7 +54,6 @@
             this.dose2CompletedDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.commentsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addMouseButton = new System.Windows.Forms.Button();
-            this.editMouseButton = new System.Windows.Forms.Button();
             this.addMouseGroupBox = new System.Windows.Forms.GroupBox();
             this.createMouseWeightTextBox = new System.Windows.Forms.TextBox();
             this.createMouseWidthTextBox = new System.Windows.Forms.TextBox();
@@ -71,28 +70,31 @@
             this.dose1Label = new System.Windows.Forms.Label();
             this.groupIdLabel = new System.Windows.Forms.Label();
             this.editMouseGroupBox = new System.Windows.Forms.GroupBox();
+            this.editMouseWeightTextBox = new System.Windows.Forms.TextBox();
             this.editMouseCommentsTextBox = new System.Windows.Forms.TextBox();
+            this.editMouseWidthTextBox = new System.Windows.Forms.TextBox();
             this.editMouseMouseIDTextBox = new System.Windows.Forms.TextBox();
+            this.editMouseLengthTextBox = new System.Windows.Forms.TextBox();
+            this.editMouseHeightTextBox = new System.Windows.Forms.TextBox();
             this.mouseIdLabel = new System.Windows.Forms.Label();
+            this.editMouseDose2TextBox = new System.Windows.Forms.TextBox();
+            this.editMouseDose1TextBox = new System.Windows.Forms.TextBox();
             this.commentsLabel = new System.Windows.Forms.Label();
+            this.editMouseGroupIDTextBox = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.addGroupButton = new System.Windows.Forms.Button();
             this.addGroupGroupBox = new System.Windows.Forms.GroupBox();
             this.addGroupIdTextBox = new System.Windows.Forms.TextBox();
             this.addGroupIdLabel = new System.Windows.Forms.Label();
-            this.editMouseWeightTextBox = new System.Windows.Forms.TextBox();
-            this.editMouseWidthTextBox = new System.Windows.Forms.TextBox();
-            this.editMouseLengthTextBox = new System.Windows.Forms.TextBox();
-            this.editMouseHeightTextBox = new System.Windows.Forms.TextBox();
-            this.editMouseDose2TextBox = new System.Windows.Forms.TextBox();
-            this.editMouseDose1TextBox = new System.Windows.Forms.TextBox();
-            this.editMouseGroupIDTextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.editMouseDose2CheckBox = new System.Windows.Forms.CheckBox();
+            this.editMouseDose1CheckBox = new System.Windows.Forms.CheckBox();
+            this.editMouseButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miceBindingSource)).BeginInit();
@@ -273,13 +275,6 @@
             this.addMouseButton.UseVisualStyleBackColor = true;
             this.addMouseButton.Click += new System.EventHandler(this.addMouseButton_Click);
             // 
-            // editMouseButton
-            // 
-            resources.ApplyResources(this.editMouseButton, "editMouseButton");
-            this.editMouseButton.Name = "editMouseButton";
-            this.editMouseButton.UseVisualStyleBackColor = true;
-            this.editMouseButton.Click += new System.EventHandler(this.editMouseButton_Click);
-            // 
             // addMouseGroupBox
             // 
             this.addMouseGroupBox.Controls.Add(this.createMouseWeightTextBox);
@@ -373,6 +368,9 @@
             // 
             // editMouseGroupBox
             // 
+            this.editMouseGroupBox.Controls.Add(this.editMouseDose2CheckBox);
+            this.editMouseGroupBox.Controls.Add(this.editMouseDose1CheckBox);
+            this.editMouseGroupBox.Controls.Add(this.editMouseButton);
             this.editMouseGroupBox.Controls.Add(this.editMouseWeightTextBox);
             this.editMouseGroupBox.Controls.Add(this.editMouseCommentsTextBox);
             this.editMouseGroupBox.Controls.Add(this.editMouseWidthTextBox);
@@ -381,7 +379,6 @@
             this.editMouseGroupBox.Controls.Add(this.editMouseHeightTextBox);
             this.editMouseGroupBox.Controls.Add(this.mouseIdLabel);
             this.editMouseGroupBox.Controls.Add(this.editMouseDose2TextBox);
-            this.editMouseGroupBox.Controls.Add(this.editMouseButton);
             this.editMouseGroupBox.Controls.Add(this.editMouseDose1TextBox);
             this.editMouseGroupBox.Controls.Add(this.commentsLabel);
             this.editMouseGroupBox.Controls.Add(this.editMouseGroupIDTextBox);
@@ -396,25 +393,95 @@
             this.editMouseGroupBox.Name = "editMouseGroupBox";
             this.editMouseGroupBox.TabStop = false;
             // 
+            // editMouseWeightTextBox
+            // 
+            resources.ApplyResources(this.editMouseWeightTextBox, "editMouseWeightTextBox");
+            this.editMouseWeightTextBox.Name = "editMouseWeightTextBox";
+            // 
             // editMouseCommentsTextBox
             // 
             resources.ApplyResources(this.editMouseCommentsTextBox, "editMouseCommentsTextBox");
             this.editMouseCommentsTextBox.Name = "editMouseCommentsTextBox";
+            // 
+            // editMouseWidthTextBox
+            // 
+            resources.ApplyResources(this.editMouseWidthTextBox, "editMouseWidthTextBox");
+            this.editMouseWidthTextBox.Name = "editMouseWidthTextBox";
             // 
             // editMouseMouseIDTextBox
             // 
             resources.ApplyResources(this.editMouseMouseIDTextBox, "editMouseMouseIDTextBox");
             this.editMouseMouseIDTextBox.Name = "editMouseMouseIDTextBox";
             // 
+            // editMouseLengthTextBox
+            // 
+            resources.ApplyResources(this.editMouseLengthTextBox, "editMouseLengthTextBox");
+            this.editMouseLengthTextBox.Name = "editMouseLengthTextBox";
+            // 
+            // editMouseHeightTextBox
+            // 
+            resources.ApplyResources(this.editMouseHeightTextBox, "editMouseHeightTextBox");
+            this.editMouseHeightTextBox.Name = "editMouseHeightTextBox";
+            // 
             // mouseIdLabel
             // 
             resources.ApplyResources(this.mouseIdLabel, "mouseIdLabel");
             this.mouseIdLabel.Name = "mouseIdLabel";
             // 
+            // editMouseDose2TextBox
+            // 
+            resources.ApplyResources(this.editMouseDose2TextBox, "editMouseDose2TextBox");
+            this.editMouseDose2TextBox.Name = "editMouseDose2TextBox";
+            // 
+            // editMouseDose1TextBox
+            // 
+            resources.ApplyResources(this.editMouseDose1TextBox, "editMouseDose1TextBox");
+            this.editMouseDose1TextBox.Name = "editMouseDose1TextBox";
+            // 
             // commentsLabel
             // 
             resources.ApplyResources(this.commentsLabel, "commentsLabel");
             this.commentsLabel.Name = "commentsLabel";
+            // 
+            // editMouseGroupIDTextBox
+            // 
+            resources.ApplyResources(this.editMouseGroupIDTextBox, "editMouseGroupIDTextBox");
+            this.editMouseGroupIDTextBox.Name = "editMouseGroupIDTextBox";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
             // 
             // addGroupButton
             // 
@@ -442,75 +509,24 @@
             resources.ApplyResources(this.addGroupIdLabel, "addGroupIdLabel");
             this.addGroupIdLabel.Name = "addGroupIdLabel";
             // 
-            // editMouseWeightTextBox
+            // editMouseDose2CheckBox
             // 
-            resources.ApplyResources(this.editMouseWeightTextBox, "editMouseWeightTextBox");
-            this.editMouseWeightTextBox.Name = "editMouseWeightTextBox";
+            resources.ApplyResources(this.editMouseDose2CheckBox, "editMouseDose2CheckBox");
+            this.editMouseDose2CheckBox.Name = "editMouseDose2CheckBox";
+            this.editMouseDose2CheckBox.UseVisualStyleBackColor = true;
             // 
-            // editMouseWidthTextBox
+            // editMouseDose1CheckBox
             // 
-            resources.ApplyResources(this.editMouseWidthTextBox, "editMouseWidthTextBox");
-            this.editMouseWidthTextBox.Name = "editMouseWidthTextBox";
+            resources.ApplyResources(this.editMouseDose1CheckBox, "editMouseDose1CheckBox");
+            this.editMouseDose1CheckBox.Name = "editMouseDose1CheckBox";
+            this.editMouseDose1CheckBox.UseVisualStyleBackColor = true;
             // 
-            // editMouseLengthTextBox
+            // editMouseButton
             // 
-            resources.ApplyResources(this.editMouseLengthTextBox, "editMouseLengthTextBox");
-            this.editMouseLengthTextBox.Name = "editMouseLengthTextBox";
-            // 
-            // editMouseHeightTextBox
-            // 
-            resources.ApplyResources(this.editMouseHeightTextBox, "editMouseHeightTextBox");
-            this.editMouseHeightTextBox.Name = "editMouseHeightTextBox";
-            // 
-            // editMouseDose2TextBox
-            // 
-            resources.ApplyResources(this.editMouseDose2TextBox, "editMouseDose2TextBox");
-            this.editMouseDose2TextBox.Name = "editMouseDose2TextBox";
-            // 
-            // editMouseDose1TextBox
-            // 
-            resources.ApplyResources(this.editMouseDose1TextBox, "editMouseDose1TextBox");
-            this.editMouseDose1TextBox.Name = "editMouseDose1TextBox";
-            // 
-            // editMouseGroupIDTextBox
-            // 
-            resources.ApplyResources(this.editMouseGroupIDTextBox, "editMouseGroupIDTextBox");
-            this.editMouseGroupIDTextBox.Name = "editMouseGroupIDTextBox";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
-            // 
-            // label6
-            // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
-            // 
-            // label7
-            // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
+            resources.ApplyResources(this.editMouseButton, "editMouseButton");
+            this.editMouseButton.Name = "editMouseButton";
+            this.editMouseButton.UseVisualStyleBackColor = true;
+            this.editMouseButton.Click += new System.EventHandler(this.editMouseButton_Click);
             // 
             // MiceForm
             // 
@@ -559,7 +575,6 @@
         private TSODBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.DataGridView miceDataGridView;
         private System.Windows.Forms.Button addMouseButton;
-        private System.Windows.Forms.Button editMouseButton;
         private System.Windows.Forms.DataGridViewTextBoxColumn groupIDdataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn mouseIDdataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn heightDataGridViewTextBoxColumn;
@@ -609,5 +624,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox editMouseDose2CheckBox;
+        private System.Windows.Forms.CheckBox editMouseDose1CheckBox;
+        private System.Windows.Forms.Button editMouseButton;
     }
 }

@@ -486,36 +486,6 @@
   <data name="&gt;&gt;addMouseButton.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="editMouseButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
-  </data>
-  <data name="editMouseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="editMouseButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 129</value>
-  </data>
-  <data name="editMouseButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 39</value>
-  </data>
-  <data name="editMouseButton.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="editMouseButton.Text" xml:space="preserve">
-    <value>Edit Mouse</value>
-  </data>
-  <data name="&gt;&gt;editMouseButton.Name" xml:space="preserve">
-    <value>editMouseButton</value>
-  </data>
-  <data name="&gt;&gt;editMouseButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;editMouseButton.Parent" xml:space="preserve">
-    <value>editMouseGroupBox</value>
-  </data>
-  <data name="&gt;&gt;editMouseButton.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
   <data name="&gt;&gt;createMouseWeightTextBox.Name" xml:space="preserve">
     <value>createMouseWeightTextBox</value>
   </data>
@@ -1065,6 +1035,96 @@
   <data name="&gt;&gt;groupIdLabel.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="editMouseDose2CheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="editMouseDose2CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="editMouseDose2CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 103</value>
+  </data>
+  <data name="editMouseDose2CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="editMouseDose2CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="editMouseDose2CheckBox.Text" xml:space="preserve">
+    <value>Dose 2 Done</value>
+  </data>
+  <data name="&gt;&gt;editMouseDose2CheckBox.Name" xml:space="preserve">
+    <value>editMouseDose2CheckBox</value>
+  </data>
+  <data name="&gt;&gt;editMouseDose2CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editMouseDose2CheckBox.Parent" xml:space="preserve">
+    <value>editMouseGroupBox</value>
+  </data>
+  <data name="&gt;&gt;editMouseDose2CheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editMouseDose1CheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="editMouseDose1CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="editMouseDose1CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 103</value>
+  </data>
+  <data name="editMouseDose1CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="editMouseDose1CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="editMouseDose1CheckBox.Text" xml:space="preserve">
+    <value>Dose 1 Done</value>
+  </data>
+  <data name="&gt;&gt;editMouseDose1CheckBox.Name" xml:space="preserve">
+    <value>editMouseDose1CheckBox</value>
+  </data>
+  <data name="&gt;&gt;editMouseDose1CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editMouseDose1CheckBox.Parent" xml:space="preserve">
+    <value>editMouseGroupBox</value>
+  </data>
+  <data name="&gt;&gt;editMouseDose1CheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editMouseButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="editMouseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="editMouseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 137</value>
+  </data>
+  <data name="editMouseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 39</value>
+  </data>
+  <data name="editMouseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="editMouseButton.Text" xml:space="preserve">
+    <value>Edit Mouse</value>
+  </data>
+  <data name="&gt;&gt;editMouseButton.Name" xml:space="preserve">
+    <value>editMouseButton</value>
+  </data>
+  <data name="&gt;&gt;editMouseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editMouseButton.Parent" xml:space="preserve">
+    <value>editMouseGroupBox</value>
+  </data>
+  <data name="&gt;&gt;editMouseButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="editMouseWeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 97</value>
   </data>
@@ -1084,7 +1144,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseWeightTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="editMouseCommentsTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>86, 49</value>
@@ -1093,7 +1153,7 @@
     <value>True</value>
   </data>
   <data name="editMouseCommentsTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 68</value>
+    <value>148, 43</value>
   </data>
   <data name="editMouseCommentsTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -1108,7 +1168,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseCommentsTextBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="editMouseWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 70</value>
@@ -1129,7 +1189,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseWidthTextBox.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="editMouseMouseIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>86, 18</value>
@@ -1150,7 +1210,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseMouseIDTextBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="editMouseLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 43</value>
@@ -1171,7 +1231,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseLengthTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="editMouseHeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 16</value>
@@ -1192,7 +1252,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseHeightTextBox.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="mouseIdLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1222,7 +1282,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;mouseIdLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="editMouseDose2TextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 151</value>
@@ -1243,7 +1303,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseDose2TextBox.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="editMouseDose1TextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 124</value>
@@ -1264,7 +1324,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseDose1TextBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="commentsLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1294,7 +1354,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;commentsLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="editMouseGroupIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>194, 18</value>
@@ -1315,7 +1375,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;editMouseGroupIDTextBox.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1345,7 +1405,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1375,7 +1435,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1405,7 +1465,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1435,7 +1495,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>17</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1465,7 +1525,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>18</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1495,7 +1555,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>19</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1525,7 +1585,7 @@
     <value>editMouseGroupBox</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>20</value>
   </data>
   <data name="editMouseGroupBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>553, 415</value>

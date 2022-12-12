@@ -45,15 +45,12 @@
             this.tableAdapterManager = new TSO_App_Dev_Project.TSODBDataSetTableAdapters.TableAdapterManager();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.fillBy2ToolStrip = new System.Windows.Forms.ToolStrip();
-            this.fillBy2ToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.tsodbDataSet1 = new TSO_App_Dev_Project.TSODBDataSet();
             this.listBox1 = new System.Windows.Forms.ListBox();
             studyIdLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studiesBindingSource)).BeginInit();
-            this.fillBy2ToolStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tsodbDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -151,21 +148,6 @@
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
-            // fillBy2ToolStrip
-            // 
-            this.fillBy2ToolStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.fillBy2ToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fillBy2ToolStripButton});
-            resources.ApplyResources(this.fillBy2ToolStrip, "fillBy2ToolStrip");
-            this.fillBy2ToolStrip.Name = "fillBy2ToolStrip";
-            // 
-            // fillBy2ToolStripButton
-            // 
-            this.fillBy2ToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.fillBy2ToolStripButton.Name = "fillBy2ToolStripButton";
-            resources.ApplyResources(this.fillBy2ToolStripButton, "fillBy2ToolStripButton");
-            this.fillBy2ToolStripButton.Click += new System.EventHandler(this.fillBy2ToolStripButton_Click);
-            // 
             // tsodbDataSet1
             // 
             this.tsodbDataSet1.DataSetName = "TSODBDataSet";
@@ -182,7 +164,6 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.fillBy2ToolStrip);
             this.Controls.Add(this.label2);
             this.Controls.Add(studyIdLabel);
             this.Controls.Add(this.welcomeLabel);
@@ -199,8 +180,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studiesBindingSource)).EndInit();
-            this.fillBy2ToolStrip.ResumeLayout(false);
-            this.fillBy2ToolStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tsodbDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -223,8 +202,6 @@
         private TSODBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ToolStrip fillBy2ToolStrip;
-        private System.Windows.Forms.ToolStripButton fillBy2ToolStripButton;
         private TSODBDataSet tsodbDataSet1;
         private System.Windows.Forms.ListBox listBox1;
     }
