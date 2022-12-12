@@ -50,7 +50,7 @@ namespace TSO_App_Dev_Project
                     switch (m.chgPage)
                     {
                         case 's':
-                            Application.Run(s);
+                            s.Show();
                             m.Close();
                             break;
                         case 'r':

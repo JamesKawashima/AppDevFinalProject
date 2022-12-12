@@ -13,6 +13,7 @@ namespace TSO_App_Dev_Project
     public partial class SettingsForm : Form
     {
         MouseDance md = new MouseDance();
+        CreateUser cu = new CreateUser();
         private User liu;
         public char chgPage { get; set; }
         public SettingsForm(User liu)
@@ -36,14 +37,19 @@ namespace TSO_App_Dev_Project
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello, this is an applicatioon that is very cool, I like it, you like it, so this deserves a 100%");
+            MessageBox.Show("Hello, This project was made by James and Amanda and developped with the help of caffeine and a deadline.");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            md = new MouseDance();
             md.Show();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            cu = new CreateUser();
+            cu.Show();
+        }
     }
 }
