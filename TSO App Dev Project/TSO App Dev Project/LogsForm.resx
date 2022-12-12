@@ -324,275 +324,329 @@
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="addMouseButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
+  <data name="createLogCommentsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 27</value>
   </data>
-  <data name="addMouseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="createLogCommentsTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="addMouseButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 66</value>
+  <data name="createLogCommentsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 78</value>
   </data>
-  <data name="addMouseButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 39</value>
+  <data name="createLogCommentsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
   </data>
-  <data name="addMouseButton.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
+  <data name="&gt;&gt;createLogCommentsTextBox.Name" xml:space="preserve">
+    <value>createLogCommentsTextBox</value>
   </data>
-  <data name="addMouseButton.Text" xml:space="preserve">
-    <value>Create Log</value>
+  <data name="&gt;&gt;createLogCommentsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;addMouseButton.Name" xml:space="preserve">
-    <value>addMouseButton</value>
-  </data>
-  <data name="&gt;&gt;addMouseButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addMouseButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createLogCommentsTextBox.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;addMouseButton.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogCommentsTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="createLogCommentsLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="createLogCommentsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>61, 139</value>
+  <data name="createLogCommentsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 30</value>
   </data>
-  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 20</value>
+  <data name="createLogCommentsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
   </data>
-  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
+  <data name="createLogCommentsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
   </data>
-  <data name="checkBox1.Text" xml:space="preserve">
-    <value>Mouse Euthanized?</value>
+  <data name="createLogCommentsLabel.Text" xml:space="preserve">
+    <value>Comments:</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
-    <value>checkBox1</value>
+  <data name="&gt;&gt;createLogCommentsLabel.Name" xml:space="preserve">
+    <value>createLogCommentsLabel</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;createLogCommentsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createLogCommentsLabel.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogCommentsLabel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 111</value>
+  <data name="createLogButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
   </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+  <data name="createLogButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
+  <data name="createLogButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 114</value>
   </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
+  <data name="createLogButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 39</value>
   </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="createLogButton.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
   </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+  <data name="createLogButton.Text" xml:space="preserve">
+    <value>Create Log</value>
+  </data>
+  <data name="&gt;&gt;createLogButton.Name" xml:space="preserve">
+    <value>createLogButton</value>
+  </data>
+  <data name="&gt;&gt;createLogButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createLogButton.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="createLogEuthanizedCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="createLogEuthanizedCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 114</value>
+  <data name="createLogEuthanizedCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 139</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 16</value>
+  <data name="createLogEuthanizedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 20</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
+  <data name="createLogEuthanizedCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Tumor Width:</value>
+  <data name="createLogEuthanizedCheckBox.Text" xml:space="preserve">
+    <value>Mouse Euthanized?</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
+  <data name="&gt;&gt;createLogEuthanizedCheckBox.Name" xml:space="preserve">
+    <value>createLogEuthanizedCheckBox</value>
   </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;createLogEuthanizedCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createLogEuthanizedCheckBox.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogEuthanizedCheckBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 83</value>
+  <data name="createLogWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 111</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="createLogWidthTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
+  <data name="createLogWidthTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;createLogWidthTextBox.Name" xml:space="preserve">
+    <value>createLogWidthTextBox</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;createLogWidthTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createLogWidthTextBox.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogWidthTextBox.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="createLogWidthLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="createLogWidthLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 86</value>
+  <data name="createLogWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 114</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 16</value>
+  <data name="createLogWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
+  <data name="createLogWidthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Tumor Length:</value>
+  <data name="createLogWidthLabel.Text" xml:space="preserve">
+    <value>Tumor Width:</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;createLogWidthLabel.Name" xml:space="preserve">
+    <value>createLogWidthLabel</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;createLogWidthLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createLogWidthLabel.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogWidthLabel.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="editMouseMouseIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 27</value>
+  <data name="createLogLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 83</value>
   </data>
-  <data name="editMouseMouseIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 22</value>
-  </data>
-  <data name="editMouseMouseIDTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="&gt;&gt;editMouseMouseIDTextBox.Name" xml:space="preserve">
-    <value>editMouseMouseIDTextBox</value>
-  </data>
-  <data name="&gt;&gt;editMouseMouseIDTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;editMouseMouseIDTextBox.Parent" xml:space="preserve">
-    <value>createLogGroupBox</value>
-  </data>
-  <data name="&gt;&gt;editMouseMouseIDTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="editMouseHeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 55</value>
-  </data>
-  <data name="editMouseHeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="createLogLengthTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="editMouseHeightTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
+  <data name="createLogLengthTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
   </data>
-  <data name="&gt;&gt;editMouseHeightTextBox.Name" xml:space="preserve">
-    <value>editMouseHeightTextBox</value>
+  <data name="&gt;&gt;createLogLengthTextBox.Name" xml:space="preserve">
+    <value>createLogLengthTextBox</value>
   </data>
-  <data name="&gt;&gt;editMouseHeightTextBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;createLogLengthTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;editMouseHeightTextBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createLogLengthTextBox.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;editMouseHeightTextBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogLengthTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="createLogLengthLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createLogLengthLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createLogLengthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 86</value>
+  </data>
+  <data name="createLogLengthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="createLogLengthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="createLogLengthLabel.Text" xml:space="preserve">
+    <value>Tumor Length:</value>
+  </data>
+  <data name="&gt;&gt;createLogLengthLabel.Name" xml:space="preserve">
+    <value>createLogLengthLabel</value>
+  </data>
+  <data name="&gt;&gt;createLogLengthLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createLogLengthLabel.Parent" xml:space="preserve">
+    <value>createLogGroupBox</value>
+  </data>
+  <data name="&gt;&gt;createLogLengthLabel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="mouseIdLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="createLogMouseIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 27</value>
   </data>
-  <data name="mouseIdLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="createLogMouseIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
   </data>
-  <data name="mouseIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 30</value>
+  <data name="createLogMouseIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
   </data>
-  <data name="mouseIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
+  <data name="&gt;&gt;createLogMouseIDTextBox.Name" xml:space="preserve">
+    <value>createLogMouseIDTextBox</value>
   </data>
-  <data name="mouseIdLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
+  <data name="&gt;&gt;createLogMouseIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="mouseIdLabel.Text" xml:space="preserve">
-    <value>Mouse ID:</value>
-  </data>
-  <data name="&gt;&gt;mouseIdLabel.Name" xml:space="preserve">
-    <value>mouseIdLabel</value>
-  </data>
-  <data name="&gt;&gt;mouseIdLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mouseIdLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createLogMouseIDTextBox.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;mouseIdLabel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogMouseIDTextBox.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="createLogHeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 55</value>
   </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="createLogHeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 58</value>
+  <data name="createLogHeightTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 16</value>
+  <data name="&gt;&gt;createLogHeightTextBox.Name" xml:space="preserve">
+    <value>createLogHeightTextBox</value>
   </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
+  <data name="&gt;&gt;createLogHeightTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Tumor Height:</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;createLogHeightTextBox.Parent" xml:space="preserve">
     <value>createLogGroupBox</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;createLogHeightTextBox.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="createLogMouseIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createLogMouseIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createLogMouseIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 30</value>
+  </data>
+  <data name="createLogMouseIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="createLogMouseIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="createLogMouseIDLabel.Text" xml:space="preserve">
+    <value>Mouse ID:</value>
+  </data>
+  <data name="&gt;&gt;createLogMouseIDLabel.Name" xml:space="preserve">
+    <value>createLogMouseIDLabel</value>
+  </data>
+  <data name="&gt;&gt;createLogMouseIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createLogMouseIDLabel.Parent" xml:space="preserve">
+    <value>createLogGroupBox</value>
+  </data>
+  <data name="&gt;&gt;createLogMouseIDLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="createLogHeightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createLogHeightLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createLogHeightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 58</value>
+  </data>
+  <data name="createLogHeightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 16</value>
+  </data>
+  <data name="createLogHeightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="createLogHeightLabel.Text" xml:space="preserve">
+    <value>Tumor Height:</value>
+  </data>
+  <data name="&gt;&gt;createLogHeightLabel.Name" xml:space="preserve">
+    <value>createLogHeightLabel</value>
+  </data>
+  <data name="&gt;&gt;createLogHeightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createLogHeightLabel.Parent" xml:space="preserve">
+    <value>createLogGroupBox</value>
+  </data>
+  <data name="&gt;&gt;createLogHeightLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="createLogGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>304, 412</value>
+    <value>267, 416</value>
   </data>
   <data name="createLogGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>375, 170</value>
+    <value>448, 170</value>
   </data>
   <data name="createLogGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -639,11 +693,17 @@
   <data name="dataGridViewTextBoxColumn2.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
   <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
     <value>Time of Log</value>
   </data>
   <data name="dataGridViewTextBoxColumn3.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
+    <value>125</value>
   </data>
   <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
     <value>Mouse ID</value>

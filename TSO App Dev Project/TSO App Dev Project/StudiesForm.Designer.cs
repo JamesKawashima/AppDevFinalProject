@@ -80,6 +80,7 @@
             this.assignMyselfToStudyStudyIDTextBox = new System.Windows.Forms.TextBox();
             this.assignMyselfToStudyStudyIDLabel = new System.Windows.Forms.Label();
             this.assignMyselfToStudyButton = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studiesBindingSource)).BeginInit();
@@ -87,6 +88,7 @@
             this.editStudyGroupBox.SuspendLayout();
             this.createStudyGroupBox.SuspendLayout();
             this.assignMyselfToStudyGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // settingsFormLabel
@@ -133,8 +135,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -164,6 +166,7 @@
             // 
             // studiesDataGridView
             // 
+            resources.ApplyResources(this.studiesDataGridView, "studiesDataGridView");
             this.studiesDataGridView.AutoGenerateColumns = false;
             this.studiesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.studiesDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -176,7 +179,6 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8});
             this.studiesDataGridView.DataSource = this.studiesBindingSource;
-            resources.ApplyResources(this.studiesDataGridView, "studiesDataGridView");
             this.studiesDataGridView.Name = "studiesDataGridView";
             this.studiesDataGridView.RowTemplate.Height = 24;
             // 
@@ -231,6 +233,7 @@
             // 
             // editStudyGroupBox
             // 
+            resources.ApplyResources(this.editStudyGroupBox, "editStudyGroupBox");
             this.editStudyGroupBox.Controls.Add(this.editStudyStatusComboBox);
             this.editStudyGroupBox.Controls.Add(this.editStudyStatusLabel);
             this.editStudyGroupBox.Controls.Add(this.editStudyDoseVolTextBox);
@@ -246,18 +249,17 @@
             this.editStudyGroupBox.Controls.Add(this.editStudyGroupIdTextBox);
             this.editStudyGroupBox.Controls.Add(this.editStudyUserIdLabel);
             this.editStudyGroupBox.Controls.Add(this.editStudyGroupIdLabel);
-            resources.ApplyResources(this.editStudyGroupBox, "editStudyGroupBox");
             this.editStudyGroupBox.Name = "editStudyGroupBox";
             this.editStudyGroupBox.TabStop = false;
             // 
             // editStudyStatusComboBox
             // 
+            resources.ApplyResources(this.editStudyStatusComboBox, "editStudyStatusComboBox");
             this.editStudyStatusComboBox.FormattingEnabled = true;
             this.editStudyStatusComboBox.Items.AddRange(new object[] {
             resources.GetString("editStudyStatusComboBox.Items"),
             resources.GetString("editStudyStatusComboBox.Items1"),
             resources.GetString("editStudyStatusComboBox.Items2")});
-            resources.ApplyResources(this.editStudyStatusComboBox, "editStudyStatusComboBox");
             this.editStudyStatusComboBox.Name = "editStudyStatusComboBox";
             // 
             // editStudyStatusLabel
@@ -295,6 +297,7 @@
             resources.ApplyResources(this.editStudyButton, "editStudyButton");
             this.editStudyButton.Name = "editStudyButton";
             this.editStudyButton.UseVisualStyleBackColor = true;
+            this.editStudyButton.Click += new System.EventHandler(this.editStudyButton_Click);
             // 
             // editStudyStudyIdLabel
             // 
@@ -333,6 +336,7 @@
             // 
             // createStudyGroupBox
             // 
+            resources.ApplyResources(this.createStudyGroupBox, "createStudyGroupBox");
             this.createStudyGroupBox.Controls.Add(this.createStudyDoseVolumeTextBox);
             this.createStudyGroupBox.Controls.Add(this.doseVolLabel);
             this.createStudyGroupBox.Controls.Add(this.createStudyDoseNameTextBox);
@@ -342,7 +346,6 @@
             this.createStudyGroupBox.Controls.Add(this.leadUserIDLabel);
             this.createStudyGroupBox.Controls.Add(this.groupIdLabel);
             this.createStudyGroupBox.Controls.Add(this.addStudyButton);
-            resources.ApplyResources(this.createStudyGroupBox, "createStudyGroupBox");
             this.createStudyGroupBox.Name = "createStudyGroupBox";
             this.createStudyGroupBox.TabStop = false;
             // 
@@ -391,13 +394,14 @@
             resources.ApplyResources(this.addStudyButton, "addStudyButton");
             this.addStudyButton.Name = "addStudyButton";
             this.addStudyButton.UseVisualStyleBackColor = true;
+            this.addStudyButton.Click += new System.EventHandler(this.addStudyButton_Click);
             // 
             // assignMyselfToStudyGroupBox
             // 
+            resources.ApplyResources(this.assignMyselfToStudyGroupBox, "assignMyselfToStudyGroupBox");
             this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyStudyIDTextBox);
             this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyStudyIDLabel);
             this.assignMyselfToStudyGroupBox.Controls.Add(this.assignMyselfToStudyButton);
-            resources.ApplyResources(this.assignMyselfToStudyGroupBox, "assignMyselfToStudyGroupBox");
             this.assignMyselfToStudyGroupBox.Name = "assignMyselfToStudyGroupBox";
             this.assignMyselfToStudyGroupBox.TabStop = false;
             // 
@@ -416,6 +420,14 @@
             resources.ApplyResources(this.assignMyselfToStudyButton, "assignMyselfToStudyButton");
             this.assignMyselfToStudyButton.Name = "assignMyselfToStudyButton";
             this.assignMyselfToStudyButton.UseVisualStyleBackColor = true;
+            this.assignMyselfToStudyButton.Click += new System.EventHandler(this.assignMyselfToStudyButton_Click);
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar1;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // StudiesForm
             // 
@@ -432,6 +444,7 @@
             this.Controls.Add(this.studiesFormLabel);
             this.Controls.Add(this.homeFormLabel);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "StudiesForm";
             this.Load += new System.EventHandler(this.StudiesForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -444,6 +457,7 @@
             this.createStudyGroupBox.PerformLayout();
             this.assignMyselfToStudyGroupBox.ResumeLayout(false);
             this.assignMyselfToStudyGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -463,14 +477,6 @@
         private TSODBDataSetTableAdapters.StudiesTableAdapter studiesTableAdapter;
         private TSODBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.DataGridView studiesDataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private System.Windows.Forms.GroupBox editStudyGroupBox;
         private System.Windows.Forms.TextBox editStudyCommentsTextBox;
         private System.Windows.Forms.TextBox editStudyStudyIDTextBox;
@@ -501,5 +507,14 @@
         private System.Windows.Forms.TextBox assignMyselfToStudyStudyIDTextBox;
         private System.Windows.Forms.Label assignMyselfToStudyStudyIDLabel;
         private System.Windows.Forms.Button assignMyselfToStudyButton;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
     }
 }

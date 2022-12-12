@@ -118,257 +118,323 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="settingsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>764, 19</value>
+    <value>688, 20</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 36</value>
+    <value>188, 29</value>
   </data>
   <data name="settingsFormLabel.Text" xml:space="preserve">
-    <value>ajustes</value>
+    <value>Configuraciones</value>
+  </data>
+  <data name="accountFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>628, 19</value>
+    <value>584, 20</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 36</value>
+    <value>89, 29</value>
   </data>
   <data name="accountFormLabel.Text" xml:space="preserve">
     <value>Cuenta</value>
   </data>
+  <data name="logsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 19</value>
+    <value>453, 20</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 36</value>
+    <value>116, 29</value>
   </data>
   <data name="logsFormLabel.Text" xml:space="preserve">
-    <value>diario</value>
+    <value>Registros</value>
+  </data>
+  <data name="miceFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, 13</value>
+    <value>322, 20</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 36</value>
+    <value>116, 29</value>
   </data>
   <data name="miceFormLabel.Text" xml:space="preserve">
-    <value>Ratones</value>
+    <value>Registros</value>
+  </data>
+  <data name="studiesFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 19</value>
+    <value>201, 20</value>
   </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 36</value>
+    <value>106, 29</value>
   </data>
   <data name="studiesFormLabel.Text" xml:space="preserve">
-    <value>registros</value>
+    <value>Estudios</value>
+  </data>
+  <data name="homeFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 19</value>
+    <value>107, 20</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 36</value>
+    <value>79, 29</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
-    <value>hogar</value>
+    <value>Hogar</value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-142, -69</value>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Identificación del estudio</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1267, 173</value>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Usuario líder</value>
   </data>
-  <data name="studiesDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 87</value>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Identificación del grupo</value>
   </data>
-  <data name="studiesDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>941, 309</value>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Nombre de la dosis</value>
   </data>
-  <data name="editStudyStatusComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 150</value>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Dosis (mL/g)</value>
   </data>
-  <data name="editStudyStatusComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 24</value>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="editStudyGroupBox.Text" xml:space="preserve">
+    <value>Editar Estudio</value>
+  </data>
+  <data name="editStudyStatusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="editStudyStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 153</value>
+    <value>4, 153</value>
   </data>
   <data name="editStudyStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 16</value>
+    <value>50, 20</value>
+  </data>
+  <data name="editStudyStatusLabel.Text" xml:space="preserve">
+    <value>Estado:</value>
   </data>
   <data name="editStudyDoseVolTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>107, 123</value>
+    <value>129, 123</value>
   </data>
   <data name="editStudyDoseVolTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>78, 22</value>
   </data>
-  <data name="editStudyCommentsTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>234, 101</value>
-  </data>
-  <data name="editStudyCommentsTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 68</value>
+  <data name="editStudyDoseVolLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="editStudyDoseVolLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 126</value>
+    <value>4, 126</value>
   </data>
   <data name="editStudyDoseVolLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 16</value>
+    <value>110, 20</value>
+  </data>
+  <data name="editStudyDoseVolLabel.Text" xml:space="preserve">
+    <value>Volumen de dosis:</value>
   </data>
   <data name="editStudyStudyIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 16</value>
-  </data>
-  <data name="editStudyStudyIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 22</value>
+    <value>167, 17</value>
   </data>
   <data name="editStudyDoseNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>107, 96</value>
+    <value>129, 96</value>
   </data>
   <data name="editStudyDoseNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>78, 22</value>
   </data>
-  <data name="editStudyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>247, 28</value>
+  <data name="editStudyButton.Text" xml:space="preserve">
+    <value>Editar Estudio</value>
   </data>
-  <data name="editStudyButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 39</value>
+  <data name="editStudyStudyIdLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="editStudyStudyIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 19</value>
+    <value>4, 19</value>
   </data>
   <data name="editStudyStudyIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 16</value>
+    <value>149, 20</value>
+  </data>
+  <data name="editStudyStudyIdLabel.Text" xml:space="preserve">
+    <value>Identificación del estudio:</value>
+  </data>
+  <data name="editStudyDoseNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="editStudyDoseNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 100</value>
+    <value>4, 100</value>
   </data>
   <data name="editStudyDoseNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 16</value>
+    <value>119, 20</value>
+  </data>
+  <data name="editStudyDoseNameLabel.Text" xml:space="preserve">
+    <value>Nombre de la dosis:</value>
   </data>
   <data name="editStudyUserIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>107, 42</value>
+    <value>146, 42</value>
   </data>
   <data name="editStudyUserIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>61, 22</value>
+  </data>
+  <data name="editStudyCommentsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="editStudyCommentsLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>234, 82</value>
   </data>
   <data name="editStudyCommentsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 16</value>
+    <value>44, 20</value>
+  </data>
+  <data name="editStudyCommentsLabel.Text" xml:space="preserve">
+    <value>Notas:</value>
   </data>
   <data name="editStudyGroupIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>107, 69</value>
+    <value>146, 69</value>
   </data>
   <data name="editStudyGroupIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>61, 22</value>
+  </data>
+  <data name="editStudyUserIdLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="editStudyUserIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 45</value>
+    <value>4, 45</value>
   </data>
   <data name="editStudyUserIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 16</value>
+    <value>136, 20</value>
+  </data>
+  <data name="editStudyUserIdLabel.Text" xml:space="preserve">
+    <value>ID de usuario principal:</value>
+  </data>
+  <data name="editStudyGroupIdLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="editStudyGroupIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 72</value>
+    <value>4, 72</value>
   </data>
   <data name="editStudyGroupIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 16</value>
+    <value>141, 20</value>
   </data>
-  <data name="editStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 405</value>
+  <data name="editStudyGroupIdLabel.Text" xml:space="preserve">
+    <value>Identificación del grupo:</value>
   </data>
-  <data name="editStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>390, 181</value>
+  <data name="createStudyGroupBox.Text" xml:space="preserve">
+    <value>Crear Estudio</value>
   </data>
   <data name="createStudyDoseVolumeTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 105</value>
+    <value>123, 105</value>
   </data>
   <data name="createStudyDoseVolumeTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>88, 22</value>
+  </data>
+  <data name="doseVolLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="doseVolLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 108</value>
+    <value>7, 108</value>
   </data>
   <data name="doseVolLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 16</value>
+    <value>110, 20</value>
+  </data>
+  <data name="doseVolLabel.Text" xml:space="preserve">
+    <value>Volumen de dosis:</value>
   </data>
   <data name="createStudyDoseNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 77</value>
+    <value>123, 77</value>
   </data>
   <data name="createStudyDoseNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>88, 22</value>
+  </data>
+  <data name="doseNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="doseNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 80</value>
+    <value>7, 80</value>
   </data>
   <data name="doseNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 16</value>
+    <value>119, 20</value>
+  </data>
+  <data name="doseNameLabel.Text" xml:space="preserve">
+    <value>Nombre de la dosis:</value>
   </data>
   <data name="createStudyUserIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 20</value>
+    <value>149, 20</value>
   </data>
   <data name="createStudyUserIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>62, 22</value>
   </data>
   <data name="createStudyGroupIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 49</value>
+    <value>149, 49</value>
   </data>
   <data name="createStudyGroupIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>62, 22</value>
+  </data>
+  <data name="leadUserIDLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="leadUserIDLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 23</value>
+    <value>7, 23</value>
   </data>
   <data name="leadUserIDLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 16</value>
+    <value>136, 20</value>
+  </data>
+  <data name="leadUserIDLabel.Text" xml:space="preserve">
+    <value>ID de usuario principal:</value>
+  </data>
+  <data name="groupIdLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="groupIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 52</value>
+    <value>7, 52</value>
   </data>
   <data name="groupIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 16</value>
+    <value>141, 20</value>
+  </data>
+  <data name="groupIdLabel.Text" xml:space="preserve">
+    <value>Identificación del grupo:</value>
   </data>
   <data name="addStudyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 133</value>
+    <value>40, 133</value>
   </data>
   <data name="addStudyButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 39</value>
+    <value>142, 39</value>
   </data>
-  <data name="createStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 402</value>
+  <data name="addStudyButton.Text" xml:space="preserve">
+    <value>Agregar Estudio</value>
   </data>
-  <data name="createStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 181</value>
+  <data name="assignMyselfToStudyGroupBox.Text" xml:space="preserve">
+    <value>Asignarme a mí mismo para Estudiar</value>
   </data>
   <data name="assignMyselfToStudyStudyIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 52</value>
+    <value>196, 55</value>
   </data>
-  <data name="assignMyselfToStudyStudyIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 22</value>
+  <data name="assignMyselfToStudyStudyIDLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
   </data>
   <data name="assignMyselfToStudyStudyIDLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 55</value>
+    <value>47, 56</value>
   </data>
   <data name="assignMyselfToStudyStudyIDLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 16</value>
+    <value>149, 20</value>
   </data>
-  <data name="assignMyselfToStudyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 89</value>
+  <data name="assignMyselfToStudyStudyIDLabel.Text" xml:space="preserve">
+    <value>Identificación del estudio:</value>
   </data>
-  <data name="assignMyselfToStudyButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 39</value>
-  </data>
-  <data name="assignMyselfToStudyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>661, 413</value>
-  </data>
-  <data name="assignMyselfToStudyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 173</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>982, 603</value>
+  <data name="assignMyselfToStudyButton.Text" xml:space="preserve">
+    <value>Asignarme</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2859,6 +2925,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>TSO - registros</value>
+    <value>TSO - Estudios</value>
   </data>
 </root>

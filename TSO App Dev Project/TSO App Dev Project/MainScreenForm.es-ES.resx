@@ -117,60 +117,87 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="studyIdLabel.Text" xml:space="preserve">
-    <value>estudios actuales</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="studyIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 156</value>
+  </data>
+  <data name="studyIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 40</value>
+  </data>
+  <data name="studyIdLabel.Text" xml:space="preserve">
+    <value>Estudios Actuales</value>
+  </data>
+  <data name="homeFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>61, 24</value>
+    <value>13, 21</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 40</value>
+    <value>79, 29</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
-    <value>hogar</value>
+    <value>Hogar</value>
+  </data>
+  <data name="studiesFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 24</value>
+    <value>103, 21</value>
   </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 40</value>
+    <value>106, 29</value>
   </data>
   <data name="studiesFormLabel.Text" xml:space="preserve">
-    <value>registros</value>
+    <value>Estudios</value>
+  </data>
+  <data name="miceFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 21</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 40</value>
+    <value>102, 29</value>
   </data>
   <data name="miceFormLabel.Text" xml:space="preserve">
     <value>Ratones</value>
   </data>
+  <data name="logsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>505, 24</value>
+    <value>348, 21</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 40</value>
+    <value>116, 29</value>
   </data>
   <data name="logsFormLabel.Text" xml:space="preserve">
-    <value>diario</value>
+    <value>Registros</value>
+  </data>
+  <data name="accountFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 24</value>
+    <value>484, 21</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 40</value>
+    <value>89, 29</value>
   </data>
   <data name="accountFormLabel.Text" xml:space="preserve">
     <value>Cuenta</value>
   </data>
+  <data name="settingsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>762, 24</value>
+    <value>588, 21</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 40</value>
+    <value>188, 29</value>
   </data>
   <data name="settingsFormLabel.Text" xml:space="preserve">
-    <value>ajustes</value>
+    <value>Configuraciones</value>
   </data>
   <data name="welcomeLabel.Text" xml:space="preserve">
     <value>Bienvenida a la TSO</value>
@@ -2662,5 +2689,8 @@
         ///////8///////////////////////////////8///////////////////////////////8////////
         ///////////////////////8///////////////////////////////8
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TSO - Principal</value>
   </data>
 </root>

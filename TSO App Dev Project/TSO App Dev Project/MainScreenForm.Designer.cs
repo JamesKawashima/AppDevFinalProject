@@ -61,8 +61,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -141,6 +141,7 @@
             // welcomeLabel
             // 
             resources.ApplyResources(this.welcomeLabel, "welcomeLabel");
+            this.welcomeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(50)))), ((int)(((byte)(65)))));
             this.welcomeLabel.Name = "welcomeLabel";
             // 
             // label2
@@ -155,8 +156,8 @@
             // 
             // listBox1
             // 
-            this.listBox1.FormattingEnabled = true;
             resources.ApplyResources(this.listBox1, "listBox1");
+            this.listBox1.FormattingEnabled = true;
             this.listBox1.Name = "listBox1";
             // 
             // MainScreenForm

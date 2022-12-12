@@ -1,0 +1,15 @@
+Home - Acceuil - Hogar
+Studies - Études - Estudios
+Mice - Souris - Rantones
+Logs - Journaux - Registros
+Account - Compte - Cuenta
+Settings - Paramètres - Configuraciones
+
+Study ID - ID d'étude - Identificación del estudio
+Lead User - Utilisateur principal - Usuario líder
+Group ID - ID de groupe - Identificación del grupo
+Dose Name - Nom de la dose - Nombre de la dosis
+Dose - Dose - Dosis
+Date - Date - Fecha
+Status - Statut - Estado
+Comments - Remarques - Notas
