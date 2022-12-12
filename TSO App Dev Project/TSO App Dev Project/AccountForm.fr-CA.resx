@@ -119,16 +119,16 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>775, 18</value>
+    <value>728, 18</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 36</value>
   </data>
   <data name="settingsFormLabel.Text" xml:space="preserve">
-    <value>Parametres</value>
+    <value>Paramètres</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>639, 18</value>
+    <value>599, 18</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 36</value>
@@ -137,7 +137,7 @@
     <value>Compte</value>
   </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>487, 18</value>
+    <value>448, 18</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 36</value>
@@ -146,7 +146,7 @@
     <value>Journaux</value>
   </data>
   <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 18</value>
+    <value>335, 18</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 36</value>
@@ -154,20 +154,29 @@
   <data name="miceFormLabel.Text" xml:space="preserve">
     <value>Souris</value>
   </data>
+  <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 18</value>
+  </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 36</value>
+    <value>108, 36</value>
   </data>
   <data name="studiesFormLabel.Text" xml:space="preserve">
-    <value>etudes</value>
+    <value>Études</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 18</value>
+    <value>90, 18</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 36</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
     <value>Acceuil</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="editButton.Text" xml:space="preserve">
+    <value>Modifier le compte</value>
   </data>
   <data name="accountNotesLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>290, 36</value>

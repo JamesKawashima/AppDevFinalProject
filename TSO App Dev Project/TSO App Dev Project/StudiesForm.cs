@@ -53,5 +53,20 @@ namespace TSO_App_Dev_Project
             chgPage = 'c';
             Close();
         }
+
+        private void studiesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.studiesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.tSODBDataSet);
+
+        }
+
+        private void StudiesForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'tSODBDataSet.Studies' table. You can move, or remove it, as needed.
+            this.studiesTableAdapter.Fill(this.tSODBDataSet.Studies);
+
+        }
     }
 }

@@ -109,6 +109,9 @@
     <Compile Include="StudiesForm.Designer.cs">
       <DependentUpon>StudiesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="TSODBDataSet.cs">
+      <DependentUpon>TSODBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="TSODBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -127,6 +130,9 @@
       <DependentUpon>AccountForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AccountForm.es-ES.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountForm.es.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AccountForm.fr-CA.resx">

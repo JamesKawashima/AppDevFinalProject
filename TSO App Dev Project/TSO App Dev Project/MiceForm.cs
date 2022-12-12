@@ -67,5 +67,20 @@ namespace TSO_App_Dev_Project
             this.miceTableAdapter.Fill(this.tSODBDataSet.Mice);
             this.miceDataGridView.Sort(this.miceDataGridView.Columns[0], ListSortDirection.Ascending);
         }
+
+        private void addMouseButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addGroupButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void editMouseButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
