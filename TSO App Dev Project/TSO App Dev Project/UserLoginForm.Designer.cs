@@ -38,8 +38,11 @@
             this.tSODBDataSet = new TSO_App_Dev_Project.TSODBDataSet();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.TSOTitleLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // usernameLabel
@@ -66,14 +69,16 @@
             // userLoginButton
             // 
             resources.ApplyResources(this.userLoginButton, "userLoginButton");
+            this.userLoginButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(193)))), ((int)(((byte)(217)))));
             this.userLoginButton.Name = "userLoginButton";
-            this.userLoginButton.UseVisualStyleBackColor = true;
+            this.userLoginButton.UseVisualStyleBackColor = false;
             this.userLoginButton.Click += new System.EventHandler(this.userLoginButton_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.mouseImage1;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.mouseImage1;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -98,10 +103,23 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBlock2;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // TSOTitleLabel
+            // 
+            resources.ApplyResources(this.TSOTitleLabel, "TSOTitleLabel");
+            this.TSOTitleLabel.Name = "TSOTitleLabel";
+            // 
             // UserLoginForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.TSOTitleLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.userLoginButton);
@@ -110,9 +128,11 @@
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "UserLoginForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,6 +149,8 @@
         private TSODBDataSet tSODBDataSet;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label TSOTitleLabel;
     }
 }
 

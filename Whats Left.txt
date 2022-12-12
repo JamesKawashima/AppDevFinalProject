@@ -1,9 +1,5 @@
 on jah bro, we need to get this done my brothah
 
-USER MANUAL!!!
-	- (J) Finish adding images
-	- (J) proof read to make sure no typos 
-	- (J) Write what each feature does
 Powerpoint
 	- (A) DO LIL POWERPOINT
 
@@ -15,23 +11,22 @@ MAIN SCREEN :
 	- (J) Touch up GUI
 	- (J) Current Studies List
 STUDIES SCREEN :
-	0 (A) Add data grid view
-	- (A) Add filters so we can look at only past, previous or current studies
-	- (A) Button to add new study
-	- (A) Button to assign self to study
 	- (A) Touch up GUI
+	0 (A) Add data grid view
+	0 (A) Button to add new study
+	0 (A) Button to assign self to study
 MICE SCREEN :
 	- (A) Touch up GUI
-	- (A) Add button to add mice
-	- (A) Add button to add group
+	0 (A) Add button to add mice
+	0 (A) Add button to add group
 LOGS SCREEN :
-	- (A) Add data grid view
-	- (A) Button to add new log
+	0 (A) Add data grid view
+	0 (A) Button to add new log
 	- (J) Touch up GUI
 ACCOUNT SCREEN :
 	- (A) Touch up GUI
 SETTINGS SCREEN :
 	0 (J) Button to add user
 	- (J) Touch up GUI
-	- (J) figure out if we can make mouse dance in MessageBox popup
+	0 (J) figure out if we can make mouse dance in MessageBox popup
 	- (J) Fix about us message

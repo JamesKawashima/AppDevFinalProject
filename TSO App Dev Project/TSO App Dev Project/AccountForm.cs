@@ -69,7 +69,7 @@ namespace TSO_App_Dev_Project
 
                 conn.Open();
 
-                String loggedInUserId = liu.Id.ToString();
+                string loggedInUserId = liu.Id.ToString();
 
                 SqlCommand command1 = new SqlCommand($"SELECT * FROM Users WHERE id = '{loggedInUserId}'", conn);
 

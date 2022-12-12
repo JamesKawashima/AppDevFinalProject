@@ -295,6 +295,7 @@
             resources.ApplyResources(this.editStudyButton, "editStudyButton");
             this.editStudyButton.Name = "editStudyButton";
             this.editStudyButton.UseVisualStyleBackColor = true;
+            this.editStudyButton.Click += new System.EventHandler(this.editStudyButton_Click);
             // 
             // editStudyStudyIdLabel
             // 
@@ -391,6 +392,7 @@
             resources.ApplyResources(this.addStudyButton, "addStudyButton");
             this.addStudyButton.Name = "addStudyButton";
             this.addStudyButton.UseVisualStyleBackColor = true;
+            this.addStudyButton.Click += new System.EventHandler(this.addStudyButton_Click);
             // 
             // assignMyselfToStudyGroupBox
             // 
@@ -416,6 +418,7 @@
             resources.ApplyResources(this.assignMyselfToStudyButton, "assignMyselfToStudyButton");
             this.assignMyselfToStudyButton.Name = "assignMyselfToStudyButton";
             this.assignMyselfToStudyButton.UseVisualStyleBackColor = true;
+            this.assignMyselfToStudyButton.Click += new System.EventHandler(this.assignMyselfToStudyButton_Click);
             // 
             // StudiesForm
             // 

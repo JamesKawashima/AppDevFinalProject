@@ -38,16 +38,16 @@
             this.homeFormLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.createLogGroupBox = new System.Windows.Forms.GroupBox();
-            this.addMouseButton = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.editMouseMouseIDTextBox = new System.Windows.Forms.TextBox();
-            this.editMouseHeightTextBox = new System.Windows.Forms.TextBox();
-            this.mouseIdLabel = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.createLogButton = new System.Windows.Forms.Button();
+            this.createLogEuthanizedCheckBox = new System.Windows.Forms.CheckBox();
+            this.createLogWidthTextBox = new System.Windows.Forms.TextBox();
+            this.createLogWidthLabel = new System.Windows.Forms.Label();
+            this.createLogLengthTextBox = new System.Windows.Forms.TextBox();
+            this.createLogLengthLabel = new System.Windows.Forms.Label();
+            this.createLogMouseIDTextBox = new System.Windows.Forms.TextBox();
+            this.createLogHeightTextBox = new System.Windows.Forms.TextBox();
+            this.createLogMouseIDLabel = new System.Windows.Forms.Label();
+            this.createLogHeightLabel = new System.Windows.Forms.Label();
             this.tSODBDataSet = new TSO_App_Dev_Project.TSODBDataSet();
             this.tumorLogsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tumorLogsTableAdapter = new TSO_App_Dev_Project.TSODBDataSetTableAdapters.TumorLogsTableAdapter();
@@ -63,6 +63,8 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.createLogCommentsTextBox = new System.Windows.Forms.TextBox();
+            this.createLogCommentsLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.createLogGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
@@ -121,71 +123,74 @@
             // 
             // createLogGroupBox
             // 
-            this.createLogGroupBox.Controls.Add(this.addMouseButton);
-            this.createLogGroupBox.Controls.Add(this.checkBox1);
-            this.createLogGroupBox.Controls.Add(this.textBox3);
-            this.createLogGroupBox.Controls.Add(this.label3);
-            this.createLogGroupBox.Controls.Add(this.textBox1);
-            this.createLogGroupBox.Controls.Add(this.label1);
-            this.createLogGroupBox.Controls.Add(this.editMouseMouseIDTextBox);
-            this.createLogGroupBox.Controls.Add(this.editMouseHeightTextBox);
-            this.createLogGroupBox.Controls.Add(this.mouseIdLabel);
-            this.createLogGroupBox.Controls.Add(this.label4);
+            this.createLogGroupBox.Controls.Add(this.createLogCommentsTextBox);
+            this.createLogGroupBox.Controls.Add(this.createLogCommentsLabel);
+            this.createLogGroupBox.Controls.Add(this.createLogButton);
+            this.createLogGroupBox.Controls.Add(this.createLogEuthanizedCheckBox);
+            this.createLogGroupBox.Controls.Add(this.createLogWidthTextBox);
+            this.createLogGroupBox.Controls.Add(this.createLogWidthLabel);
+            this.createLogGroupBox.Controls.Add(this.createLogLengthTextBox);
+            this.createLogGroupBox.Controls.Add(this.createLogLengthLabel);
+            this.createLogGroupBox.Controls.Add(this.createLogMouseIDTextBox);
+            this.createLogGroupBox.Controls.Add(this.createLogHeightTextBox);
+            this.createLogGroupBox.Controls.Add(this.createLogMouseIDLabel);
+            this.createLogGroupBox.Controls.Add(this.createLogHeightLabel);
             resources.ApplyResources(this.createLogGroupBox, "createLogGroupBox");
             this.createLogGroupBox.Name = "createLogGroupBox";
             this.createLogGroupBox.TabStop = false;
             // 
-            // addMouseButton
+            // createLogButton
             // 
-            resources.ApplyResources(this.addMouseButton, "addMouseButton");
-            this.addMouseButton.Name = "addMouseButton";
-            this.addMouseButton.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.createLogButton, "createLogButton");
+            this.createLogButton.Name = "createLogButton";
+            this.createLogButton.UseVisualStyleBackColor = true;
+            this.createLogButton.Click += new System.EventHandler(this.createLogButton_Click);
             // 
-            // checkBox1
+            // createLogEuthanizedCheckBox
             // 
-            resources.ApplyResources(this.checkBox1, "checkBox1");
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.createLogEuthanizedCheckBox, "createLogEuthanizedCheckBox");
+            this.createLogEuthanizedCheckBox.Name = "createLogEuthanizedCheckBox";
+            this.createLogEuthanizedCheckBox.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // createLogWidthTextBox
             // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
+            resources.ApplyResources(this.createLogWidthTextBox, "createLogWidthTextBox");
+            this.createLogWidthTextBox.Name = "createLogWidthTextBox";
             // 
-            // label3
+            // createLogWidthLabel
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.createLogWidthLabel, "createLogWidthLabel");
+            this.createLogWidthLabel.Name = "createLogWidthLabel";
             // 
-            // textBox1
+            // createLogLengthTextBox
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.createLogLengthTextBox, "createLogLengthTextBox");
+            this.createLogLengthTextBox.Name = "createLogLengthTextBox";
             // 
-            // label1
+            // createLogLengthLabel
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.createLogLengthLabel, "createLogLengthLabel");
+            this.createLogLengthLabel.Name = "createLogLengthLabel";
             // 
-            // editMouseMouseIDTextBox
+            // createLogMouseIDTextBox
             // 
-            resources.ApplyResources(this.editMouseMouseIDTextBox, "editMouseMouseIDTextBox");
-            this.editMouseMouseIDTextBox.Name = "editMouseMouseIDTextBox";
+            resources.ApplyResources(this.createLogMouseIDTextBox, "createLogMouseIDTextBox");
+            this.createLogMouseIDTextBox.Name = "createLogMouseIDTextBox";
             // 
-            // editMouseHeightTextBox
+            // createLogHeightTextBox
             // 
-            resources.ApplyResources(this.editMouseHeightTextBox, "editMouseHeightTextBox");
-            this.editMouseHeightTextBox.Name = "editMouseHeightTextBox";
+            resources.ApplyResources(this.createLogHeightTextBox, "createLogHeightTextBox");
+            this.createLogHeightTextBox.Name = "createLogHeightTextBox";
             // 
-            // mouseIdLabel
+            // createLogMouseIDLabel
             // 
-            resources.ApplyResources(this.mouseIdLabel, "mouseIdLabel");
-            this.mouseIdLabel.Name = "mouseIdLabel";
+            resources.ApplyResources(this.createLogMouseIDLabel, "createLogMouseIDLabel");
+            this.createLogMouseIDLabel.Name = "createLogMouseIDLabel";
             // 
-            // label4
+            // createLogHeightLabel
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.createLogHeightLabel, "createLogHeightLabel");
+            this.createLogHeightLabel.Name = "createLogHeightLabel";
             // 
             // tSODBDataSet
             // 
@@ -292,6 +297,16 @@
             resources.ApplyResources(this.dataGridViewTextBoxColumn11, "dataGridViewTextBoxColumn11");
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             // 
+            // createLogCommentsTextBox
+            // 
+            resources.ApplyResources(this.createLogCommentsTextBox, "createLogCommentsTextBox");
+            this.createLogCommentsTextBox.Name = "createLogCommentsTextBox";
+            // 
+            // createLogCommentsLabel
+            // 
+            resources.ApplyResources(this.createLogCommentsLabel, "createLogCommentsLabel");
+            this.createLogCommentsLabel.Name = "createLogCommentsLabel";
+            // 
             // LogsForm
             // 
             resources.ApplyResources(this, "$this");
@@ -328,16 +343,16 @@
         private System.Windows.Forms.Label homeFormLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox createLogGroupBox;
-        private System.Windows.Forms.Button addMouseButton;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox editMouseMouseIDTextBox;
-        private System.Windows.Forms.TextBox editMouseHeightTextBox;
-        private System.Windows.Forms.Label mouseIdLabel;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button createLogButton;
+        private System.Windows.Forms.CheckBox createLogEuthanizedCheckBox;
+        private System.Windows.Forms.TextBox createLogWidthTextBox;
+        private System.Windows.Forms.Label createLogWidthLabel;
+        private System.Windows.Forms.TextBox createLogLengthTextBox;
+        private System.Windows.Forms.Label createLogLengthLabel;
+        private System.Windows.Forms.TextBox createLogMouseIDTextBox;
+        private System.Windows.Forms.TextBox createLogHeightTextBox;
+        private System.Windows.Forms.Label createLogMouseIDLabel;
+        private System.Windows.Forms.Label createLogHeightLabel;
         private TSODBDataSet tSODBDataSet;
         private System.Windows.Forms.BindingSource tumorLogsBindingSource;
         private TSODBDataSetTableAdapters.TumorLogsTableAdapter tumorLogsTableAdapter;
@@ -353,5 +368,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.TextBox createLogCommentsTextBox;
+        private System.Windows.Forms.Label createLogCommentsLabel;
     }
 }
