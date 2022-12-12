@@ -81,7 +81,7 @@ namespace TSO_App_Dev_Project
 
                 String loggedInUserId = liu.Id.ToString();
 
-                SqlCommand command1 = new SqlCommand($"SELECT * FROM Studies", conn);
+                SqlCommand command1 = new SqlCommand($"SELECT * FROM Studies WHERE status = 'Ongoing'", conn);
 
                 SqlDataReader reader1;
 

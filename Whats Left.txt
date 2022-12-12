@@ -5,11 +5,11 @@ Powerpoint
 
 
 USER LOGIN SCREEN :
-	- (A) Touch up GUI
+	0 (A) Touch up GUI
 	0 (J) Fix being able to open forms that were previously closed
 MAIN SCREEN :
-	- (J) Touch up GUI
-	- (J) Current Studies List
+	0 (J) Touch up GUI
+	0 (J) Current Studies List
 STUDIES SCREEN :
 	- (A) Touch up GUI
 	0 (A) Add data grid view

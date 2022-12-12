@@ -159,10 +159,10 @@
     <value>NoControl</value>
   </data>
   <data name="userLoginButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>578, 254</value>
+    <value>565, 247</value>
   </data>
   <data name="userLoginButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 40</value>
+    <value>155, 62</value>
   </data>
   <data name="userLoginButton.Text" xml:space="preserve">
     <value>Connecter</value>
