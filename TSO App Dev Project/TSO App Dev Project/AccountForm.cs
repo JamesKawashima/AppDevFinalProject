@@ -154,6 +154,11 @@ namespace TSO_App_Dev_Project
                     MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            accountFirstNameTextBox.ReadOnly = true;
+            accountLastNameTextBox.ReadOnly = true;
+            accountUsernameTextBox.ReadOnly = true;
+            accountPasswordTextBox.ReadOnly = true;
+            accountNotesTextBox.ReadOnly = true;
             saveButton.Enabled = false;
         }
     }

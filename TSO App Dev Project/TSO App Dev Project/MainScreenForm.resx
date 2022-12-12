@@ -117,101 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="currentStudiesLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="currentStudiesLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Berlin Sans FB, 13.8pt</value>
-  </data>
-  <data name="currentStudiesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>389, 110</value>
-  </data>
-  <data name="currentStudiesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 40</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>592, 390</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="currentStudiesLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="currentStudiesLabel.Text" xml:space="preserve">
-    <value>Current Studies</value>
-  </data>
-  <data name="currentStudiesLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;currentStudiesLabel.Name" xml:space="preserve">
-    <value>currentStudiesLabel</value>
-  </data>
-  <data name="&gt;&gt;currentStudiesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;currentStudiesLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;currentStudiesLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <metadata name="allUsersLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="allUsersLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Berlin Sans FB, 13.8pt</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="allUsersLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="allUsersLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>389, 294</value>
+    <value>292, 239</value>
   </data>
-  <data name="allUsersLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 40</value>
-  </data>
-  <data name="allUsersLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="allUsersLabel.Text" xml:space="preserve">
-    <value>All Users</value>
-  </data>
-  <data name="allUsersLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;allUsersLabel.Name" xml:space="preserve">
-    <value>allUsersLabel</value>
-  </data>
-  <data name="&gt;&gt;allUsersLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;allUsersLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="settingsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
   </data>
-  <data name="&gt;&gt;allUsersLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-247, -72</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1267, 173</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="&gt;&gt;homeFormLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="homeFormLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -219,338 +143,267 @@
   <data name="homeFormLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
-  <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 11</value>
+  <data name="currentStudiesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 32</value>
   </data>
-  <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 36</value>
-  </data>
-  <data name="homeFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="homeFormLabel.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="&gt;&gt;homeFormLabel.Name" xml:space="preserve">
-    <value>homeFormLabel</value>
-  </data>
-  <data name="&gt;&gt;homeFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;homeFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;homeFormLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="studiesFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="studiesFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 11</value>
-  </data>
-  <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 36</value>
-  </data>
-  <data name="studiesFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="studiesFormLabel.Text" xml:space="preserve">
-    <value>Studies</value>
-  </data>
-  <data name="&gt;&gt;studiesFormLabel.Name" xml:space="preserve">
-    <value>studiesFormLabel</value>
-  </data>
-  <data name="&gt;&gt;studiesFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;studiesFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;studiesFormLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="miceFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="miceFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 11</value>
-  </data>
-  <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 36</value>
-  </data>
-  <data name="miceFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="miceFormLabel.Text" xml:space="preserve">
-    <value>Mice</value>
-  </data>
-  <data name="&gt;&gt;miceFormLabel.Name" xml:space="preserve">
-    <value>miceFormLabel</value>
-  </data>
-  <data name="&gt;&gt;miceFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;miceFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;miceFormLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="logsFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="logsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 11</value>
-  </data>
-  <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 36</value>
-  </data>
-  <data name="logsFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="logsFormLabel.Text" xml:space="preserve">
-    <value>Logs</value>
-  </data>
-  <data name="&gt;&gt;logsFormLabel.Name" xml:space="preserve">
-    <value>logsFormLabel</value>
-  </data>
-  <data name="&gt;&gt;logsFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;logsFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;logsFormLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="accountFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="accountFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>473, 11</value>
-  </data>
-  <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 36</value>
-  </data>
-  <data name="accountFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="accountFormLabel.Text" xml:space="preserve">
-    <value>Account</value>
-  </data>
-  <data name="&gt;&gt;accountFormLabel.Name" xml:space="preserve">
-    <value>accountFormLabel</value>
-  </data>
-  <data name="&gt;&gt;accountFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;accountFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;accountFormLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="settingsFormLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="settingsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 11</value>
-  </data>
-  <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 36</value>
-  </data>
-  <data name="settingsFormLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="settingsFormLabel.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;settingsFormLabel.Name" xml:space="preserve">
-    <value>settingsFormLabel</value>
-  </data>
-  <data name="&gt;&gt;settingsFormLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;settingsFormLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;settingsFormLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="monthCalendar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 202</value>
-  </data>
-  <data name="monthCalendar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 7, 8, 7</value>
-  </data>
-  <data name="monthCalendar.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;monthCalendar.Name" xml:space="preserve">
-    <value>monthCalendar</value>
-  </data>
-  <data name="&gt;&gt;monthCalendar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MonthCalendar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
+    <value>TSO_App_Dev_Project.TSODBDataSetTableAdapters.TableAdapterManager, TSODBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;monthCalendar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;monthCalendar.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <metadata name="tSODBDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="studiesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>196, 17</value>
-  </metadata>
-  <metadata name="studiesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>433, 17</value>
-  </metadata>
-  <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>662, 17</value>
-  </metadata>
-  <data name="welcomeLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Berlin Sans FB, 19.8000011pt</value>
-  </data>
-  <data name="welcomeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 109</value>
-  </data>
-  <data name="welcomeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>403, 39</value>
-  </data>
-  <data name="welcomeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="welcomeLabel.Text" xml:space="preserve">
-    <value>Welcome to the TSO!</value>
-  </data>
-  <data name="&gt;&gt;welcomeLabel.Name" xml:space="preserve">
-    <value>welcomeLabel</value>
-  </data>
-  <data name="&gt;&gt;welcomeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;welcomeLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;welcomeLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>409, 47</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 16</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <metadata name="tsodbDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1087, 17</value>
-  </metadata>
-  <data name="currentStudiesListBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Narrow, 10.2pt</value>
-  </data>
-  <data name="currentStudiesListBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="currentStudiesListBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, 148</value>
-  </data>
-  <data name="currentStudiesListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="currentStudiesListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>367, 136</value>
-  </data>
-  <data name="currentStudiesListBox.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;currentStudiesListBox.Name" xml:space="preserve">
-    <value>currentStudiesListBox</value>
-  </data>
-  <data name="&gt;&gt;currentStudiesListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;currentStudiesListBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;currentStudiesListBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="allUsersListBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Narrow, 13.8pt</value>
+  <data name="allUsersLabel.Text" xml:space="preserve">
+    <value>All Users</value>
   </data>
-  <data name="allUsersListBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="studiesFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;welcomeLabel.Name" xml:space="preserve">
+    <value>welcomeLabel</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>950, 141</value>
+  </data>
+  <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 29</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="allUsersLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;miceFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="currentStudiesListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;currentStudiesLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="studiesFormLabel.Text" xml:space="preserve">
+    <value>Studies</value>
   </data>
   <data name="allUsersListBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, 332</value>
+    <value>289, 270</value>
   </data>
-  <data name="allUsersListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;allUsersLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="allUsersListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>367, 112</value>
+  <data name="&gt;&gt;tsodbDataSet1.Type" xml:space="preserve">
+    <value>TSO_App_Dev_Project.TSODBDataSet, TSODBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="allUsersListBox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="&gt;&gt;settingsFormLabel.Name" xml:space="preserve">
+    <value>settingsFormLabel</value>
   </data>
-  <data name="&gt;&gt;allUsersListBox.Name" xml:space="preserve">
-    <value>allUsersListBox</value>
+  <data name="studiesFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="currentStudiesListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;studiesFormLabel.Name" xml:space="preserve">
+    <value>studiesFormLabel</value>
+  </data>
+  <data name="currentStudiesListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="allUsersLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Berlin Sans FB, 13.8pt</value>
+  </data>
+  <data name="logsFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miceFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;logsFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;welcomeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;homeFormLabel.Name" xml:space="preserve">
+    <value>homeFormLabel</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainScreenForm</value>
+  </data>
+  <data name="allUsersLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 32</value>
+  </data>
+  <data name="currentStudiesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Berlin Sans FB, 13.8pt</value>
+  </data>
+  <data name="welcomeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Berlin Sans FB, 19.8000011pt</value>
   </data>
   <data name="&gt;&gt;allUsersListBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="currentStudiesListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 10.2pt</value>
+  </data>
+  <data name="allUsersLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="currentStudiesLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="accountFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="monthCalendar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="currentStudiesListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 120</value>
+  </data>
+  <data name="homeFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="allUsersLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="settingsFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;allUsersLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;currentStudiesLabel.Name" xml:space="preserve">
+    <value>currentStudiesLabel</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="accountFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="miceFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="accountFormLabel.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="&gt;&gt;currentStudiesListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 29</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="accountFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="allUsersListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 13.8pt</value>
+  </data>
+  <data name="monthCalendar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="&gt;&gt;currentStudiesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="welcomeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 89</value>
+  </data>
+  <data name="&gt;&gt;tSODBDataSet.Type" xml:space="preserve">
+    <value>TSO_App_Dev_Project.TSODBDataSet, TSODBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miceFormLabel.Text" xml:space="preserve">
+    <value>Mice</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TSO - Main</value>
+  </data>
+  <data name="&gt;&gt;monthCalendar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MonthCalendar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;studiesFormLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;logsFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="currentStudiesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;homeFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="studiesFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="miceFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="&gt;&gt;currentStudiesListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="accountFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="logsFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;currentStudiesListBox.Name" xml:space="preserve">
+    <value>currentStudiesListBox</value>
+  </data>
+  <data name="currentStudiesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;miceFormLabel.Name" xml:space="preserve">
+    <value>miceFormLabel</value>
+  </data>
+  <data name="logsFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="currentStudiesListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 106</value>
+  </data>
+  <data name="logsFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
   <data name="&gt;&gt;allUsersListBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;allUsersListBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;accountFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>75</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+  <data name="homeFormLabel.Text" xml:space="preserve">
+    <value>Home</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>789, 480</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;studiesBindingSource.Name" xml:space="preserve">
+    <value>studiesBindingSource</value>
+  </data>
+  <data name="settingsFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3040,46 +2893,232 @@
         ///////////////////////8///////////////////////////////8
 </value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="&gt;&gt;accountFormLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>TSO - Main</value>
+  <data name="homeFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;tSODBDataSet.Name" xml:space="preserve">
-    <value>tSODBDataSet</value>
+  <data name="welcomeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 32</value>
   </data>
-  <data name="&gt;&gt;tSODBDataSet.Type" xml:space="preserve">
-    <value>TSO_App_Dev_Project.TSODBDataSet, TSODBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="currentStudiesLabel.Text" xml:space="preserve">
+    <value>Current Studies</value>
   </data>
-  <data name="&gt;&gt;studiesBindingSource.Name" xml:space="preserve">
-    <value>studiesBindingSource</value>
+  <data name="&gt;&gt;settingsFormLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;studiesBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="logsFormLabel.Text" xml:space="preserve">
+    <value>Logs</value>
   </data>
-  <data name="&gt;&gt;studiesTableAdapter.Name" xml:space="preserve">
-    <value>studiesTableAdapter</value>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;homeFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;studiesFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="miceFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="allUsersLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;settingsFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 9</value>
+  </data>
+  <data name="&gt;&gt;accountFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;studiesTableAdapter.Type" xml:space="preserve">
     <value>TSO_App_Dev_Project.TSODBDataSetTableAdapters.StudiesTableAdapter, TSODBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 9</value>
+  </data>
+  <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="&gt;&gt;accountFormLabel.Name" xml:space="preserve">
+    <value>accountFormLabel</value>
+  </data>
+  <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 9</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="&gt;&gt;tableAdapterManager.Name" xml:space="preserve">
     <value>tableAdapterManager</value>
   </data>
-  <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
-    <value>TSO_App_Dev_Project.TSODBDataSetTableAdapters.TableAdapterManager, TSODBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;currentStudiesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="allUsersListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="welcomeLabel.Text" xml:space="preserve">
+    <value>Welcome to the TSO!</value>
+  </data>
+  <data name="studiesFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="miceFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="settingsFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;monthCalendar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tSODBDataSet.Name" xml:space="preserve">
+    <value>tSODBDataSet</value>
+  </data>
+  <data name="&gt;&gt;welcomeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="monthCalendar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 164</value>
+  </data>
+  <data name="settingsFormLabel.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;allUsersLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-185, -58</value>
+  </data>
+  <data name="&gt;&gt;studiesTableAdapter.Name" xml:space="preserve">
+    <value>studiesTableAdapter</value>
   </data>
   <data name="&gt;&gt;tsodbDataSet1.Name" xml:space="preserve">
     <value>tsodbDataSet1</value>
   </data>
-  <data name="&gt;&gt;tsodbDataSet1.Type" xml:space="preserve">
-    <value>TSO_App_Dev_Project.TSODBDataSet, TSODBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="welcomeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainScreenForm</value>
+  <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 9</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="currentStudiesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 89</value>
   </data>
+  <data name="welcomeLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 9</value>
+  </data>
+  <data name="&gt;&gt;allUsersListBox.Name" xml:space="preserve">
+    <value>allUsersListBox</value>
+  </data>
+  <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="allUsersListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 92</value>
+  </data>
+  <data name="&gt;&gt;allUsersListBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="&gt;&gt;miceFormLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 9</value>
+  </data>
+  <data name="&gt;&gt;allUsersLabel.Name" xml:space="preserve">
+    <value>allUsersLabel</value>
+  </data>
+  <data name="allUsersListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;welcomeLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;logsFormLabel.Name" xml:space="preserve">
+    <value>logsFormLabel</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 38</value>
+  </data>
+  <data name="allUsersListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;monthCalendar.Name" xml:space="preserve">
+    <value>monthCalendar</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;logsFormLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;studiesBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;studiesFormLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="allUsersLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>es-ES</value>
+  </metadata>
+  <metadata name="studiesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>196, 17</value>
+  </metadata>
+  <metadata name="studiesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>433, 17</value>
+  </metadata>
+  <metadata name="tSODBDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tsodbDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1087, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>75</value>
+  </metadata>
+  <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>662, 17</value>
+  </metadata>
+  <metadata name="currentStudiesLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
 </root>

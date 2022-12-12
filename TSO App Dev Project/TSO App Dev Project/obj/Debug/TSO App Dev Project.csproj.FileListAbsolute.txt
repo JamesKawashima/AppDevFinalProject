@@ -100,3 +100,58 @@ C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-
 C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MouseDance.es-ES.resources
 C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MouseDance.fr-CA.resources
 C:\Users\amand\OneDrive - Vanier College\S5 - Fall 2022\AppDev 1 (Desktop) (420-331-VA)\Project\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\fr-CM\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\TSODB.mdf
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\TSODB_log.ldf
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\TSO App Dev Project.exe.config
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\TSO App Dev Project.exe
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\TSO App Dev Project.pdb
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\dje-NE\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\es-ES\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\es\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\fr-CA\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\fr-CM\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\bin\Debug\es-PR\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.csproj.AssemblyReference.cache
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.CreateUser.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.LogsForm.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MainScreenForm.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MiceForm.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MouseDance.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.SettingsForm.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.StudiesForm.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.UserLoginForm.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.Properties.Resources.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.dje-NE.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.es.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.AccountForm.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.CreateUser.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.CreateUser.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.CreateUser.fr-CM.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.LogsForm.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.LogsForm.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MainScreenForm.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MainScreenForm.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MiceForm.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MiceForm.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MouseDance.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.MouseDance.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.SettingsForm.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.SettingsForm.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.StudiesForm.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.StudiesForm.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.UserLoginForm.es-ES.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.UserLoginForm.es-PR.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO_App_Dev_Project.UserLoginForm.fr-CA.resources
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.csproj.GenerateResource.cache
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.csproj.CoreCompileInputs.cache
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\dje-NE\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\es-ES\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\es\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\fr-CA\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\fr-CM\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\es-PR\TSO App Dev Project.resources.dll
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.exe
+C:\Users\2148113\Documents\GitHub\AppDevFinalProject\TSO App Dev Project\TSO App Dev Project\obj\Debug\TSO App Dev Project.pdb
