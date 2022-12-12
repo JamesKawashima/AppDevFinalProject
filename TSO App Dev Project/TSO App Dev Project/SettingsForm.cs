@@ -24,8 +24,7 @@ namespace TSO_App_Dev_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            md.Close();
-            Close();
+            Application.Restart();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

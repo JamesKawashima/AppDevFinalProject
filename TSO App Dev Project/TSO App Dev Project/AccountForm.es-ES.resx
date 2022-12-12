@@ -119,118 +119,200 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>693, 11</value>
+    <value>816, 14</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 36</value>
+    <value>277, 40</value>
   </data>
   <data name="settingsFormLabel.Text" xml:space="preserve">
     <value>Configuraciones</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>577, 11</value>
+    <value>677, 14</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 36</value>
+    <value>133, 40</value>
   </data>
   <data name="accountFormLabel.Text" xml:space="preserve">
     <value>Cuenta</value>
   </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>429, 11</value>
+    <value>502, 14</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 36</value>
+    <value>169, 40</value>
   </data>
   <data name="logsFormLabel.Text" xml:space="preserve">
     <value>Registros</value>
   </data>
   <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>297, 11</value>
+    <value>345, 14</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 36</value>
+    <value>151, 40</value>
   </data>
   <data name="miceFormLabel.Text" xml:space="preserve">
     <value>Ratones</value>
   </data>
   <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 11</value>
+    <value>186, 14</value>
   </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 36</value>
+    <value>155, 40</value>
   </data>
   <data name="studiesFormLabel.Text" xml:space="preserve">
     <value>Estudios</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 11</value>
+    <value>65, 14</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 36</value>
+    <value>115, 40</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
     <value>Hogar</value>
   </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-160, -88</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1425, 216</value>
+  </data>
+  <data name="saveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 490</value>
+  </data>
+  <data name="saveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 112</value>
+  </data>
   <data name="saveButton.Text" xml:space="preserve">
     <value>Registro</value>
+  </data>
+  <data name="editButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 490</value>
+  </data>
+  <data name="editButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="editButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 112</value>
   </data>
   <data name="editButton.Text" xml:space="preserve">
     <value>Editar Cuenta</value>
   </data>
+  <data name="accountNotesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 152</value>
+  </data>
+  <data name="accountNotesTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="accountNotesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 270</value>
+  </data>
+  <data name="accountNotesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 88</value>
+  </data>
   <data name="accountNotesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 36</value>
+    <value>277, 40</value>
   </data>
   <data name="accountNotesLabel.Text" xml:space="preserve">
     <value>Notas privadas :</value>
+  </data>
+  <data name="accountPasswordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 376</value>
+  </data>
+  <data name="accountPasswordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="accountPasswordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 44</value>
   </data>
   <data name="accountPasswordLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="accountPasswordLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 369</value>
+    <value>169, 381</value>
   </data>
   <data name="accountPasswordLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 29</value>
+    <value>95, 32</value>
   </data>
   <data name="accountPasswordLabel.Text" xml:space="preserve">
     <value>Clave:</value>
+  </data>
+  <data name="accountUsernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 305</value>
+  </data>
+  <data name="accountUsernameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="accountUsernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 44</value>
   </data>
   <data name="accountUsernameLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="accountUsernameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 312</value>
+    <value>5, 310</value>
   </data>
   <data name="accountUsernameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 29</value>
+    <value>262, 32</value>
   </data>
   <data name="accountUsernameLabel.Text" xml:space="preserve">
     <value>Nombre de usuario:</value>
+  </data>
+  <data name="accountLastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 230</value>
+  </data>
+  <data name="accountLastNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="accountLastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 44</value>
   </data>
   <data name="accountLastNameLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="accountLastNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 252</value>
+    <value>15, 235</value>
   </data>
   <data name="accountLastNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 29</value>
+    <value>252, 32</value>
   </data>
   <data name="accountLastNameLabel.Text" xml:space="preserve">
     <value>Nombre de familia:</value>
+  </data>
+  <data name="accountFirstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 152</value>
+  </data>
+  <data name="accountFirstNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="accountFirstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 44</value>
   </data>
   <data name="accountFirstNameLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="accountFirstNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 190</value>
+    <value>57, 158</value>
   </data>
   <data name="accountFirstNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 29</value>
+    <value>208, 32</value>
   </data>
   <data name="accountFirstNameLabel.Text" xml:space="preserve">
     <value>Primer nombre:</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1105, 621</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2719,5 +2801,8 @@
         ///////8///////////////////////////////8///////////////////////////////8////////
         ///////////////////////8///////////////////////////////8
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TSO - Cuenta de usuario</value>
   </data>
 </root>

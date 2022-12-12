@@ -2660,4 +2660,7 @@
         ///////////////////////8///////////////////////////////8
 </value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TSO - Souris</value>
+  </data>
 </root>

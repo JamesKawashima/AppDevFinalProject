@@ -70,6 +70,9 @@
             this.dose1Label = new System.Windows.Forms.Label();
             this.groupIdLabel = new System.Windows.Forms.Label();
             this.editMouseGroupBox = new System.Windows.Forms.GroupBox();
+            this.editMouseDose2CheckBox = new System.Windows.Forms.CheckBox();
+            this.editMouseDose1CheckBox = new System.Windows.Forms.CheckBox();
+            this.editMouseButton = new System.Windows.Forms.Button();
             this.editMouseWeightTextBox = new System.Windows.Forms.TextBox();
             this.editMouseCommentsTextBox = new System.Windows.Forms.TextBox();
             this.editMouseWidthTextBox = new System.Windows.Forms.TextBox();
@@ -92,9 +95,6 @@
             this.addGroupGroupBox = new System.Windows.Forms.GroupBox();
             this.addGroupIdTextBox = new System.Windows.Forms.TextBox();
             this.addGroupIdLabel = new System.Windows.Forms.Label();
-            this.editMouseDose2CheckBox = new System.Windows.Forms.CheckBox();
-            this.editMouseDose1CheckBox = new System.Windows.Forms.CheckBox();
-            this.editMouseButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miceBindingSource)).BeginInit();
@@ -148,8 +148,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -179,6 +179,7 @@
             // 
             // miceDataGridView
             // 
+            resources.ApplyResources(this.miceDataGridView, "miceDataGridView");
             this.miceDataGridView.AllowUserToResizeColumns = false;
             this.miceDataGridView.AllowUserToResizeRows = false;
             this.miceDataGridView.AutoGenerateColumns = false;
@@ -196,7 +197,6 @@
             this.dose2CompletedDataGridViewCheckBoxColumn,
             this.commentsDataGridViewTextBoxColumn});
             this.miceDataGridView.DataSource = this.miceBindingSource;
-            resources.ApplyResources(this.miceDataGridView, "miceDataGridView");
             this.miceDataGridView.Name = "miceDataGridView";
             this.miceDataGridView.RowTemplate.Height = 24;
             // 
@@ -277,6 +277,7 @@
             // 
             // addMouseGroupBox
             // 
+            resources.ApplyResources(this.addMouseGroupBox, "addMouseGroupBox");
             this.addMouseGroupBox.Controls.Add(this.createMouseWeightTextBox);
             this.addMouseGroupBox.Controls.Add(this.createMouseWidthTextBox);
             this.addMouseGroupBox.Controls.Add(this.createMouseLengthTextBox);
@@ -292,7 +293,6 @@
             this.addMouseGroupBox.Controls.Add(this.dose1Label);
             this.addMouseGroupBox.Controls.Add(this.groupIdLabel);
             this.addMouseGroupBox.Controls.Add(this.addMouseButton);
-            resources.ApplyResources(this.addMouseGroupBox, "addMouseGroupBox");
             this.addMouseGroupBox.Name = "addMouseGroupBox";
             this.addMouseGroupBox.TabStop = false;
             // 
@@ -368,6 +368,7 @@
             // 
             // editMouseGroupBox
             // 
+            resources.ApplyResources(this.editMouseGroupBox, "editMouseGroupBox");
             this.editMouseGroupBox.Controls.Add(this.editMouseDose2CheckBox);
             this.editMouseGroupBox.Controls.Add(this.editMouseDose1CheckBox);
             this.editMouseGroupBox.Controls.Add(this.editMouseButton);
@@ -389,9 +390,27 @@
             this.editMouseGroupBox.Controls.Add(this.label5);
             this.editMouseGroupBox.Controls.Add(this.label4);
             this.editMouseGroupBox.Controls.Add(this.label3);
-            resources.ApplyResources(this.editMouseGroupBox, "editMouseGroupBox");
             this.editMouseGroupBox.Name = "editMouseGroupBox";
             this.editMouseGroupBox.TabStop = false;
+            // 
+            // editMouseDose2CheckBox
+            // 
+            resources.ApplyResources(this.editMouseDose2CheckBox, "editMouseDose2CheckBox");
+            this.editMouseDose2CheckBox.Name = "editMouseDose2CheckBox";
+            this.editMouseDose2CheckBox.UseVisualStyleBackColor = true;
+            // 
+            // editMouseDose1CheckBox
+            // 
+            resources.ApplyResources(this.editMouseDose1CheckBox, "editMouseDose1CheckBox");
+            this.editMouseDose1CheckBox.Name = "editMouseDose1CheckBox";
+            this.editMouseDose1CheckBox.UseVisualStyleBackColor = true;
+            // 
+            // editMouseButton
+            // 
+            resources.ApplyResources(this.editMouseButton, "editMouseButton");
+            this.editMouseButton.Name = "editMouseButton";
+            this.editMouseButton.UseVisualStyleBackColor = true;
+            this.editMouseButton.Click += new System.EventHandler(this.editMouseButton_Click);
             // 
             // editMouseWeightTextBox
             // 
@@ -492,10 +511,10 @@
             // 
             // addGroupGroupBox
             // 
+            resources.ApplyResources(this.addGroupGroupBox, "addGroupGroupBox");
             this.addGroupGroupBox.Controls.Add(this.addGroupIdTextBox);
             this.addGroupGroupBox.Controls.Add(this.addGroupIdLabel);
             this.addGroupGroupBox.Controls.Add(this.addGroupButton);
-            resources.ApplyResources(this.addGroupGroupBox, "addGroupGroupBox");
             this.addGroupGroupBox.Name = "addGroupGroupBox";
             this.addGroupGroupBox.TabStop = false;
             // 
@@ -508,25 +527,6 @@
             // 
             resources.ApplyResources(this.addGroupIdLabel, "addGroupIdLabel");
             this.addGroupIdLabel.Name = "addGroupIdLabel";
-            // 
-            // editMouseDose2CheckBox
-            // 
-            resources.ApplyResources(this.editMouseDose2CheckBox, "editMouseDose2CheckBox");
-            this.editMouseDose2CheckBox.Name = "editMouseDose2CheckBox";
-            this.editMouseDose2CheckBox.UseVisualStyleBackColor = true;
-            // 
-            // editMouseDose1CheckBox
-            // 
-            resources.ApplyResources(this.editMouseDose1CheckBox, "editMouseDose1CheckBox");
-            this.editMouseDose1CheckBox.Name = "editMouseDose1CheckBox";
-            this.editMouseDose1CheckBox.UseVisualStyleBackColor = true;
-            // 
-            // editMouseButton
-            // 
-            resources.ApplyResources(this.editMouseButton, "editMouseButton");
-            this.editMouseButton.Name = "editMouseButton";
-            this.editMouseButton.UseVisualStyleBackColor = true;
-            this.editMouseButton.Click += new System.EventHandler(this.editMouseButton_Click);
             // 
             // MiceForm
             // 

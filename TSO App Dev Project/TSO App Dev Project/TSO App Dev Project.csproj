@@ -147,6 +147,18 @@
     <EmbeddedResource Include="AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreateUser.es-ES.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateUser.fr-CA.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateUser.fr-CM.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateUser.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogsForm.es-ES.resx">
       <DependentUpon>LogsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,6 +185,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MiceForm.resx">
       <DependentUpon>MiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MouseDance.es-ES.resx">
+      <DependentUpon>MouseDance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MouseDance.fr-CA.resx">
+      <DependentUpon>MouseDance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MouseDance.resx">
       <DependentUpon>MouseDance.cs</DependentUpon>

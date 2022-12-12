@@ -119,76 +119,356 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="settingsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 17</value>
+    <value>849, 21</value>
   </data>
   <data name="settingsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 36</value>
+    <value>131, 40</value>
   </data>
   <data name="settingsFormLabel.Text" xml:space="preserve">
     <value>ajustes</value>
   </data>
   <data name="accountFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 17</value>
+    <value>696, 21</value>
   </data>
   <data name="accountFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 36</value>
+    <value>133, 40</value>
   </data>
   <data name="accountFormLabel.Text" xml:space="preserve">
     <value>Cuenta</value>
   </data>
   <data name="logsFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 17</value>
+    <value>574, 21</value>
   </data>
   <data name="logsFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 36</value>
+    <value>105, 40</value>
   </data>
   <data name="logsFormLabel.Text" xml:space="preserve">
     <value>diario</value>
   </data>
   <data name="miceFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>363, 17</value>
+    <value>408, 21</value>
   </data>
   <data name="miceFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 36</value>
+    <value>151, 40</value>
   </data>
   <data name="miceFormLabel.Text" xml:space="preserve">
     <value>Ratones</value>
   </data>
   <data name="studiesFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 17</value>
+    <value>248, 21</value>
   </data>
   <data name="studiesFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 36</value>
+    <value>155, 40</value>
   </data>
   <data name="studiesFormLabel.Text" xml:space="preserve">
     <value>registros</value>
   </data>
   <data name="homeFormLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 17</value>
+    <value>132, 21</value>
   </data>
   <data name="homeFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 36</value>
+    <value>109, 40</value>
   </data>
   <data name="homeFormLabel.Text" xml:space="preserve">
     <value>hogar</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-157, -71</value>
+    <value>-177, -89</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1267, 173</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="miceDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 119</value>
+    <value>37, 149</value>
+  </data>
+  <data name="miceDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="miceDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>951, 429</value>
+    <value>1070, 536</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+  <data name="addMouseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 178</value>
+  </data>
+  <data name="addMouseButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="addMouseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 61</value>
+  </data>
+  <data name="createMouseWeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 132</value>
+  </data>
+  <data name="createMouseWeightTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="createMouseWeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="createMouseWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 89</value>
+  </data>
+  <data name="createMouseWidthTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="createMouseWidthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="createMouseLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 45</value>
+  </data>
+  <data name="createMouseLengthTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="createMouseLengthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="createMouseHeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 175</value>
+  </data>
+  <data name="createMouseHeightTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="createMouseHeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="createMouseDose2TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 131</value>
+  </data>
+  <data name="createMouseDose2TextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="createMouseDose2TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="createMouseDose1TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 88</value>
+  </data>
+  <data name="createMouseDose1TextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="createMouseDose1TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="createMouseGroupIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 44</value>
+  </data>
+  <data name="createMouseGroupIDTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="createMouseGroupIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="weightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 138</value>
+  </data>
+  <data name="widthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 94</value>
+  </data>
+  <data name="lengthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 50</value>
+  </data>
+  <data name="heightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 180</value>
+  </data>
+  <data name="dose2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 136</value>
+  </data>
+  <data name="dose1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 92</value>
+  </data>
+  <data name="groupIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 49</value>
+  </data>
+  <data name="addMouseGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 649</value>
+  </data>
+  <data name="addMouseGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="addMouseGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="addMouseGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 282</value>
+  </data>
+  <data name="editMouseDose2CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 161</value>
+  </data>
+  <data name="editMouseDose2CheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseDose1CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 161</value>
+  </data>
+  <data name="editMouseDose1CheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 214</value>
+  </data>
+  <data name="editMouseButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 61</value>
+  </data>
+  <data name="editMouseWeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 151</value>
+  </data>
+  <data name="editMouseWeightTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseWeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="editMouseCommentsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 76</value>
+  </data>
+  <data name="editMouseCommentsTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseCommentsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 65</value>
+  </data>
+  <data name="editMouseWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 110</value>
+  </data>
+  <data name="editMouseWidthTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseWidthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="editMouseMouseIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 28</value>
+  </data>
+  <data name="editMouseMouseIDTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseMouseIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="editMouseLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 68</value>
+  </data>
+  <data name="editMouseLengthTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseLengthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="editMouseHeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 25</value>
+  </data>
+  <data name="editMouseHeightTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseHeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="mouseIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 32</value>
+  </data>
+  <data name="editMouseDose2TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 236</value>
+  </data>
+  <data name="editMouseDose2TextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseDose2TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="editMouseDose1TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 194</value>
+  </data>
+  <data name="editMouseDose1TextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseDose1TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="commentsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 78</value>
+  </data>
+  <data name="editMouseGroupIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 28</value>
+  </data>
+  <data name="editMouseGroupIDTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseGroupIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 32</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 158</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 200</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 115</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 242</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 30</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 74</value>
+  </data>
+  <data name="editMouseGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 649</value>
+  </data>
+  <data name="editMouseGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="editMouseGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>525, 282</value>
+  </data>
+  <data name="addGroupButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 86</value>
+  </data>
+  <data name="addGroupButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="addGroupButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 61</value>
+  </data>
+  <data name="addGroupIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 35</value>
+  </data>
+  <data name="addGroupIdTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="addGroupIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 26</value>
+  </data>
+  <data name="addGroupIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
+  </data>
+  <data name="addGroupGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 705</value>
+  </data>
+  <data name="addGroupGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="addGroupGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="addGroupGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 181</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1145, 603</value>
+    <value>1288, 754</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2677,5 +2957,11 @@
         ///////8///////////////////////////////8///////////////////////////////8////////
         ///////////////////////8///////////////////////////////8
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TSO - RAtones</value>
   </data>
 </root>

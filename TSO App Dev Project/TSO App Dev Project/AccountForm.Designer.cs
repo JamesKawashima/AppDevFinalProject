@@ -172,6 +172,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.editButton);
             this.Controls.Add(this.accountNotesTextBox);
