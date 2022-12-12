@@ -54,8 +54,8 @@ namespace TSO_App_Dev_Project
 
         private void settingsFormLabel_Click(object sender, EventArgs e)
         {
-            chgPage = 'c';
-            Close();
+            SettingsForm s = new SettingsForm(liu);
+            s.Show();
         }
 
         private void AccountForm_Load(object sender, EventArgs e)

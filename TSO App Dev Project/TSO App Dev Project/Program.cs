@@ -30,9 +30,9 @@ namespace TSO_App_Dev_Project
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             usf = new UserLoginForm();
-            //Application.Run(usf);
+            Application.Run(usf);
             //Application.Run(new MiceForm(null));
-            Application.Run(new StudiesForm(null));
+            //Application.Run(new StudiesForm(null));
             //Application.Run(new MainScreenForm(null));
 
 
@@ -44,14 +44,13 @@ namespace TSO_App_Dev_Project
                 MiceForm r = new MiceForm(loggedInUser);
                 LogsForm l = new LogsForm(loggedInUser);
                 AccountForm t = new AccountForm(loggedInUser);
-                SettingsForm c = new SettingsForm(loggedInUser);
 
                 Application.Run(m);
 
                     switch (m.chgPage)
                     {
                         case 's':
-                            s.Show();
+                            Application.Run(s);
                             m.Close();
                             break;
                         case 'r':
@@ -64,10 +63,6 @@ namespace TSO_App_Dev_Project
                             break;
                         case 't':
                             Application.Run(t);
-                            m.Close();
-                            break;
-                        case 'c':
-                            Application.Run(c);
                             m.Close();
                             break;
                         default: break;
@@ -91,10 +86,6 @@ namespace TSO_App_Dev_Project
                             Application.Run(t);
                             s.Close();
                             break;
-                        case 'c':
-                            Application.Run(c);
-                            s.Close();
-                            break;
                         default: break;
                     }
                     // Mice
@@ -114,10 +105,6 @@ namespace TSO_App_Dev_Project
                             break;
                         case 't':
                             Application.Run(t);
-                            r.Close();
-                            break;
-                        case 'c':
-                            Application.Run(c);
                             r.Close();
                             break;
                         default: break;
@@ -142,10 +129,6 @@ namespace TSO_App_Dev_Project
                             Application.Run(t);
                             l.Close();
                             break;
-                        case 'c':
-                            Application.Run(c);
-                            l.Close();
-                            break;
                         default: break;
                     }
                     // Account
@@ -165,10 +148,6 @@ namespace TSO_App_Dev_Project
                             break;
                         case 'm':
                             Application.Run(m);
-                            t.Close();
-                            break;
-                        case 'c':
-                            Application.Run(c);
                             t.Close();
                             break;
                         default: break;

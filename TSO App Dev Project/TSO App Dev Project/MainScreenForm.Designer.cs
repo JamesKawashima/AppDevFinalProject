@@ -44,12 +44,17 @@
             this.studiesTableAdapter = new TSO_App_Dev_Project.TSODBDataSetTableAdapters.StudiesTableAdapter();
             this.tableAdapterManager = new TSO_App_Dev_Project.TSODBDataSetTableAdapters.TableAdapterManager();
             this.welcomeLabel = new System.Windows.Forms.Label();
-            this.studyIdListBox = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.fillBy2ToolStrip = new System.Windows.Forms.ToolStrip();
+            this.fillBy2ToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.tsodbDataSet1 = new TSO_App_Dev_Project.TSODBDataSet();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             studyIdLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studiesBindingSource)).BeginInit();
+            this.fillBy2ToolStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tsodbDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // studyIdLabel
@@ -59,8 +64,8 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::TSO_App_Dev_Project.Properties.Resources.gradiantBar2;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -141,25 +146,45 @@
             resources.ApplyResources(this.welcomeLabel, "welcomeLabel");
             this.welcomeLabel.Name = "welcomeLabel";
             // 
-            // studyIdListBox
-            // 
-            resources.ApplyResources(this.studyIdListBox, "studyIdListBox");
-            this.studyIdListBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.studiesBindingSource, "studyId", true));
-            this.studyIdListBox.FormattingEnabled = true;
-            this.studyIdListBox.Name = "studyIdListBox";
-            // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
+            // fillBy2ToolStrip
+            // 
+            this.fillBy2ToolStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.fillBy2ToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fillBy2ToolStripButton});
+            resources.ApplyResources(this.fillBy2ToolStrip, "fillBy2ToolStrip");
+            this.fillBy2ToolStrip.Name = "fillBy2ToolStrip";
+            // 
+            // fillBy2ToolStripButton
+            // 
+            this.fillBy2ToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.fillBy2ToolStripButton.Name = "fillBy2ToolStripButton";
+            resources.ApplyResources(this.fillBy2ToolStripButton, "fillBy2ToolStripButton");
+            this.fillBy2ToolStripButton.Click += new System.EventHandler(this.fillBy2ToolStripButton_Click);
+            // 
+            // tsodbDataSet1
+            // 
+            this.tsodbDataSet1.DataSetName = "TSODBDataSet";
+            this.tsodbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            resources.ApplyResources(this.listBox1, "listBox1");
+            this.listBox1.Name = "listBox1";
+            // 
             // MainScreenForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.fillBy2ToolStrip);
             this.Controls.Add(this.label2);
             this.Controls.Add(studyIdLabel);
-            this.Controls.Add(this.studyIdListBox);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.settingsFormLabel);
@@ -174,6 +199,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tSODBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studiesBindingSource)).EndInit();
+            this.fillBy2ToolStrip.ResumeLayout(false);
+            this.fillBy2ToolStrip.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tsodbDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,7 +222,10 @@
         private TSODBDataSetTableAdapters.StudiesTableAdapter studiesTableAdapter;
         private TSODBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.Label welcomeLabel;
-        private System.Windows.Forms.ListBox studyIdListBox;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ToolStrip fillBy2ToolStrip;
+        private System.Windows.Forms.ToolStripButton fillBy2ToolStripButton;
+        private TSODBDataSet tsodbDataSet1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
